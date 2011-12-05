@@ -18,6 +18,7 @@ $linha = mysqli_num_rows($result);
 
 if($linha === 1){
     $_SESSION['usuario'] = $usuario;
+
     header('Location: visualizar.php');
 
     exit();

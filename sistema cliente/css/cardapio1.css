@@ -8,13 +8,15 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column;/*
 background: url("../fundos/fundo1.png") no-repeat bottom center scroll;
 background-position: 100%;
-background-size: cover;
+background-size: cover;*/
+background-color: #252122;
+
 
 }
-
+/*
 .body2{
   filter: opacity(60%);
   margin: 0;
@@ -24,9 +26,7 @@ background-size: cover;
   height: 100%;
   width: 100%;
 }
-.hidden{
-  display: none;
-}
+*/
 #menu{
   top:0.5em;
   left: 47%;
@@ -63,37 +63,7 @@ background-size: cover;
 text-align: end;
   
 }
-#container3 {
- height: 100%;
-  margin:0 0.5em 0 1em;
-  display: flex;
-  flex-direction: column;
-  width: 23em;
-  position: relative;
-  top:4em;
-}
-#sub2_container3{
-   overflow-y: scroll;
-   max-height: 16em;
-   width:25em;
-}
-#sub_container3{
-  width: 25em;
-  left:1em;
-  height:2.5em;
-  background: #8c233f;
-  color: white;
-  position:relative;
-  flex-direction: row;
-  justify-content: space-around;
-  display: flex;
-  margin-right:0.5em;
-  border-radius:5px;
-}
-#p_container3{
-  margin-top: 0.6em;
-  text-align: center;
-}
+
 .img_container2{
   height: 6em;
   width: 7em;
@@ -103,40 +73,40 @@ text-align: end;
   position: relative;
 }
 
-.central{
-  
+.containe2{
+  position: relative;
+  justify-content: left;
   flex-direction: row;
+  align-items: center;
   display: flex;
-  width: 100%;
-  
+width: 80%;
+margin-left: 8em;
+overflow: hidden;
+top: 5em;
+
 }
 #entrada, #acompanhamento, #principal, #bebidas, #sobremesa{
-  overflow-y: scroll;
-  max-height: 19em;
   position: relative;
-  top: 4em;
-  left: 1em;
-  right: 1em;
-  display: none;
+  right: 2em;
+  display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
   justify-content: start;
-  border-right: 2px solid  #f2dad8;
-}
+  margin-left: 7%;
 
-#entrada{
-  display: block;
 }
 
 footer{
     flex-direction: row;
     display: flex;
+    
+   
 }
 #valor{
   position: fixed;
   flex-direction: row;
   display: flex;
-  left:43.3%;
+  left:83%;
   top: 90.5%;
   padding-top: 0.4em;
   height: 2.5em;
@@ -148,12 +118,19 @@ footer{
   margin: 0.5em;
   text-align: center;
 }
+button#butao{
+  left:90%;
+
+}
+button#butao_voltar{
+  left:3%;
+}
 button{
   position: fixed;
   justify-content: center;
   align-items: center;
   display: flex;
-  left:50%;
+ 
   top: 90%;
   height: 3.6em;
   width:8em;
@@ -171,18 +148,7 @@ button:hover{
   background: #181818;
   color: #fff;
 }
-#voltar {
-  position: fixed;
-  padding: 0.8em;
-  display: flex;
-  left: 1em;
-  top: 90%;
-  height: 3em;
-  width: 5.5em;
-  background: #8c233f;
-  color: white;
-  border-radius: 9px;
-}
+
 /*sacola de compras*/
 #sacola{
   width: 1.5em;

@@ -1,8 +1,30 @@
-function mostra(id) {
-  if (document.getElementById(id).style.display == 'block') {
-    document.getElementById(id).style.display = 'none'
-    //console.log('clicou')
-  } else {
-    document.getElementById(id).style.display = 'block'
-  } //se o elemento div estiver visivel,torne-a oculta,senão torne-a visivel
-}
+
+const entrada = document.querySelector("#entrada1");
+const acompanhamento = document.querySelector("#acompanhamento1");
+const principal = document.querySelector("#principal1");
+const bebidas = document.querySelector("#bebida1");
+const sobremesa = document.querySelector("#sobremesa1");
+const central = document.querySelector("#entrada");
+
+
+
+entrada.addEventListener("click", function(){
+  central.style.marginLeft = "7%";
+  
+});
+acompanhamento.addEventListener("click", function(){
+  central.style.marginLeft = "-88%";
+  
+});
+principal.addEventListener("click", function(){
+  central.style.marginLeft = "-185%";
+  
+});
+bebidas.addEventListener("click", function(){
+  central.style.marginLeft = "-281%";
+  
+});
+sobremesa.addEventListener("click", function(){
+  central.style.marginLeft = "-381%";
+  
+});

@@ -3,7 +3,7 @@
 
 require 'conexao.php';
  if(empty($_POST['email'])){
-  $_SESSION['falta_preenxer'] = true;
+  $_SESSION['nao_preenxido'] = true;
 
   header('Location: recup_senha.php');
     exit();
@@ -16,11 +16,12 @@ $linha = mysqli_num_rows($result);
 
 if($linha === 1){
     $_SESSION['email'] = $email;
-    header('Location: recup_senha.php');
     $_SESSION['verificado'] = true;
+
+    header('Location: recup_senha.php');
     exit();
 }else{
-  $_SESSION['falta_autenticado'] = true;
+  $_SESSION['nao_autenticado'] = true;
   
     header('Location: recup_senha.php');
     exit();

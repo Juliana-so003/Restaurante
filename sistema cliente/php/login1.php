@@ -31,6 +31,8 @@
     endif;
     unset($_SESSION['nao_preenxido']);
     ?>
+  
+
 <div class="container1">
   <form action="login2.php" method="POST">
    <h1 id="titulo">Login </h1>
@@ -55,7 +57,7 @@
 <button id="botao" type="submit">Login</button>
  </div> 
  
- <p><a href="../html/recup_senha.php">Esqueceu sua senha?</a></p>
+ <p><a href="recup_senha.php">Esqueceu sua senha?</a></p>
  
  <p><a href="../html/criarconta.html">Criar conta</a>
  </p>

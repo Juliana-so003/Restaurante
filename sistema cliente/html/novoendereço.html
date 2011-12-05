@@ -9,7 +9,7 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <title>HTML</title>
   
-  <link rel="stylesheet" href="../css/novoEndereco.css">
+  <link rel="stylesheet" href="../css/NovoEndereco.css">
 </head>
 
 <body>
@@ -43,7 +43,10 @@
    
       <div class="page slidepage">
         <div class="title">Pedidos</div>
-      
+      <div class="ContainerPedido">
+        <div id="sub_pedidos"></div>
+        <div id="pedidos"></div>
+      </div>
           <div class="field nextBtn">
             <button>Proximo</button>
           </div>
@@ -100,10 +103,7 @@
           </select>
         </div>
        
-        <div class="field">
-          <div class="label">alguma coisa</div>
-          <input type="text">
-        </div>
+        
         <div class="field">
           <div class="label">Valor</div>
           <input type="number" placeholder="R$ 00,00">

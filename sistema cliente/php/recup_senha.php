@@ -13,23 +13,23 @@
 
 <body>
   
-  <?php
-if (isset($_SESSION['falta_preenxer'])) :
+<?php
+    if (isset($_SESSION['nao_autenticado'])) :
         ?>
-    <div class="erro"><p id="erro">Insira todos os campos!</p></div>
+    <div class="erro"><p id="erro">ERRO: email invalido.</p></div>
         <?php
     endif;
-    unset($_SESSION['falta_preenxer']);
+    unset($_SESSION['nao_autenticado']);
     ?>
     <?php
-    if (isset($_SESSION['falta_autenticado'])) :
+    if (isset($_SESSION['nao_preenxido'])) :
         ?>
-    <div class="erro"><p id="erro">ERRO: email invalida.</p></div>
+    <div class="erro"><p id="erro">Insira um email</p></div>
         <?php
     endif;
-    unset($_SESSION['falta_autenticado']);
+    unset($_SESSION['nao_preenxido']);
     ?>
-     <?php
+    <?php
 if (isset($_SESSION['verificado'])) :
         ?>
     <div class="verificado"><p id="erro">Verificado!</p></div>
