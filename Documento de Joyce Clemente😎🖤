@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>tela principal</title>
+</head>
+   <style type="text/css">
+    nav{
+        background-color: aquamarine;
+    }
+    .propaganda{
+        background:#d8db23;
+    }
+    .pratos{
+        background:#29c268;
+    }
+    .tutorial{
+        background: cornflowerblue;
+    }
+    footer{
+        background: brown;
+    }
+    img{
+        width: 200px;
+        height: 200;
+    }
+  
+    
+</style>
+</head>
+
+<body>
+    <nav>pedido
+        <!-- essas sao as imagens do começo zap, insta, face e a logo -->
+        <img src="">
+
+        <a href="#">
+        <img src="../icones/instagram (2).png">
+        </a>
+
+        <img src="../icones/facebook.png">
+        <img src="../icones/whatsapp (2).png">
+        <a href="#">
+            <img src="../icones/sacola.png">
+            <p>fazer pedido</p>
+        </a>
+    </nav>
+
+    <div class="propaganda">
+
+    <img src="../Propaganda/propaganda1.jpg">
+    <img src="../Propaganda/propaganda2.jpg">
+    <img src="../Propaganda/propaganda3.jpg">
+    <img src="../Propaganda/propaganda4.jpg">
+    <img src="../Propaganda/propaganda5.jpg">
+    <img src="../Propaganda/propaganda6.jpg">
+
+    </div>
+    
+    <div class="pratos">
+        <div>
+          <img src="batata-recheada-com-calabresa.jpg">
+            <h5>Entrada</h5>
+            <p>texto da entrada</p>
+        </div>
+        
+        <div>
+            <img src="Molho_branco.jpg">
+            <h5>Acompanhamento</h5>
+            <p>texto do Acompanhamento </p>
+        </div>
+        
+        <div>
+            <img src="Camarao_ao_alho_e_oleo.jpg">
+            
+            <h5>Prato Principal</h5>
+            <p>texto do prato principal </p>
+        </div>
+        
+        <div>
+            <img src="../Bebidas/Vinho.jpg">
+            <h5>Bebidas</h5>
+            <p>texto das bebidas</p>
+        </div>
+        
+        <div>
+            <img src="Mousse-de-chocolate.jpg">
+            <h5>Sobremesa</h5>
+              <p>aqui se coloca o texto que precisa ser criado </p>
+        </div>
+    </div>
+
+    <div class="tutorial">
+        <h3>Video Tutorial</h3>
+        <video width="320" height="240" controls="controls" autoplay="autoplay">
+            <source src="../Propaganda/tutorial.mp4" type="video/mp4">
+    </div>
+    
+    <footer>
+        <h5> aceitamos cartoes:</h5>
+      <img src="visa.png">
+      <img src="elo.png">
+      <img src="alelo.png">
+      <img src="cartao_master.png">
+    </footer>
+
+</body>
+
+</html>
