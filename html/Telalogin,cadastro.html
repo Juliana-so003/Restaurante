@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/first.css">
+    <title>nome</title>
+</head>
+<body>
+    <nav class="menu">
+      <a href="botão" class="ativo" data-menu> <img src="botao-voltar (1).png" width="115" /> </a>
+<div>
+  <img src="fundo_login.png"
+<div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     <a class="links" id="pararecuperarsenha"></a>
+    <div class="content">      
+      
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="nome_login"></label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="seu email" 
+          </p>
+           
+          <p> 
+            <label for="email_login"></label>
+            <input id="email_login" required="required" type="password" placeholder="sua senha" /> 
+          </p>
+           
+          <p> 
+             <p class="link">
+               esqueceu a senha?
+               <a href="#pararecuperarsenha"> clique aqui
+            
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="#paracadastro">Cadastre-se</a>
+            
+          </p>
+        </form>
+      </div>
+ 
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <img src="fundo_cadastro.png"
+        <form method="post" action=""> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="usuário_cad">Usuário</label></label>
+            <input id="usuário_cad" name="usuário_cad" required="required" type="text" placeholder/>
+          </p>
+           
+          <p> 
+            <label for="email_cad">Nome completo</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="email"
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Sua senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password"/>
+          </p>
+           <p>
+             <label for="data_cad">Data de nadcimento<input id="date" type="date" value="0000-00-00"> </label>
+        
+           </p>
+           <p>
+             <label for="CPF">CPF</label>
+             <input id="CPF_cad" name="CPF_cad" required="required" type="number" />
+           </p>
+                      <p>
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade_cad" name="cidade_cad" required="required" type="text" />
+                      </p>
+                      <p>
+                        <label for="bairro_cad">Bairro</label>
+                        <input id="bairro_cad" name="bairro_cad" required="required" type="text" />
+                      </p>
+             <p>
+               <label for="rua/avenida_cad">Rua/avenida</label>
+               <input id="bairro_cad" name="bairro_cad" required="required" type="text" />
+             </p>
+              <p>
+                <label for="numerodacasa_cad">Número da casa</label>
+                <input id="numerodacasa_cad" name="numerodacasa_cad" required="required" type="number" />
+              </p>
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+            
+			
+		<div id="recuperar senha"	
+		<form method="post" action="">
+		  <h1>Nova senha</h1> 
+		
+		<div class="form-group has-feedback">				<input type="text" class="form-control input-lg" placeholder="Sua nova senha">				<span class="glyphicon glyphicon-envelope form-control-feedback" aria-hidden="true"></span>			</div>						<div class="form-group">			<button type="submit" class="btn btn-primary btn-lg aw-btn-full-width">Criar nova senha</button>			<p class="link">
+		  senha lembrada?
+		  <a href="#paralogin"> clique aqui </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+ </body>
+</html>
