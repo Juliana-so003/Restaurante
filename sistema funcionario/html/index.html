@@ -4,23 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>funcionário bom apetit</title>
-  
-  
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/index.css">
+
 </head>
 
 <body>
- <div class="scrollmenu">
-   <a href="#Gerente">Gerente</a>
-   <a href="#Cliente">Cliente</a>
-   <a href="#Cozinheiro">Cozinheiro</a>
-   <a href="#Entregador">Entregador</a>
-   <a href="#Cardapio">Cardápio</a>
-   <a href="#Produto">Produto</a>
- </div>
+  <div id="img"></div>
+  <div id="img1"></div>
+  <div id="img2"></div>
  
-<div id="Novo_pedi">Novo pedido</div>
+ 
+  <div class="container">
+     
+    <input type="radio" name="menu" id="radio0" checked />
+    <label for="radio0">
+      <a href="gerente.html"> <p class="p">Gerente</p></a>
+      </label>
+ 
+    <input type="radio" name="menu" id="radio1">
+    <label for="radio1">
+      <a href="cliente.html"><p class="p">Cliente</p></a>
+    </label>
+  
+    <input type="radio" name="menu" id="radio2">
+    <label for="radio2">
+      <a href="cozinheiro.html"><p class="p">Cozinheiro</p></a>
+      </label>
+  
+    <input type="radio" name="menu" id="radio3">
+    <label for="radio3">
+      <a href="entregador.html"><p class="p">Entregador</p></a>
+      </label>
+  
+    <input type="radio" name="menu" id="radio4">
+    <label for="radio4">
+      <a href="cardapio.html"><p class="p">Cardápio</p></a>
+    </label>
+
+    <input type="radio" name="menu" id="radio5">
+    <label for="radio5">
+      <a href="produto.html"><p class="p">Produto</p></a>
+    </label>
+    <div class="selecione-elemento">
+      <div class="circle"></div>
+    </div>
+  </div>
+  <div id="novo"><p id="novop">Novo pedido</p>
+  </div>
+
 </body>
 </html>

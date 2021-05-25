@@ -1,0 +1,139 @@
+   a:link{
+       text-decoration:none;
+        color: #000;
+   }
+   a:visited{
+    color: #000;
+   }
+   a:hover{
+       color:  #32CD32;
+   }
+        body{
+ 			background: #AFD4FE;
+ 			display: flex;
+ 			width: 100%;
+ 			height: 100vh;
+ 			justify-content: center;
+ 			align-items: center;
+             
+		}
+		.container{
+            position: absolute;
+            width: 1139px;
+            height: 80px;
+            left: 164px;
+            top: 241px;
+			background: white;
+			border-radius:8px;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			
+			box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.6);
+            
+        }
+		
+		label{
+			margin: 0 80px;
+			color: #000;
+			width: 25px;
+		}
+		
+		input[type="radio"] {
+		display: none; 
+		}
+		input[type="radio"]:hover+label {
+					color: #32CD32; 
+				}
+		.selecione-elemento{
+			background:  #32CD32;
+			width: 100px;
+			height: 8px;
+			position: absolute;
+			left: 85px;
+			top: 60px;
+            border-radius: 5px;
+			transition: 0.25s easy-out;
+          visibility: hidden;
+		}
+        input[id="radio0"]:hover~.selecione-elemento{
+					transform:translateX(4px);
+                   visibility: visible;
+				}
+		input[id="radio1"]:hover~.selecione-elemento{
+					transform:translateX(185px);
+                     visibility: visible;
+				}
+		input[id="radio2"]:hover~.selecione-elemento{
+					transform:translateX(375px);
+                    width: 130px;
+                     visibility: visible;
+				}
+		input[id="radio3"]:hover~.selecione-elemento{
+					transform:translateX(561px);
+                    width: 130px;
+                     visibility: visible;
+				}
+        input[id="radio4"]:hover~.selecione-elemento{
+            transform:translateX(740px);
+            width: 120px;
+             visibility: visible;
+        }
+        input[id="radio5"]:hover~.selecione-elemento{
+			transform:translateX(924px);
+            width: 108px;
+             visibility: visible;
+			}
+	#img{
+            position: absolute;
+            width: 150px;
+            height: 345.35px;
+            left: 0px;
+            top: 0px;
+            background: no-repeat url(../img/logo3.png);
+     }
+    #img1{
+    position: absolute;
+    width: 270px;
+    height: 171.91px;
+    left: 585px;
+    top: 33px;
+    background: no-repeat url(../img/logo.png);
+    }
+    #img2{
+    position: absolute;
+    width: 150px;
+    height: 455.71px;
+    left: 1290px;
+    top: 554px;
+    background: no-repeat url(../img/logo2.png);
+    }
+   .p{
+       font-size: 27px;
+line-height: 32px;
+   }
+   #novo{
+    position: absolute;
+    width: 216px;
+    height: 100px;
+    left: 262px;
+    top: 405px;
+    background: #E6F1FB;
+    border-radius: 9px;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.6);
+   }
+   #novo:hover{
+      background: rgba(149, 248, 72, 0.9);
+
+   }
+   #novop{
+
+font-family: Raleway;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+   }
+   #novop:hover{
+       color: rgba(255, 255, 255, 1);
+   }

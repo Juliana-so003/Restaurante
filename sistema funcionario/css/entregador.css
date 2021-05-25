@@ -1,0 +1,33 @@
+ body{
+ 			background: #AFD4FE;
+ 			display: flex;
+ 			width: 100%;
+ 			height: 100vh;
+ 			justify-content: center;
+ 			align-items: center;
+             
+		}
+        #img{
+            position: absolute;
+            width: 150px;
+            height: 345.35px;
+            left: 0px;
+            top: 0px;
+            background: no-repeat url(../img/logo3.png);
+     }
+    #img1{
+    position: absolute;
+    width: 270px;
+    height: 171.91px;
+    left: 585px;
+    top: 33px;
+    background: no-repeat url(../img/logo.png);
+    }
+    #img2{
+    position: absolute;
+    width: 150px;
+    height: 455.71px;
+    left: 1290px;
+    top: 554px;
+    background: no-repeat url(../img/logo2.png);
+    }
