@@ -1,0 +1,93 @@
+  a:link{
+       text-decoration:none;
+        background: #E6F1FB;
+   }
+   a:visited{
+    background: #E6F1FB;
+   }
+   a:hover{
+       background:  #dee2e6;
+   }
+ body{
+ 			background: #AFD4FE;
+ 			display: flex;
+ 			width: 100%;
+ 			height: 100vh;
+ 			justify-content: center;
+ 			align-items: center;
+             
+		}
+        #img{
+            position: absolute;
+            width: 150px;
+            height: 345.35px;
+            left: 0px;
+            top: 0px;
+            background: no-repeat url(../img/logo3.png);
+     }
+    #img1{
+    position: absolute;
+    width: 270px;
+    height: 171.91px;
+    left: 585px;
+    top: 33px;
+    background: no-repeat url(../img/logo.png);
+    }
+    #img2{
+    position: absolute;
+    width: 150px;
+    height: 455.71px;
+    left: 1290px;
+    top: 554px;
+    background: no-repeat url(../img/logo2.png);
+    }
+
+    #novo{
+    position: absolute;
+    width: 194px;
+    height: 82px;
+    left: 34px;
+    top: 700px;
+    background: #AFD4FE;
+    border: 3px solid #5687A6;
+    box-sizing: border-box;
+    border-radius: 3px; }
+   #novo:hover{
+     background: #E6F1FB;
+     border-color: #E6F1FB;
+
+   }
+   #novop{
+
+font-family: Raleway;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+   }
+   #novop:hover{
+       color: #181818;
+   }
+  
+
+.container{
+  position: absolute;
+width: 722px;
+height: 687px;
+left: 228px;
+top: 147px;
+
+background: #E6F1FB;
+border-radius: 9px;
+}
+
+#img3{
+  position: absolute;
+width: 56.63px;
+height: 60.8px;
+left:30px;
+top: 20px;
+ background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60px; 
+ }
