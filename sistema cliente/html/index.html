@@ -1,93 +1,89 @@
 <!DOCTYPE html>
-  <html lang="pt-br">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <title>Tela principal.</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <title>Tela Principal</title>
+    <link rel="stylesheet" href="/_css/style.css">
 </head>
 
 <body>
-    <nav>
-        <!-- essas sao as imagens do começo zap, insta, face e a logo -->
-        <img src="">
-
-        <a href="#">
-        <img src="../icones/instagram (2).png">
-        </a>
-
-        <img src="../icones/facebook.png">
-        <img src="../icones/whatsapp (2).png">
-        <a href="#">
-            <img src="../icones/sacola.png">
-            <p>fazer pedido</p>
-        </a>
-    </nav>
-
-    <div class="propaganda">
-
+  <nav>
+    <!-- essas sao as imagens do começo zap, insta, face e a logo -->
+    <a href="#">
+      <img src="../icones/instagram(2).png" class="insta">
+    </a>
+    
+    <a href="#">
+    <img src="../icones/facebook.png" class="face">
+    </a>
+    
+    <a href="#">
+    <img src="../icones/whatsapp(2).png" class="wzap">
+    </a>
+    
+    <div class="sacola">
+      <img src="../icones/sacola.png">
+      <div class="texto">Fazer Pedido</div>
+    </div>
+  </nav>
+  
+  <div class="Propaganda">
     <img src="../Propaganda/propaganda1.jpg">
     <img src="../Propaganda/propaganda2.jpg">
     <img src="../Propaganda/propaganda3.jpg">
     <img src="../Propaganda/propaganda4.jpg">
     <img src="../Propaganda/propaganda5.jpg">
     <img src="../Propaganda/propaganda6.jpg">
-
+  </div>
+  
+  <div class="pratos">
+    <div class="bloco1">
+      <img src="../Entradas/batata-calabresa.jpg" id="img1">
+      <h5 class="titulo1">Entrada</h5>
+      <p> Nosso restaurante conta com uma variedade de pratos, que vai de batatas recheadas a patê, venha conhecer nossas principais entradas e se deliciar.</p>
     </div>
     
-    <div class="pratos">
-        <div>
-          <img src="batata-recheada-com-calabresa.jpg">
-            <h5>Entrada</h5>
-            <p>  Entradas:
-Nosso restaurante conta com uma variedades de pratos, que vai de batatas recheadas a patê, venha conhecer nossas principais entradas e se deliciar.</p>
-        </div>
-        
-        <div>
-            <img src="Molho_branco.jpg">
-            <h5>Acompanhamento</h5>
-            <p>
-Para acompanhar sua refeição contamos com pratos bem selecionadas e de ótimo gosto, temos entre batatas e arroz, pratos para você adorar.        </p>
-        </div>
-        
-        <div>
-            <img src="Camarao_ao_alho_e_oleo.jpg">
-            
-            <h5>Prato Principal</h5>
-            <p>
-Prato principal: Para completar sua refeição, contamos com os melhores pratos principais da região, que contam com a presença de camarão, carne, pratos veganos e muito mais, escolha o de sua preferência. </p>
-        </div>
-        
-        <div>
-            <img src="../Bebidas/Vinho.jpg">
-            <h5>Bebidas</h5>
-            <p>
-As melhores e finas bebidas selecionados para você, escolha uma para acompanhar sua refeição e aproveite.</p>
-        </div>
-        
-        <div>
-            <img src="Mousse-de-chocolate.jpg">
-            <h5>Sobremesa</h5>
-              <p>
-Para finalizar sua refeição, contamos com uma variedade de sobremesas entre elas, podemos citar mouses, tortas e o delicioso Petit Gateau.</p>
-        </div>
-    </div>
-
-    <div class="tutorial">
-        <h3>Video Tutorial</h3>
-        <video width="320" height="240" controls="controls" autoplay="autoplay">
-            <source src="../Propaganda/tutorial.mp4" type="video/mp4">
+    <div class="bloco2">
+      <img src="../Acompanhamento/Molho_branco.jpg" id="img2">
+      <h5 class="titulo2">Acompanhamento</h5>
+      <p>
+        Para acompanhar sua refeição contamos com pratos bem selecionados e de ótimo gosto, temos a tradicional batata-frita,além de um arroz com carne seca muito bem preparado.</p>
     </div>
     
-    <footer>
-        <h4>Aceitamos cartões:</h4>
-      <img src="visa.png">
-      <img src="elo.png">
-      <img src="alelo.png">
-      <img src="cartao_master.png">
-    </footer>
-
+    <div class="bloco3">
+      <img src="../Prato_principal/Camarao_ao_alho_e_oleo.jpg" id="img3">
+      <h5 class="titulo3">Prato Principal</h5>
+      <p>Para completar sua refeição, contamos com os melhores pratos principais da região, que contam com a presença de camarão, carne, pratos veganos e muito mais, escolha o de sua preferência.</p>
+    </div>
+    
+    <div class="bloco4">
+      <img src="../Bebidas/Vinho.jpg" id="img4">
+      <h5 class="titulo4">Bebidas</h5>
+      <p>As melhores e finas bebidas selecionados para você, escolha uma para acompanhar sua refeição e aproveite.</p>
+    </div>
+    
+    <div class="bloco5">
+      <img src="../Sobremesas/Mousse-de-chocolate.jpg" id="img5">
+      <h5 class="titulo5">Sobremesa</h5>
+      <p>Para finalizar sua refeição, contamos com uma variedade de sobremesas entre elas temos mouses, tortas e o delicioso Petit Gateau.</p>
+    </div>
+  </div>
+  <hr id="linha"> </hr>
+  
+  <div class="tutorial">
+    <h3 id="tituloT">Video Tutorial</h3>
+    <video width="320" height="240" controls="controls" autoplay="autoplay">
+      <source src="../Propaganda/tutorial.mp4" type="video/mp4">
+  </div>
+   
+  <footer>
+    <h4 class="tipoC">Aceitamos cartões:</h4>
+    <img src="../Fundos/visa.png" id="visa">
+    <img src="../Fundos/elo.png" id="elo">
+    <img src="../Fundos/alelo.png" id="alelo">
+    <img src="../Fundos/cartao_master.png" id="master">
+  </footer>
 </body>
-
 </html>
