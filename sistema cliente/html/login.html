@@ -5,18 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-  <link rel="stylesheet" type="text/css" href="login.css">
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 
 <body>
-<div class="formulario">
+  <div class="container"> 
+
+    
+<div class="container1">
   <form>
    <h1 id="titulo">Login </h1>
+   <div class="div_input"> 
+     <img class="img1"  src="../icones/avatar.png">
     <input type="text" id="nome_usu" placeholder="nome de usuário" required> 
+    </div>
      <p id="linha">ou</p>
-    <input type="email" id="email" placeholder="e-mail" required> 
+
+      <div class="div_input"> 
+          <img class="img1" src="../icones/e-mail.png"/>
+        <input type="email" id="email" placeholder="e-mail" required> 
+    </div>
+    <div class="div_input"> 
+      <img class="img1" src="../icones/cadeado.png" />
     <input type="password" id="senha" placeholder="senha" required>
-    
+    </div>
   <div>
 <button id="botao" type="submit">Login</button>
  </div> 
@@ -28,6 +40,8 @@
   </form>
 </div>
 
+<div class="container2"></div>
+</div>
 </body>
 
 </html>

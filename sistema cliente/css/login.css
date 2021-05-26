@@ -7,13 +7,56 @@
       text-align: center;
      }
      
-     
+#linha{
+  margin: 10px;
+}
      #titulo,#linha{
       text-align: center;
       color: black;
      }
-     
-    div.formulario{
+      
+    input{
+      border-radius: 5px;
+      padding: 9px;
+      margin-top: 9px;
+      
+      }
+      
+    input:focus{
+       box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+      }
+      
+    #botao{
+     justify-content: center;
+     text-align: center;
+     color:#fff;
+     padding: 10px;
+     margin-top: 10px;
+    
+width: 328px;
+height: 61px;
+left: 50px;
+top: 24em;
+
+background: #9E0705;
+box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+    }
+  
+    #botao:hover{
+background: #4d0706;
+    }
+    p{
+     text-align:justify;
+     margin: 20px 0 0 7px;
+    }
+    p,a{
+      text-decoration: none;
+      color:black;
+    }
+    .container1{
       font-size: 1em;
       color: black;
       font-family: Arial, Helvetica, sans-serif;
@@ -24,42 +67,39 @@
       padding : 20px;
       justify-content: center;
       align-items: center;
+      height: 448px;
       }
-      
-    input{
-      border-radius: 5px;
-      padding: 9px;
-      margin-top: 9px;
+    .container{
+      flex-direction: row;
       justify-content: center;
+      display: flex;
       align-items: center;
+    }
+    .div_input{
+      flex-direction: row;
+       background: #fff;
+       width: 328px;
+      height: 50px;
+    margin-bottom: 10px;
+    }
+    .img1{
+position: relative;
+width: 30px;
+height: 30px;
+right: 35px;
+top: 10px;
+
+
+    }
+    .container2{
+margin-left: 5px;
+width: 400px;
+height: 485px;
+
+      border-radius: 7px;
+      box-shadow: 0px 0px 8px 2px #989898;
+     
+       background: no-repeat url(../fundos/fundo_login.png);
       }
-      
-    input:focus{
-      outline-color: black;
-      border-color: #719ECE;
-      box-shadow: 0 0 10px #719ECE;
-      }
-      
-    #botao{
-     background-color: firebrick;
-     justify-content: center;
-     text-align: center;
-     border-radius: 5px;
-     width: 200px;
-     color:#fff;
-     padding: 10px;
-     margin-top: 10px;
-    }
-  
-    #botao:hover{
-      background: skyblue;
-    }
-    p{
-     text-align:justify;
-     margin: 3px;
-     margin-top: 10px;
-    }
-    p,a{
-      text-decoration: none;
-      color:black;
-    }
+
+    
