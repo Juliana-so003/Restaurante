@@ -1,0 +1,350 @@
+body{
+  background-color:#252122;
+  color:#fff;
+}
+.sacola{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 1276px;
+  top: 50px;
+  background:url("../icones/sacola.png");
+}
+  /*texto da sacola*/
+.texto{
+  position: absolute;
+  left: 89.58%;
+  right: 4.05%;
+  top: 3.71%;
+  bottom: 93.49%;
+  
+  font-family: Rockwell;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #F4F4F4;
+}
+
+.insta{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 964px;
+  top: 72px;
+}
+.face{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 1045px;
+  top: 72px;
+}
+.wzap {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 1136px;
+  top: 72px;
+} 
+.Propaganda{
+  position: absolute;
+  width: 1440px;
+  height: 441px;
+  left: 0px;
+  top: 408px;
+  background: #FFFFFF;
+}
+
+/*tudo do bloco1*/
+.bloco1,#img1{
+  position: absolute;
+  width: 343.95px;
+  height: 220px;
+  left: 74px;
+  top: 904px;
+  border-radius: 10px;
+}
+  /*titulo*/ 
+  .titulo1{
+  position: absolute;
+  width: 155px;
+  height: 58px;
+  left: 441px;
+  top: 918px;
+  
+  font-family: Script MT Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #BF935E;
+}
+.bloco1,p{
+  position: absolute;
+  width: 440px;
+  height: 112px;
+  left: 441px;
+  top: 992px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #F4F4F4;
+}
+/*tudo do bloco2*/
+.bloco2{
+  position: absolute;
+  width: 663.46px;
+  height: 250px;
+  left: 733px;
+  top: 1160px;
+}
+.bloco2,#img2{
+  position: absolute;
+  width: 288.46px;
+  height: 250px;
+  left: 1108px;
+  top: 1160px;
+  border-radius: 41px;
+}
+.titulo2{
+  position: absolute;
+  width: 338px;
+  height: 58px;
+  left: 733px;
+  top: 1160px;
+  
+  font-family: Script MT Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+  color: #BF935E;
+}
+.bloco2,p{
+  position: absolute;
+  width: 354px;
+  height: 140px;
+  left: 733px;
+  top: 1235px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #F4F4F4;
+}
+
+/*tudo do bloco3*/
+.bloco3{
+  position: absolute;
+  width: 800px;
+  height: 247.62px;
+  left: 74px;
+  top: 1432px;
+}
+.bloco3,#img3{
+  position: absolute;
+  width: 330px;
+  height: 247.62px;
+  left: 74px;
+  top: 1432px;
+  border-radius: 15px;
+}
+.titulo3{
+  position: absolute;
+  width: 297px;
+  height: 58px;
+  left: 434px;
+  top: 1452px;
+  
+  font-family: Script MT Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+  color: #BF935E;
+}
+.bloco3,p{
+  position: absolute;
+  width: 440px;
+  height: 112px;
+  left: 434px;
+  top: 1534px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #F4F4F4;
+}
+
+/*tudo do bloco4*/
+.bloco4,#img4{
+  position: absolute;
+  width: 707px;
+  height: 213.64px;
+  left: 689px;
+  top: 1702px;
+}
+.titulo4{
+  position: absolute;
+  width: 157px;
+  height: 58px;
+  left: 786px;
+  top: 1702px;
+  
+  font-family: Script MT Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+  color: #BF935E;
+}
+.bloco4,p{
+  position: absolute;
+  width: 354px;
+  height: 140px;
+  left: 689px;
+  top: 1771px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #F4F4F4;
+}
+/*tudo do bloco5*/
+.bloco5,#img5{
+  position: absolute;
+  width: 800px;
+  height: 223.93px;
+  left: 74px;
+  top: 1974px;
+}
+.titulo5{
+  position: absolute;
+  width: 219px;
+  height: 58px;
+  left: 435px;
+  top: 1992px;
+  
+  font-family: Script MT Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  text-align: center;
+  color: #BF935E;
+}
+.bloco5,p{
+  position: absolute;
+  width: 440px;
+  height: 112px;
+  left: 434px;
+  top: 2064px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #F4F4F4;
+}
+
+#linha{
+  position: absolute;
+  width: 992px;
+  height: 12px;
+  left: 241px;
+  top: 2288px;
+  background: #BF935E;
+  border-radius: 10px;
+}
+div,.tutorial{
+  position: absolute;
+  width: 1440px;
+  height: 417px;
+  left: 0px;
+  top: 2294px;
+}
+.tutorial,#tituloT{
+  position: absolute;
+  width: 394px;
+  height: 131px;
+  left: 237px;
+  top: 2431px;
+  
+  font-family: Script MT Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #BF935E;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tipoC{
+  position: absolute;
+  width: 255px;
+  height: 33px;
+  left: 213px;
+  top: 2780px;
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  
+  text-align: center;
+  color: #BF935E;
+}
+#visa{
+  position: absolute;
+  width: 99.21px;
+  height: 34.22px;
+  left: 621px;
+  top: 2775.98px;
+}
+#elo{
+  position: absolute;
+  width: 85.03px;
+  height: 40.29px;
+  left: 777.47px;
+  top: 2769.7px;
+}
+#alelo{
+  position: absolute;
+  width: 74.4px;
+  height: 44.97px;
+  left: 929.25px;
+  top: 2766.13px;
+}
+#master{
+  position: absolute;
+  width: 74.4px;
+  height: 49.11px;
+  left: 1070.6px;
+  top: 2764px;
+}
