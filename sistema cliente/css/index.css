@@ -94,9 +94,9 @@ body {
 #scroll img {
   opacity: 0;
   position: absolute;
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
+  width: 40vw;
+  height: 45vh;
+  margin-top: 7px;
   object-fit: cover;
   transition: opacity 800ms;
 }
