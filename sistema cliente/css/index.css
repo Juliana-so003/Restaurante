@@ -76,27 +76,118 @@ nav{
 #linha{
   height: 10px;
   background: #BF935E;
-  width: 50em;
+  width: 80%;
   position: relative;
 border-radius: 17px;
-left: 8em;
+left: 7em;
 top:14.7em;
 }
 .prato{
   padding: 3em;
- 
   width: 100%;
-  height: 500px;
+  height: 46em;
   position: relative;
-  top: 15em;
   display: flex;
   flex-direction: column;
 }
 .img{
+   grid-area: a;
   position: relative;
   width:160px;
   height: 120px;
 }
-#entrada{
+h4{
+   grid-area: b;
+   font-family: Script MT Bold;
+font-weight: bold;
+font-size: 1.5em;
+color: #BF935E;
+position: relative;
+bottom: 1.1em;
+}
 
+#p1{
+  color: #F4F4F4;
+  position: relative;
+   grid-area: c;
+  text-align: justify;
+  bottom: 3.5em;
+  margin-top: 10px;
+  margin-right: 1.3em;
+}
+
+#entrada, #principal, #sobremesa{
+display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-areas: 
+    "a b"
+    "a c";
+    width: 35em;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 30vh;
+
+}
+#acompanhamento, #bebidas{
+    display: grid;
+    grid-template-columns: 20em 1fr;
+    grid-template-areas: 
+    "b a"
+    "c a";
+    width: 20em;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 30vh;
+    margin-left: 30em;
+
+}
+video{
+  width:25vw;
+  height: 35vh;
+  margin-top: 1em;
+}
+h3{
+  position: relative;
+  top: 1em;
+  font-size: 2rem;
+  text-align: center;
+  right: 3em;
+}
+#tutorial{
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+  justify-content:center;
+  background: #fff;
+  top: 1.5em;
+}
+#linha2{
+height: 10px;
+  background: #BF935E;
+  width: 80%;
+  position: relative;
+  display: flex;
+border-radius: 17px;
+left: 7em;
+top: 0.2em;
+
+}
+footer{
+  height: 10vh;
+  width: 50%;
+  justify-content:space-evenly;
+  flex-direction: row;
+  display: flex;
+  margin-left: 12em;
+}
+#p_footer{
+  color:#BF935E;
+  font-size: 1em;
+}
+.img_footer{
+  margin-top: 1em;
+  height: 6vh;
+  width: 5vw;
 }
