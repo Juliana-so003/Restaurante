@@ -1,6 +1,5 @@
 body{
   background-color:#252122;
-  
 }
 #img_sacola{
   width: 5em;
@@ -42,7 +41,7 @@ body{
   height: 25px;
   margin: 2em 5px 0 5px;
    } 
-nav{
+#nave{
   height: 7em;
   width: 100%;
   padding: 20px 10px 10px 10px;
@@ -58,11 +57,7 @@ nav{
  justify-content: space-between;
     width: 400px;
 }
-.menu{
-  width: 70px;
-  height: 70px;
-  background: lightgray;
-}
+
 #logo{
   width: 150px;
   height: 5em;
@@ -98,7 +93,7 @@ top:14.7em;
 }
 h4{
    grid-area: b;
-   font-family: Script MT Bold;
+   font-family: 'Dancing Script', cursive;
 font-weight: bold;
 font-size: 1.5em;
 color: #BF935E;
@@ -147,6 +142,7 @@ video{
   margin-top: 1em;
 }
 h3{
+  font-family: 'Dancing Script', cursive;
   position: relative;
   top: 1em;
   font-size: 2rem;
