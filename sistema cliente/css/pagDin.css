@@ -1,11 +1,11 @@
 body {
   font: normal 20pt Arial;
-  background-image: url("/Fundos/fundo_dinheiro.png");
+  background-image: url("../Fundos/fundo_dinheiro.png");
   width: auto;
   height: auto;
 }
 
-div#bloco {
+#bloco {
   background: #F2AA96;
   color: black;
   padding: 15px;
@@ -22,7 +22,7 @@ input {
   border-color: black;
 }
 
-div#msg {
+#msg {
   position: absolute;
   background: fff;
   width: 300px;

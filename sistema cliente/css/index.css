@@ -1,10 +1,6 @@
-<<<<<<< HEAD:sistema cliente/css/index.css
-body{
-  background-color:#252122;
-=======
+
 body {
   background-color: #252122;
->>>>>>> 6585e914f26aceab087f8a1c0802940ba809c6b3:sistema cliente/css/style.css
 }
 
 #img_sacola {
@@ -20,7 +16,6 @@ body {
   background: #252122;
 }
 
-/*texto da sacola*/
 #texto {
   position: relative;
   font-family: Rockwell;
@@ -50,14 +45,8 @@ body {
   width: 25px;
   height: 25px;
   margin: 2em 5px 0 5px;
-<<<<<<< HEAD:sistema cliente/css/index.css
    } 
 #nave{
-=======
-}
-
-nav {
->>>>>>> 6585e914f26aceab087f8a1c0802940ba809c6b3:sistema cliente/css/style.css
   height: 7em;
   width: 100%;
   padding: 20px 10px 10px 10px;
@@ -72,20 +61,17 @@ nav {
   justify-content: space-between;
   width: 400px;
 }
-
-<<<<<<< HEAD:sistema cliente/css/index.css
-#logo{
-=======
 .menu {
+  
   width: 70px;
   height: 70px;
   background: lightgray;
 }
 
 #logo {
->>>>>>> 6585e914f26aceab087f8a1c0802940ba809c6b3:sistema cliente/css/style.css
   width: 150px;
   height: 5em;
+  margin: 10em;
 }
 
 .propaganda {
@@ -93,6 +79,7 @@ nav {
   width: 100%;
   height: 15em;
   position: relative;
+  padding-top: 1em;
 }
 
 #scroll {
@@ -125,11 +112,11 @@ nav {
   position: relative;
   border-radius: 17px;
   left: 7em;
-  top: 14.7em;
+  top: -0.3em;
 }
 
-.pratos {
-  padding: 3em;
+.prato{
+  padding: 3em 3em 4em 3em;
   width: 100%;
   height: 46em;
   position: relative;
@@ -143,7 +130,6 @@ nav {
   width: 160px;
   height: 120px;
 }
-<<<<<<< HEAD:sistema cliente/css/index.css
 h4{
    grid-area: b;
    font-family: 'Dancing Script', cursive;
@@ -152,20 +138,20 @@ font-size: 1.5em;
 color: #BF935E;
 position: relative;
 bottom: 1.1em;
-=======
+}
 
 h4 {
   grid-area: b;
-  font-family: Script MT Bold;
+   font-family: 'Dancing Script', cursive;
   font-weight: bold;
   font-size: 1.5em;
   color: #BF935E;
   position: relative;
   bottom: 1.1em;
->>>>>>> 6585e914f26aceab087f8a1c0802940ba809c6b3:sistema cliente/css/style.css
 }
 
 #p1 {
+
   color: #F4F4F4;
   position: relative;
   grid-area: c;
@@ -175,9 +161,7 @@ h4 {
   margin-right: 1.3em;
 }
 
-#entrada,
-#principal,
-#sobremesa {
+#entrada, #principal, #sobremesa {
   display: grid;
   grid-template-columns: 180px 1fr;
   grid-template-areas:
@@ -189,8 +173,7 @@ h4 {
   height: 30vh;
 }
 
-#acompanhamento,
-#bebidas {
+#acompanhamento, #bebidas {
   display: grid;
   grid-template-columns: 20em 1fr;
   grid-template-areas:
@@ -200,6 +183,7 @@ h4 {
   margin-bottom: 10px;
   padding: 5px;
   height: 30vh;
+  margin-left: 30em;
 }
 
 video {
@@ -207,13 +191,9 @@ video {
   height: 35vh;
   margin-top: 1em;
 }
-<<<<<<< HEAD:sistema cliente/css/index.css
-h3{
-  font-family: 'Dancing Script', cursive;
-=======
 
 h3 {
->>>>>>> 6585e914f26aceab087f8a1c0802940ba809c6b3:sistema cliente/css/style.css
+  font-family: 'Dancing Script', cursive;
   position: relative;
   top: 1em;
   font-size: 2rem;
