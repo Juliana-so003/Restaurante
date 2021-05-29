@@ -10,7 +10,7 @@
 .bar{
   height: 5px;
   width: 100%;
-  background-color: #dc052d;
+  background-color: #F4F4F4;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -33,7 +33,7 @@ padding: 0 22px;
   padding: 12px 0;
 }
 .nav li a{
-  color: #fff;
+  color: #181818;
   font-size: 20px;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@ padding: 0 22px;
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background:radial-gradient(circle, #dc052d, #dc052d);
+  background:radial-gradient(circle, #F4F4F4, #F4F4F4);
   border-radius: 50%;
   transition: 0.3 ease;
 }
@@ -58,7 +58,7 @@ padding: 0 22px;
   display: block;
 }
 .change .bar{
-  background: #fff;
+  background:#181818;
 }
 .change #bar1{
   transform: translateY(4px) rotateZ(-45deg);
