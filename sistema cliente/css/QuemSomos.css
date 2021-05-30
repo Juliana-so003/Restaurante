@@ -1,0 +1,65 @@
+
+* {
+  padding:0;
+  margin:0;
+}
+body {
+  display: table;
+  width: 100%;
+  height: 100vh;
+
+ 
+  background: url(../fundos/fundo_quem_somos.png) no-repeat bottom center scroll;
+  background-position: 30% 45%;
+  background-size: cover;
+}
+#voltar{
+    height: 2em;
+    width: 2em;
+}
+.menu{
+   height: 2em;
+    width: 2em;  
+    background: whitesmoke;
+    border-radius: 50%;
+}
+/* teste menu*/
+.mainmenubtn {
+background: #C4C4C4;
+color: white;
+border: none;
+cursor: pointer;
+padding:20px;
+margin-top:20px;
+}
+
+.mainmenubtn:hover {
+background-color: red;
+width: 33em;
+}
+
+.dropdown {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.dropdown-child {
+display: none;
+background: #C4C4C4;
+width:30em;
+height:7em;
+}
+.dropdown-child p {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+p{
+text-align: justify;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+
+}
