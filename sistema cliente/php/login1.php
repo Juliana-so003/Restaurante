@@ -13,21 +13,21 @@
 
     
 <div class="container1">
-  <form>
+  <form action="login2.php" method="POST">
    <h1 id="titulo">Login </h1>
    <div class="div_input"> 
      <img class="img1"  src="../icones/avatar.png">
-    <input type="text" id="nome_usu" placeholder="nome de usuário" required> 
+    <input type="text" name="usuario" id="nome_usu" placeholder="nome de usuário"> 
     </div>
      <p id="linha">ou</p>
 
       <div class="div_input"> 
           <img class="img1" src="../icones/e-mail.png"/>
-        <input type="email" id="email" placeholder="e-mail" required> 
+        <input type="email" name="email" id="email" placeholder="e-mail"> 
     </div>
     <div class="div_input"> 
       <img class="img1" src="../icones/cadeado.png" />
-    <input type="password" id="senha" placeholder="senha" required>
+    <input type="password" name="senha" id="senha" placeholder="senha" required>
     </div>
   <div>
 <button id="botao" type="submit">Login</button>
