@@ -1,3 +1,6 @@
+<?php
+ session_start(); 
+?>
 <!DOCTYPE html>
 <html>
 
@@ -11,7 +14,14 @@
 <body>
   <div class="container"> 
 
-    
+    <?php
+    if (isset($_SESSION['nao_autenticado'])) :
+        ?>
+    <div class="erro"><p id="erro">ERRO: Usuario ou senha invalida.</p></div>
+        <?php
+    endif;
+    unset($_SESSION['nao_autenticado']);
+    ?>
 <div class="container1">
   <form action="login2.php" method="POST">
    <h1 id="titulo">Login </h1>

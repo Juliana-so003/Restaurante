@@ -5,7 +5,7 @@
     $database = "dbrestaurante";
 
 if ($conn = mysqli_connect($servidor, $usuario, $senha, $database)) {
-     echo "ok";
+    // echo "ok";
 } else {
         echo "deu merda";
 }

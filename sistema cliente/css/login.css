@@ -27,7 +27,7 @@
   border: 0 none;
   outline: 0;
       }
-      
+    
     #botao{
      justify-content: center;
      text-align: center;
@@ -106,5 +106,14 @@ height: 485px;
      
        background: no-repeat url(../fundos/fundo_login.png);
       }
-
-    
+      .erro{
+        margin: 0.5em 0;
+        width: 8em;
+        height: 5em;
+        background: #9E0705;
+      }
+      #erro{
+        color: #fff;
+        text-align: center;
+        
+      }
