@@ -7,7 +7,7 @@
 if ($conn = mysqli_connect($servidor, $usuario, $senha, $database)) {
     // echo "ok";
 } else {
-        echo "erro";
+        echo "erroo";
 }
 
 $conexao = new mysqli($servidor, $usuario, $senha, $database);
