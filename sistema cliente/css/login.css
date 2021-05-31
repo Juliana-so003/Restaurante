@@ -26,6 +26,7 @@
        box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
+  background-color: none;
       }
     
     #botao{
@@ -84,8 +85,8 @@ background: #4d0706;
        width: 328px;
       height: 50px;
     margin-bottom: 10px;
-    border: 0.5px solid #5c5b5b;
-    border-radius: 5px;
+    border-bottom: 1px solid #5c5b5b;
+    
     }
     .img1{
 position: relative;
@@ -94,7 +95,13 @@ height: 30px;
 right: 35px;
 top: 10px;
 
-
+    }
+    .img2{
+     position: relative;
+     width: 30px;
+     height: 30px;
+     
+     top: 10px; 
     }
     .container2{
 margin-left: 5px;

@@ -38,6 +38,7 @@
     <div class="div_input"> 
       <img class="img1" src="../icones/cadeado.png" />
     <input type="password" name="senha" id="senha" placeholder="senha" required>
+          <img class="img2" src="../icones/olhos-fechados.png" />
     </div>
   <div>
 <button id="botao" type="submit">Login</button>
