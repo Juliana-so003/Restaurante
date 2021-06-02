@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
   <link rel="stylesheet" type="text/css" href="../css/login.css">
+     <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
 </head>
 
 <body>
@@ -38,8 +39,10 @@
     <div class="div_input"> 
       <img class="img1" src="../icones/cadeado.png" />
     <input type="password" name="senha" id="senha" placeholder="senha" required>
-          <img class="img2" src="../icones/olhos-fechados.png" />
-    </div>
+       <button type="button" onclick="mostrarSenha()">
+               <i class="fa fa-eye" aria-hidden="true"></i>
+       </button>
+   </div>
   <div>
 <button id="botao" type="submit">Login</button>
  </div> 
@@ -53,6 +56,6 @@
 
 <div class="container2"></div>
 </div>
+ <script src="../js/login.js"></script>
 </body>
-
 </html>
