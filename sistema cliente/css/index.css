@@ -56,6 +56,7 @@ body {
   justify-content: space-between;
   display: flex;
   align-items: center;
+  width: 100
 }
 
 #contato {
@@ -98,8 +99,8 @@ body {
   opacity: 0;
   position: absolute;
   width: 40vw;
-  height: 20em;
-  margin-top: 7px;
+  height: 13em;
+  margin-top: 6px;
   object-fit: cover;
   transition: opacity 800ms;
 }
@@ -108,20 +109,10 @@ body {
   opacity: 1;
 }
 
-#linha {
-  height: 10px;
-  background: #BF935E;
-  width: 80%;
-  position: relative;
-  border-radius: 17px;
-  left: 7em;
-  top: -0.3em;
-}
-
 .prato{
   padding: 3em 3em 4em 3em;
   width: 100%;
-  height: 46em;
+  height: 75em;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -132,6 +123,7 @@ body {
   position: relative;
   width: 160px;
   height: 120px;
+  border-radius: 0.2em;
 }
 h4{
    grid-area: b;
@@ -140,18 +132,10 @@ font-weight: bold;
 font-size: 1.5em;
 color: #BF935E;
 position: relative;
-bottom: 1.1em;
+bottom: 0.5em;
+top: 0.2em;
 }
 
-h4 {
-  grid-area: b;
-   font-family: 'Dancing Script', cursive;
-  font-weight: bold;
-  font-size: 1.5em;
-  color: #BF935E;
-  position: relative;
-  bottom: 1.1em;
-}
 
 #p1 {
 
@@ -160,7 +144,6 @@ h4 {
   grid-area: c;
   text-align: justify;
   bottom: 3.5em;
-  margin-top: 10px;
   margin-right: 1.3em;
 }
 
@@ -171,9 +154,9 @@ h4 {
     "a b"
     "a c";
   width: 35em;
-  margin-bottom: 10px;
+  
   padding: 5px;
-  height: 30vh;
+  height: 15vh;
 }
 
 #acompanhamento, #bebidas {
@@ -182,37 +165,36 @@ h4 {
   grid-template-areas:
     "b a"
     "c a";
-  width: 20em;
-  margin-bottom: 10px;
+  width: 25em;
   padding: 5px;
-  height: 30vh;
-  margin-left: 25em;
+  height: 15vh;
+  margin-left: 23em;
 }
 
 video {
   width: 25vw;
-  height: 35vh;
-  margin-top: 1em;
+  height: 17vh;
+  position: relative;
 }
 
 h3 {
   font-family: 'Dancing Script', cursive;
   position: relative;
-  top: 1em;
+  top: 5em;
   font-size: 2rem;
   text-align: center;
-  right: 3em;
+  right: 4em;
 }
 
 #tutorial {
   padding-top: 1em;
   display: flex;
   flex-direction: row;
-  height: 40vh;
+  height: 20vh;
   width: 100%;
   justify-content: center;
   background: #fff;
-  top: 1.5em;
+  
 }
 
 #linha2 {
@@ -239,10 +221,12 @@ footer {
 #p_footer {
   color: #BF935E;
   font-size: 1em;
+  position: relative;
+  top: 3em;
 }
 
 .img_footer {
-  margin-top: 1em;
-  height: 6vh;
-  width: 5vw;
+  height: 3vh;
+  width: 6vw;
+  margin:2em 0.5em 0 0.5em;
 }
