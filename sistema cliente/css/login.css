@@ -35,12 +35,10 @@
      color:#fff;
      padding: 10px;
      margin-top: 10px;
-    
-width: 30vw;
-height: 10vh;
-left: 50px;
-top: 24em;
-
+     width: 30vw;
+     height: 10vh;
+    left: 50px;
+    top: 24em;
 background: #9E0705;
 box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
@@ -83,26 +81,30 @@ background: #4d0706;
       flex-direction: row;
        background: #DCDCDC;
        width: 328px;
-      height: 50px;
+     height: 50px;
     margin-bottom: 10px;
     border-bottom: 1px solid #5c5b5b;
     
     }
     .img1{
-position: relative;
-width: 30px;
-height: 30px;
-right: 35px;
-top: 10px;
+   position: relative;
+   width: 30px;
+   height: 30px;
+   right: 35px;
+   top: 10px;
 
     }
-    .img2{
+   .img2{
      position: relative;
      width: 30px;
      height: 30px;
-     
      top: 10px; 
     }
+  button .fa-eye {
+       position: absolute;
+       cursor: pointer;
+       color: black;
+     }
     .container2{
 margin-left: 5px;
 width: 400px;
