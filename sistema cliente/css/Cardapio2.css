@@ -1,0 +1,81 @@
+a:link{
+       text-decoration:none;
+        color: #000;
+   }
+   a:visited{
+    color: #000;
+   }
+   a:hover{
+       color:  #32CD32;
+   }
+        
+		.container1{
+		  position: relative;
+            width: 98%;
+            height: 6em;
+            left: 1em;
+            top: 3em;
+			background: white;
+			border-radius:8px;
+			align-items: center;
+			justify-content: space-around;
+			display: flex;
+			
+			box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.6);
+            
+        }
+		
+		label{
+			margin: 0 10px;
+			color: #000;
+			
+		}
+		
+		input[type="radio"] {
+		display: none; 
+		}
+		input[type="radio"]:hover+label {
+					color: #32CD32; 
+				}
+		.selecione-elemento{
+			background:  #32CD32;
+			width: 6em;
+			height: 7px;
+			position: absolute;
+			left: 85px;
+			top: 70%;
+            border-radius: 5px;
+			transition: 0.25s easy-out;
+          visibility: hidden;
+		}
+        input[id="radio0"]:hover~.selecione-elemento{
+					transform:translateX(-3.1em);
+                   visibility: visible;
+				}
+		input[id="radio1"]:hover~.selecione-elemento{
+					transform:translateX(7em);
+              visibility: visible;
+              width: 12rem;
+				}
+		input[id="radio2"]:hover~.selecione-elemento{
+					transform:translateX(23.5em);
+					width: 7em;
+          visibility: visible;
+				}
+		input[id="radio3"]:hover~.selecione-elemento{
+					transform:translateX(34.5em);
+                     visibility: visible;
+				}
+        input[id="radio4"]:hover~.selecione-elemento{
+            transform:translateX(44.3em);
+            width: 8.5rem;
+             visibility: visible;
+        }
+        
+
+   .p{
+       font-size: 1.5em;
+line-height: 1em;
+position: relative;
+
+   }
