@@ -4,20 +4,34 @@
   box-sizing:border-box;
 }
 body {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background:#252122;
+  background: url("../fundos/fundo1.png") no-repeat center top fixed;
+}
+.body2{
+  filter: opacity(60%);
+  margin: 0;
+  padding:0;
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: fixed;
 }
 #menu{
-  left: 27em;
-  border: 2px solid #252122;
+  top:0.5em;
+  left: 26em;
   border-radius:50%;
     height: 5em;
-    padding-top:2em;
+    padding-top:1.6em;
     width: 5em ;
     background: red;
     position: relative;
+    filter: drop-shadow(
+-3px 11px 10px #000000
+);
 }
 #p_menu{
   color:white;
@@ -26,39 +40,114 @@ body {
   font-size: 1em;
 }
 
-.img_icone{
-  height: 4em;
-  width: 4em;
-}
 
 .pratos{
   margin: 0.5em 1em;
-  border: 2px solid #252122;
+  background: whitesmoke;
+  border-radius: 0.8em;
+  flex-direction: column;
+  height: 11.5em;
+  width: 13em;
+  padding: 0 0.7em;
+  filter: drop-shadow(
+-3px 11px 10px #000000
+);
+}
+.p_prato2{
+text-align: end;
+  
 }
 #container3 {
+ height: 100%;
+  margin:0 0.5em 0 1em;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 30em;
-  border: 2px solid #252122;
+  width: 20em;
   position: relative;
+  top:4em;
 }
-#logo {
-  width: 10em;
-  height: 5em;
-  left: 45%;
-  position: relative;
-  top:1em;
+#sub2_container3{
+   overflow-y: scroll;
+   max-height: 26em;
+   width:20em;
+}
+#sub_container3{
+  width: 20em;
+  height:2em;
+  background: plum;
+  position:relative;
+  flex-direction: row;
+  display: flex;
+  margin-right:0.5em;
+}
+#p_container3{
+  margin: 0.3em;
+  text-align: center;
 }
 .img_container2{
-  height: 12em;
-  width: 12em;
+  height: 6em;
+  width: 7em;
+  left: 2em;
+  border-radius:0.5em;
+  margin: 0.5em 0;
+  position: relative;
 }
-.pratos{
-  flex-direction: column;
-  display: flexf;
+
+#central{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+#container2{
+  overflow-y: scroll;
+  max-height: 26em;
+  position: relative;
+  top: 4em;
+  display: flex;
+  flex-direction: row;
+  width: 80em;
+  justify-content: center;
+  border-right: 2px solid  #BF935E;
+}
+
+footer{
+    flex-direction: row;
+    display: flex;
+}
+#valor{
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  left:45%;
+  top: 5.8em;
+  padding-top: 0.3em;
+  height: 2.5em;
+  width:6em;
+  background: grey;
+}
+.p_valor{
+  margin: 0.5em;
+  text-align: center;
+}
+button{
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  left:45%;
+  top: 7em;
+  height: 3em;
+  width:6em;
+  background: goldenrod;
+  padding: 0.5em;
+}
+#voltar {
+  height: 2em;
+  width: 2em;
+}
+#voltar2 {
   background: white;
-  height: 17em;
-  width: 18em;
-  margin: 4em;
+  height: 2em;
+  width: 2em;
+  position: relative;
+  border-radius: 50%;
 }
