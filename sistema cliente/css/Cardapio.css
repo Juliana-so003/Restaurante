@@ -24,12 +24,12 @@ background-size: cover;
 }
 #menu{
   top:0.5em;
-  left: 26em;
+  left: 28em;
   border-radius:50%;
     height: 5em;
     padding-top:1.6em;
     width: 5em ;
-    background: red;
+    background: #8c233f;
     position: relative;
     filter: drop-shadow(
 -3px 11px 10px #000000
@@ -45,7 +45,7 @@ background-size: cover;
 
 .pratos{
   margin: 0.5em 1em;
-  background: whitesmoke;
+  background:  #f2dad8;
   border-radius: 0.8em;
   flex-direction: column;
   height: 11.5em;
@@ -64,26 +64,30 @@ text-align: end;
   margin:0 0.5em 0 1em;
   display: flex;
   flex-direction: column;
-  width: 20em;
+  width: 23em;
   position: relative;
   top:4em;
 }
 #sub2_container3{
    overflow-y: scroll;
-   max-height: 22em;
-   width:20em;
+   max-height: 20em;
+   width:25em;
 }
 #sub_container3{
-  width: 20em;
-  height:2em;
-  background: plum;
+  width: 25em;
+  left:1em;
+  height:2.5em;
+  background: #8c233f;
+  color: white;
   position:relative;
   flex-direction: row;
+  justify-content: space-around;
   display: flex;
   margin-right:0.5em;
+  border-radius:5px;
 }
 #p_container3{
-  margin: 0.3em;
+  margin-top: 0.6em;
   text-align: center;
 }
 .img_container2{
@@ -98,18 +102,21 @@ text-align: end;
 #central{
   flex-direction: row;
   display: flex;
-  justify-content: center;
+  
 }
 #container2{
   overflow-y: scroll;
   max-height: 22em;
   position: relative;
   top: 4em;
+  left: 1em;
+  right: 1em;
   display: flex;
   flex-direction: row;
-  width: 80em;
-  justify-content: center;
-  border-right: 2px solid  #BF935E;
+  width: 34em;
+  justify-content: start;
+  border-right: 2px solid  #f2dad8;
+  
 }
 
 footer{
@@ -120,12 +127,14 @@ footer{
   position: relative;
   flex-direction: row;
   display: flex;
-  left:45%;
+  left:39%;
   top: 5.8em;
-  padding-top: 0.3em;
+  padding-top: 0.4em;
   height: 2.5em;
   width:6em;
-  background: white;
+  background: #d2cdcf;
+  border-radius:6px 0 0 6px;
+
 }
 .p_valor{
   margin: 0.5em;
@@ -135,21 +144,68 @@ button{
   position: relative;
   flex-direction: row;
   display: flex;
-  left:45%;
-  top: 7em;
-  height: 3em;
-  width:6em;
-  background: goldenrod;
-  padding: 0.5em;
+  left:38%;
+  top: 6.7em;
+  height: 3.6em;
+  width:6.5em;
+  background: #8c233f;
+  padding: 0.8em;
+  color:white;
+  border-radius:7px;
 }
 #voltar {
-  height: 2em;
-  width: 2em;
-}
-#voltar2 {
-  background: white;
-  height: 2em;
-  width: 2em;
   position: relative;
-  border-radius: 50%;
+  padding: 0.8em;
+  display: flex;
+  left: 1em;
+  top: 7.3em;
+  height: 3em;
+  width: 5.5em;
+  background: #8c233f;
+  
+  color: white;
+  border-radius: 9px;
+}
+/*sacola de compras*/
+#sacola{
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0.5em 0 0.7em 0.2em;
+  position: relative;
+}
+.pedidos{
+  display: flex;
+  margin: 0.5em 1em;
+  background:  #f2dad8;
+  border-radius: 0.8em;
+  flex-direction: row;
+  height: 11em;
+  width: 24em;
+  padding: 1em 0.7em;
+  filter: drop-shadow(
+-3px 11px 10px #000000
+);
+}
+.img_pedido{
+  height: 6em;
+  width: 7em;
+  border-radius:0.5em;
+  margin: 0.5em 0.5em;
+  position: relative;
+  grid-area: a;
+}
+#desconto, .div_porcao{
+  display:flex;
+  flex-direction:row;
+}
+#porcao{
+  height: 1.5em;
+  width: 2.5em;
+}
+#obs{
+  height: 1.5em;
+  width: 10em;
+}
+.p_pedido1, .p_pedidop2{
+  margin-bottom: 0.5em;
 }

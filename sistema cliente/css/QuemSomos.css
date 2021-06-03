@@ -7,8 +7,6 @@ body {
   display: table;
   width: 100%;
   height: 100vh;
-
- 
   background: url(../fundos/fundo_quem_somos.png) no-repeat bottom center scroll;
   background-position: 30% 45%;
   background-size: cover;

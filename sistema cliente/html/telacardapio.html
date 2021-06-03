@@ -13,15 +13,15 @@
 </head>
 
 <body>
+    <!-- div preta que esta sobre a img de fundo-->
   <div class="body2"></div>
-  <header> 
-  <div id="voltar2">
- <a href="../html/index.html"> <img id="voltar" src="../icones/botao-voltar.png"/>   </a></div>
 
+  <!-- bolinha la de cima-->
   <div id="menu">
     <p id="p_menu">Cardapio</p>
   </div>
-  </header>
+   
+     <!-- categorias-->
  <div class="container1">
      
     <input type="radio" name="menu" id="radio0" checked />
@@ -54,10 +54,12 @@
     </div>
   </div>
   
-  <!-- começo do segundo container -->
+  <!-- o container central -->
   <div id="central">
+      <!-- container dos pratos-->
   <div id="container2">
     
+      <!-- primeira coluna dos pratos -->
       <div class="sub_container2">
         
     <div class="pratos">
@@ -101,6 +103,8 @@ Valor: R$3,70</p>
        <p class="p_prato2">
    Valor: R$40,00</p>
       </div></div>
+      
+     <!-- segunda coluna dos pratos-->
     <div class="sub_container2">
           <div class="pratos">
         <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
@@ -146,18 +150,83 @@ Valor: R$20,90</p>
 
           
   </div>
-    <!-- comeco do outro container -->
+ <!-- comeco do container dos pedidos -->
   <div id="container3">
     <div id="sub_container3">
-      <p id="p_container3">Quantidade dos pedido:</p>
+      <img id="sacola" src="../icones/sacolas-de-compras.png">
+      <p id="p_container3">Você está com </p>
             <p id="p_container3">XX</p>
+       <p id="p_container3">pedidos </p>
     </div>
-        <div id="sub2_container3">
-        </div>
     
+  <!-- comeco dos pedidos-->
+    <div id="sub2_container3">
+      
+   <!-- pedido 1-->
+    <div class="pedidos">
+      
+     <img  class="img_pedido" src="../Entradas/batata_sol.webp">
+  <div id="div_p/_paragrafos">
+    <p class="p_pedido1">Batata recheada de carne do sol.</p>
+    <p class="p_pedido1">
+       Valor: R$20,90</p>
+       <div id="desconto">
+          <p class="p_pedido1">
+            Desconto:</p> 
+          <p id="p_pedido2">XX</p>
+       </div>
+      <div class="div_porcao">
+       <label for "porcao">
+      <p class="p_pedido1">Quantidade de porção </p>
+       </label>
+      <input type="number" name="porcao" id="porcao" placeholder="01"> 
+      </div>
+    <div class="div_porcao">
+    <label for "obs">
+     <p class="p_pedido1">Observação:</p>
+             </label>
+     <input type="text" name="obs" id="obs" placeholder="..."> 
+     
+           </div>
+           </div>
+        </div>
+    <!-- pedido 2-->
+    <div class="pedidos">
+      
+     <img  class="img_pedido" src="../Entradas/batata_sol.webp">
+  <div id="div_p/_paragrafos">
+    <p class="p_pedido1">Batata recheada de carne do sol.</p>
+    <p class="p_pedido1">
+       Valor: R$20,90</p>
+       <div id="desconto">
+          <p class="p_pedido1">
+            Desconto:</p> 
+          <p id="p_pedido2">XX</p>
+       </div>
+      <div class="div_porcao">
+       <label for "porcao">
+      <p class="p_pedido1">Quantidade de porção </p>
+       </label>
+      <input type="number" name="porcao" id="porcao" placeholder="01"> 
+      </div>
+    <div class="div_porcao">
+    <label for "obs">
+     <p class="p_pedido1">Observação:</p>
+             </label>
+     <input type="text" name="obs" id="obs" placeholder="..."> 
+     
+           </div>
+           </div>
+        </div>
+  
+    </div>
   </div>
   </div>
   <footer>
+      <!-- butao de voltar-->
+     <button type="submit" id="voltar" value="voltar">Voltar</button>
+     
+       <!-- div do botao continuar e valor-->
     <div id="valor">
       <p class="p_valor"> R$</p>
       <p class="p_valor">00,00</p>
