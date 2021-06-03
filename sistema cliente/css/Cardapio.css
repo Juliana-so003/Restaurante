@@ -9,7 +9,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: url("../fundos/fundo1.png") no-repeat center top fixed;
+  background: url("../fundos/fundo1.png") no-repeat center top  fixed;
+
 }
 .body2{
   filter: opacity(60%);
