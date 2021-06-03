@@ -9,8 +9,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: url("../fundos/fundo1.png") no-repeat center top  fixed;
-
+  background: url("../fundos/fundo1.png") no-repeat bottom center scroll;
+background-position: 5% 5%;
+background-size: cover;
 }
 .body2{
   filter: opacity(60%);
@@ -69,7 +70,7 @@ text-align: end;
 }
 #sub2_container3{
    overflow-y: scroll;
-   max-height: 26em;
+   max-height: 22em;
    width:20em;
 }
 #sub_container3{
@@ -101,7 +102,7 @@ text-align: end;
 }
 #container2{
   overflow-y: scroll;
-  max-height: 26em;
+  max-height: 22em;
   position: relative;
   top: 4em;
   display: flex;
@@ -124,7 +125,7 @@ footer{
   padding-top: 0.3em;
   height: 2.5em;
   width:6em;
-  background: grey;
+  background: white;
 }
 .p_valor{
   margin: 0.5em;
