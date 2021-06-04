@@ -1,385 +1,341 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cardapio</title>
-
   <link rel="stylesheet" href="../css/Cardapio.css">
-  
   <link rel="stylesheet" href="../css/Cardapio2.css">
 </head>
 
 <body>
-    <!-- div preta que esta sobre a img de fundo-->
+  <!-- div preta que esta sobre a img de fundo-->
   <div class="body2"></div>
-
   <!-- bolinha la de cima-->
   <div id="menu">
     <p id="p_menu">Cardapio</p>
   </div>
-   
-     <!-- categorias-->
- <div class="container1">
-  
+  <!-- categorias-->
+  <div class="container1">
     <input type="radio" name="menu" id="radio0" checked />
-    <label for="radio0">
-      <a href="#"> <p class="p">Entrada</p></a>
-      </label>
- 
-    <input type="radio" name="menu" id="radio1">
-    <label for="radio1">
-      <a href="#"><p class="p">Acompanhamento</p></a>
+    <label for="radio0" onclick="mostra('entrada')">
+      <a href="#">
+        <p class="p">Entrada</p>
+      </a>
     </label>
-  
+    <input type="radio" name="menu" id="radio1">
+    <label for="radio1" onclick="mostra('acompanhamento')">
+      <a href="#acompanhamento">
+        <p class="p">Acompanhamento</p>
+      </a>
+    </label>
     <input type="radio" name="menu" id="radio2">
-    <label for="radio2">
-      <a href="#"><p class="p">Principal</p></a>
-      </label>
-  
+    <label for="radio2" onclick="mostra('principal')">
+      <a href="#">
+        <p class="p">Principal</p>
+      </a>
+    </label>
     <input type="radio" name="menu" id="radio3">
-    <label for="radio3">
-      <a href="#"><p class="p">Bebidas</p></a>
-      </label>
-  
+    <label for="radio3" onclick="mostra('bebidas')">
+      <a href="#">
+        <p class="p">Bebidas</p>
+      </a>
+    </label>
     <input type="radio" name="menu" id="radio4">
-    <label for="radio4">
-      <a href="#"><p class="p">Sobremesa</p></a>
+    <label for="radio4" onclick="mostra('sobremesa')">
+      <a href="#">
+        <p class="p">Sobremesa</p>
+      </a>
     </label>
   </div>
-  
   <!-- o container central -->
   <div class="central">
-      <!-- entradas-->
-  <div id="entrada">
-    
+    <!-- entradas-->
+    <div id="entrada" class="hidden">
       <!-- primeira coluna dos pratos -->
       <div class="sub_container2">
-        
-    <div class="pratos">
-    <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
-     <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
-     <p class="p_prato2">
-     Valor :$12,00</p>
-    </div>
-    
-      
         <div class="pratos">
-        <img class="img_container2" src="../Entradas/pao-de-alho.jpg">
-        <p class="p_prato1">Pão de alho.</p>
-        <p class="p_prato2">
-Valor: R$3,70</p>
+          <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
+          <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
+          <p class="p_prato2">
+            Valor: R$12,00</p>
         </div>
-        
-      
-         <div class="pratos">
-    <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
-     <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
-     <p class="p_prato2">
-     Valor :$12,00</p>
-    </div>
-    
-</div>
-      
-     <!-- segunda coluna dos pratos-->
-    <div class="sub_container2">
-          <div class="pratos">
-        <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
-       <p class="p_prato1">Batata recheada com calabresa.</p>
-       <p class="p_prato2">
-Valor: R$20,90</p>
-          </div>
-          
-      <div class="pratos">
-        <img class="img_container2" src="../Entradas/torradinhas.jpg">
-        <p class="p_prato1">Patê de azeitona com torradinhas.</p>
-        <p class="p_prato2">
-          Valor: R$40,00</p>
+        <div class="pratos">
+          <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
+          <p class="p_prato1">Batata recheada com calabresa</p>
+          <p class="p_prato2">
+            Valor: R$20,90</p>
+        </div>
+        <div class="pratos">
+          <img class="img_container2" src="../Entradas/batata_sol.webp">
+          <p class="p_prato1">Batata recheada de carne do sol.</p>
+          <p class="p_prato2">
+            Valor: R$20,90</p>
+        </div>
       </div>
-          
-         <div class="pratos">
-        <img class="img_container2" src="../Entradas/caldo-mandioquinha.jpg">
-       <p class="p_prato1">Caldo de mandioquinha.</p>
-       <p class="p_prato2">
-Valor: R$17,80</p>
-         </div>
-         
-
-        
-    </div>
-  </div></div>
-  
- 
- <!-- Acompanhamento -->
-  <div id="acompanhamento">
-    
-      <!-- primeira coluna dos pratos -->
+      <!-- segunda coluna dos pratos-->
       <div class="sub_container2">
-       <div class="pratos">
-<h2> Acompanhamento</h2>
-       <img class="img_container2" src="../Acompanhamento/batata_frita.jpg">
-        <p class="p_prato1">Batata frita. </p>
-     <p class="p_prato2">
-        Valor: R$12,00</p>   
-           </div>
-           
-      <div class="pratos">
-       <img class="img_container2" src="../Acompanhamento/Mandioca_frita.jpg">
-         <p class="p_prato1">Mandioca frita.</p>
-          <p class="p_prato12">
-         Valor:R$15,00.</p>
-      </div>
-      
-   <div class="pratos">
-    <img class="img_container2" src="../Acompanhamento/salada.jpg">
-     <p class="p_prato1">Salada.</p>
-     <p class="p_prato2"> Valor: R$24,00
-    </p>
-   </div></div>
-   <div class="sub_container2">
-     <div class="pratos">
-      <img class="img_container2" src="../Acompanhamento/Arroz_carne.jpg">
-    <p class="p_prato1">Arroz com carne seca e queijo na pressão.</p>
- <p class="p_prato2">Valor: R$30,00</p>
-     </div>
-     
-       <div class="pratos">
-       <img class="img_container2" src="../Acompanhamento/pao-de-queijo.jpg">
-     <p class="p_prato1">Pão de queijo.</p>
- <p class="p_prato2">Valor: R$ 4,90</p>
-       </div>
-       
-      <div class="pratos">
-       <img class="img_container2" src="../Acompanhamento/Molho_branco.jpg">
-       <p class="p_prato1">Molho bra/p>
- <p class="p_prato2">Valor: R$3,50 </p>
-      </div>
+        <div class="pratos">
+          <img class="img_container2" src="../Entradas/pao-de-alho.jpg">
+          <p class="p_prato1">Pão de alho</p>
+          <p class="p_prato2">
+            Valor: R$03,70</p>
         </div>
+        <div class="pratos">
+          <img class="img_container2" src="../Entradas/torradinhas.jpg">
+          <p class="p_prato1">Patê de azeitona com torradinhas.</p>
+          <p class="p_prato2">
+            Valor: R$40,00</p>
+        </div>
+        <div class="pratos">
+          <img class="img_container2" src="../Entradas/caldo-mandioquinha.jpg">
+          <p class="p_prato1">Caldo de mandioquinha.</p>
+          <p class="p_prato2">
+            Valor: R$17,80</p>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <!-- Acompanhamento -->
+  <div id="acompanhamento" class="hidden">
+    <!-- primeira coluna dos pratos -->
+    <div class="sub_container2">
+      <div class="pratos">
+        <img class="img_container2" src="../Acompanhamento/batata_frita.jpg">
+        <p class="p_prato1">Batata frita.</p>
+        <p class="p_prato2">
+          Valor: R$12,00</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Acompanhamento/Mandioca_frita.jpg">
+        <p class="p_prato1">Mandioca frita.</p>
+        <p class="p_prato12">
+          Valor:R$15,00.</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Acompanhamento/salada.jpg">
+        <p class="p_prato1">Salada.</p>
+        <p class="p_prato2"> Valor: R$24,00
+        </p>
+      </div>
+    </div>
+    <div class="sub_container2" class="hidden">
+      <div class="pratos">
+        <img class="img_container2" src="../Acompanhamento/Arroz_carne.jpg">
+        <p class="p_prato1">Arroz com carne seca e queijo na pressão.</p>
+        <p class="p_prato2">Valor: R$30,00</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Acompanhamento/pao-de-queijo.jpg">
+        <p class="p_prato1">Pão de queijo.</p>
+        <p class="p_prato2">Valor: R$04,90</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Acompanhamento/Molho_branco.jpg">
+        <p class="p_prato1">Molho branco.</p>
+        <p class="p_prato2">Valor: R$03,50 </p>
+      </div>
+    </div>
   </div>
   
   <!-- prato principal -->
-         <div id="principal">
-      <div class="sub_container2">
-      <div class="pratos">
-    <h2> Prato principal</h2>
-           <img class="img_container2" src="../Prato principal/Camarao.jpg">
-         <p class="p_prato1">Camarão no alho e oleo</p>
- <p class="p_prato2">Valor: R$35,00</p>
-      </div>
-      
-        <div class="pratos">
-           <img class="img_container2" src="../Prato principal/Risoto.jpg">
-    <p class="p_prato1">Risoto de frutos do mar</p>
-   <p class="p_prato2">Valor: R$37,50</p>
-        </div>
-        
-      <div class="pratos">
-           <img class="img_container2" src="../Prato principal/Espaguete.jpg">
-     <p class="p_prato1">Espaguete.</p>
- <p class="p_prato2"> Valor:R$35,00</p>
-      </div>
-      </div>
-      <div class="sub_container2">
-        <div class="pratos">
-    <img class="img_container2" src="../Prato principal/Macarrao.jpg">
- <p class="p_prato1"> Macarrão de amendoim. </p>
- <p class="p_prato2">Valor: R$37,00 </p>
-        </div>
-        
-        <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Picanha_grelhada.jpg">
-   <p class="p_prato1">Picanha grelhada com batata recheada.</p>
- <p class="p_prato2"> Valor: R$67,00.</p>
-  
-        </div>
-        
-          <div class="pratos">
-        <img class="img_container2" src=" ../Prato principal/Escondidinho.jpg">
- <p class="p_prato1">Escondidinho de batata laminada.</p>
- <p class="p_prato2"> Valor: R$35,00 </p></div>
-          </div>
-   </div>
-        
-      <!-- bebidas -->
-      <div id="bebidas">
-    
-  <div class="sub_container2">
-        <div class="pratos">
-    <h2> Bebidas</h2>
-    
-    <img class="img_container2" src="  ../Bebidas/Agua-de-coco.jpg "> 
- <p class="p_prato1">Água de cocô.</p>
- <p class="p_prato2">Valor: R$03,50.</p>
-        </div>
-        
-          <div class="pratos">
-        <img class="img_container2" src="../Bebidas/Caipirinhas.jpg">
-   <p class="p_prato1"> Caipirinha.</p>
- <p class="p_prato2">Valor: R$15,00 </p>
-          </div>
-          
-            <div class="pratos">
-        <img class="img_container2" src="../Bebidas/Energ├йtico.jpg ">
-   <p class="p_prato1">Energéticos.</p>
- <p class="p_prato2">Valor: R$10,00 </p>
-            </div>
-  </div>
+  <div id="principal" class="hidden">
     <div class="sub_container2">
-              <div class="pratos">
+      <div class="pratos">
+        <img class="img_container2" src="../Prato principal/Camarao.jpg">
+        <p class="p_prato1">Camarão no alho e oleo</p>
+        <p class="p_prato2">Valor: R$35,00</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Prato principal/Risoto.jpg">
+        <p class="p_prato1">Risoto de frutos do mar</p>
+        <p class="p_prato2">Valor: R$37,50</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Prato principal/Espaguete.jpg">
+        <p class="p_prato1">Espaguete.</p>
+        <p class="p_prato2"> Valor: R$35,00</p>
+      </div>
+    </div>
+    <div class="sub_container2">
+      <div class="pratos">
+        <img class="img_container2" src="../Prato principal/Macarrao.jpg">
+        <p class="p_prato1">Macarrão de amendoim. </p>
+        <p class="p_prato2">Valor: R$37,00</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Prato principal/Picanha_grelhada.jpg">
+        <p class="p_prato1">Picanha grelhada com batata recheada.</p>
+        <p class="p_prato2"> Valor: R$67,00.</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src=" ../Prato principal/Escondidinho.jpg">
+        <p class="p_prato1">Escondidinho de batata laminada.</p>
+        <p class="p_prato2"> Valor: R$35,00 </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- bebidas -->
+  <div id="bebidas" class="hidden">
+    <div class="sub_container2">
+      <div class="pratos">
+        <img class="img_container2" src="  ../Bebidas/Agua-de-coco.jpg ">
+        <p class="p_prato1">Água de cocô.</p>
+        <p class="p_prato2">Valor: R$03,50.</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Bebidas/Caipirinhas.jpg">
+        <p class="p_prato1"> Caipirinha.</p>
+        <p class="p_prato2">Valor: R$15,00 </p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Bebidas/Energetico.jpg ">
+        <p class="p_prato1">Energéticos.</p>
+        <p class="p_prato2">Valor: R$10,00 </p>
+      </div>
+    </div>
+    <div class="sub_container2">
+      <div class="pratos">
         <img class="img_container2" src=" ../Bebidas/Refrigerante.jpg">
- <p class="p_prato1">Refrigerantes.</p>
- <p class="p_prato2">Valor: R$10,00 </p>
-              </div>
-              
-        <div class="pratos">
+        <p class="p_prato1">Refrigerantes.</p>
+        <p class="p_prato2">Valor: R$10,00 </p>
+      </div>
+      <div class="pratos">
         <img class="img_container2" src="../Bebidas/Sucos.jpg">
-   <p class="p_prato1">Sucos.</p>
- <p class="p_prato2">Valor: R$10,00</p>
-        </div>
-        
+        <p class="p_prato1">Sucos.</p>
+        <p class="p_prato2">Valor: R$10,00</p>
+      </div>
       <div class="pratos">
         <img class="img_container2" src="../Bebidas/Vinho.jpg">
- <p class="p_prato1">Vinho.</p>
- <p class="p_prato2">Valor: R$40,00</p>
+        <p class="p_prato1">Vinho.</p>
+        <p class="p_prato2">Valor: R$40,00</p>
       </div>
-   </div>
-      </div>
-      </div>
-      
-    <!-- sobremesa -->
-    <div id="sobremesa">
-      <div class="sub_container2">
-            <div class="pratos">
-    <h2>Sobremesa </h2>
+    </div>
+  </div>
+  </div>
+  <!-- sobremesa -->
+  <div id="sobremesa" class="hidden">
+    <div class="sub_container2">
+      <div class="pratos">
         <img class="img_container2" src="../Sobremesa/Brownie.jpg">
-   <p class="p_prato1">Brownie </p>
- <p class="p_prato2">Valor: R$05,00 </p>
-            </div>
-    
+        <p class="p_prato1">Brownie </p>
+        <p class="p_prato2">Valor: R$05,00 </p>
+      </div>
       <div class="pratos">
         <img class="img_container2" src="../Sobremesa/Cheesecake.jpg ">
- <p class="p_prato1">Cheesecake de frutas vermelhas. </p>
- <p class="p_prato2">Valor: R$30,00 </p>
+        <p class="p_prato1">Cheesecake de frutas vermelhas. </p>
+        <p class="p_prato2">Valor: R$30,00 </p>
       </div>
-      
-        <div class="pratos">
+      <div class="pratos">
         <img class="img_container2" src="../Sobremesa/Mousse.jpg">
- <p class="p_prato1"> Mouse de chocolate branco.</p>
- <p class="p_prato2">Valor: R$10,00.</p>
-        </div>
+        <p class="p_prato1"> Mouse de chocolate branco.</p>
+        <p class="p_prato2">Valor: R$10,00.</p>
       </div>
-     <div class="sub_container2">
-          <div class="pratos">
+    </div>
+    <div class="sub_container2">
+      <div class="pratos">
         <img class="img_container2" src="../Sobremesa/Petit-gateau.jpg">
-   <p class="p_prato1">Petit gateau.</p>
- <p class="p_prato2">Valor: R$16,90.</p>
-          </div>
-          
-        <div class="pratos">
-         <img class="img_container2" src="../Sobremesa/Pudim.jpg">
- <p class="p_prato1">Pudim.</p>
- <p class="p_prato2">Valor: R$10,00.</p>
-  
-        </div>
-    
+        <p class="p_prato1">Petit gateau.</p>
+        <p class="p_prato2">Valor: R$16,90.</p>
+      </div>
+      <div class="pratos">
+        <img class="img_container2" src="../Sobremesa/Pudim.jpg">
+        <p class="p_prato1">Pudim.</p>
+        <p class="p_prato2">Valor: R$10,00.</p>
+      </div>
       <div class="pratos">
         <img class="img_container2" src="../Sobremesa/Torta_de_chocolate.jpg">
- <p class="p_prato1">Torta de chocolate</p> 
- <p class="p_prato2"> Valor: R$85,00.</p>
+        <p class="p_prato1">Torta de chocolate</p>
+        <p class="p_prato2"> Valor: R$85,00.</p>
       </div>
-      </div></div>
     </div>
-      
-   <!-- comeco do container dos pedidos -->
+  </div>
+  </div>
+
+  <!-- comeco do container dos pedidos -->
   <div id="container3">
     <div id="sub_container3">
       <img id="sacola" src="../icones/sacolas-de-compras.png">
       <p id="p_container3">Você está com </p>
-            <p id="p_container3">XX</p>
-       <p id="p_container3">pedidos </p>
+      <p id="p_container3">XX</p>
+      <p id="p_container3">pedidos </p>
     </div>
-    
-  <!-- comeco dos pedidos-->
+    <!-- comeco dos pedidos-->
     <div id="sub2_container3">
-      
-   <!-- pedido 1-->
-    <div class="pedidos">
-      
-     <img  class="img_pedido" src="../Entradas/batata_sol.webp">
-  <div id="div_p/_paragrafos">
-    <p class="p_pedido1">Batata recheada de carne do sol.</p>
-    <p class="p_pedido1">
-       Valor: R$20,90</p>
-       <div id="desconto">
+      <!-- pedido 1-->
+      <div class="pedidos">
+        <img class="img_pedido" src="../Entradas/batata_sol.webp">
+        <div id="div_p/_paragrafos">
+          <p class="p_pedido1">Batata recheada de carne do sol.</p>
           <p class="p_pedido1">
-            Desconto:</p> 
-          <p id="p_pedido2">XX</p>
-       </div>
-      <div class="div_porcao">
-       <label for "porcao">
-      <p class="p_pedido1">Quantidade de porção </p>
-       </label>
-      <input type="number" name="porcao" id="porcao" placeholder="01"> 
-      </div>
-    <div class="div_porcao">
-    <label for "obs">
-     <p class="p_pedido1">Observação:</p>
-             </label>
-     <input type="text" name="obs" id="obs" placeholder="..."> 
-     
-           </div>
-           </div>
+            Valor: R$20,90</p>
+          <div id="desconto">
+            <p class="p_pedido1">
+              Desconto:</p>
+            <p id="p_pedido2">XX</p>
+          </div>
+          <div class="div_porcao">
+            <label for "porcao">
+              <p class="p_pedido1">Quantidade de porção </p>
+            </label>
+            <input type="number" name="porcao" id="porcao" placeholder="01">
+          </div>
+          <div class="div_porcao">
+            <label for "obs">
+              <p class="p_pedido1">Observação:</p>
+            </label>
+            <input type="text" name="obs" id="obs" placeholder="...">
+          </div>
         </div>
-    <!-- pedido 2-->
-    <div class="pedidos">
-      
-     <img  class="img_pedido" src="../Entradas/batata_sol.webp">
-  <div id="div_p/_paragrafos">
-    <p class="p_pedido1">Batata recheada de carne do sol.</p>
-    <p class="p_pedido1">
-       Valor: R$20,90</p>
-       <div id="desconto">
+      </div>
+      <!-- pedido 2-->
+      <div class="pedidos">
+        <img class="img_pedido" src="../Entradas/batata_sol.webp">
+        <div id="div_p/_paragrafos">
+          <p class="p_pedido1">Batata recheada de carne do sol.</p>
           <p class="p_pedido1">
-            Desconto:</p> 
-          <p id="p_pedido2">XX</p>
-       </div>
-      <div class="div_porcao">
-       <label for "porcao">
-      <p class="p_pedido1">Quantidade de porção </p>
-       </label>
-      <input type="number" name="porcao" id="porcao" placeholder="01"> 
-      </div>
-    <div class="div_porcao">
-    <label for "obs">
-     <p class="p_pedido1">Observação:</p>
-             </label>
-     <input type="text" name="obs" id="obs" placeholder="..."> 
-     
-           </div>
-           </div>
+            Valor: R$20,90</p>
+          <div id="desconto">
+            <p class="p_pedido1">
+              Desconto:</p>
+            <p id="p_pedido2">XX</p>
+          </div>
+          <div class="div_porcao">
+            <label for "porcao">
+              <p class="p_pedido1">Quantidade de porção </p>
+            </label>
+            <input type="number" name="porcao" id="porcao" placeholder="01">
+          </div>
+          <div class="div_porcao">
+            <label for "obs">
+              <p class="p_pedido1">Observação:</p>
+            </label>
+            <input type="text" name="obs" id="obs" placeholder="...">
+          </div>
         </div>
-  
+      </div>
     </div>
   </div>
-         </div>
-      
-       
-       
+  </div>
+  
   <footer>
-      <!-- butao de voltar-->
-     <button type="submit" id="voltar" value="voltar">Voltar</button>
-     
-       <!-- div do botao continuar e valor-->
+    <!-- butao de voltar-->
+    <button type="submit" id="voltar" value="voltar"><a href="index.html">Voltar</a></button>
+    
+    <!-- div do botao continuar e valor-->
     <div id="valor">
       <p class="p_valor"> R$</p>
       <p class="p_valor">00,00</p>
     </div>
     <button type="submit" id="butao" value="Continuar">Continuar</button>
   </footer>
-
-  <script src="main.js"></script>
+  
+  <script src="../js/cardapio.js"></script>
 </body>
+
 </html>
