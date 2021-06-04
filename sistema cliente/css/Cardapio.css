@@ -17,10 +17,10 @@ background-size: cover;
   filter: opacity(60%);
   margin: 0;
   padding:0;
-  background: black;
+  background: Black;
+  position: fixed;
   height: 100%;
   width: 100%;
-  position: fixed;
 }
 #menu{
   top:0.5em;
@@ -104,7 +104,7 @@ text-align: end;
   display: flex;
   width: 100%;
 }
-#container2{
+#entrada, #acompanhamento, #principal, #bebidas, #sobremesa{
   overflow-y: scroll;
   max-height: 19em;
   position: relative;
