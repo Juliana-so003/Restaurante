@@ -99,7 +99,7 @@ text-align: end;
   position: relative;
 }
 
-#central{
+.central{
   flex-direction: row;
   display: flex;
   width: 100%;
