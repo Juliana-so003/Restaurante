@@ -15,11 +15,12 @@ a:link{
     padding: 1em 0 0 1em;
     }
 		.container1{
+		
 		  position: relative;
-            width: 98%;
-            height: 6em;
-            left: 1em;
-            top: 3em;
+     width: 98%;
+     height: 6em;
+    left: 1em;
+     top: 3em;
 			background: #f2dad8;
 			border-radius:8px;
 			align-items: center;
@@ -42,40 +43,7 @@ a:link{
 		input[type="radio"]:hover+label {
 					color: #32CD32; 
 				}
-		.selecione-elemento{
-			background:  #32CD32;
-			width: 6em;
-			height: 7px;
-			position: absolute;
-			left: 85px;
-			top: 70%;
-            border-radius: 5px;
-			transition: 0.25s easy-out;
-          visibility: hidden;
-		}
-        input[id="radio0"]:hover~.selecione-elemento{
-					transform:translateX(-3.1em);
-                   visibility: visible;
-				}
-		input[id="radio1"]:hover~.selecione-elemento{
-					transform:translateX(7em);
-              visibility: visible;
-              width: 12rem;
-				}
-		input[id="radio2"]:hover~.selecione-elemento{
-					transform:translateX(23.5em);
-					width: 7em;
-          visibility: visible;
-				}
-		input[id="radio3"]:hover~.selecione-elemento{
-					transform:translateX(34.5em);
-                     visibility: visible;
-				}
-        input[id="radio4"]:hover~.selecione-elemento{
-            transform:translateX(44.3em);
-            width: 8.5rem;
-             visibility: visible;
-        }
+	
         
 
    .p{
@@ -84,3 +52,4 @@ line-height: 1em;
 position: relative;
 
    }
+   
