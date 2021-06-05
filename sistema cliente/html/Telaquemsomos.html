@@ -1,115 +1,56 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../css/QuemSomos.css">
-  <title>bom apetit</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quem Somos- Informações</title>
+    <link rel="stylesheet" href="../css/QuemSomos.css">
 </head>
 
 <body>
- <div class="menu">
-  <a href="../html/index.html"> <img id="voltar" src="../icones/botao-voltar.png"/>   </a>
- </div>
-
- <div class="verticalsanfona">
+   <a href="#">
+  <button type="button" id="voltar">
+     <a href="../html/index.html">
+      <img src="/icones/botao-voltar.png" width="70"> </a>
+  </button>
+   </a>
+   <div class="bloco">
+   <input type="button" onclick="mostrar('txt1')" value="Quem Somos">
+      <div id="txt1" class="hidden">Somos uma equipe especializada e disposta a trazer cultura e alegria em formato de culinária.</div>
       
-      <ul>
-        <li>
-          <h3>Quem somos</h3>
-          <div> Somos uma equipe especializada e disposta a trazer cultura e alegria em formato de culinária.</div>
-        </li>
-        <li>
-          <h3>O que fazemos</h3>
-          <div>Preparamos e entregamos pedidos feitos com produtos selecionados, alta qualidade e com normas de higiene, promovendo assim, uma ótima experiência para o cliente.</div>
-        </li>
-        <li>
-          <h3>Onde estamos atualmente</h3>
-          <div>Por conta da pandemia estamos entregando por delivery em todo o estado do Ceará.</div>
-        </li>
-        <li>
-          <h3>Como desenvolvemos nossas tarefas</h3>
-          <div>Preparamos o pedido solicitado, com sua devida observação -caso tenha- e nosso entregador entrega no endereço proposto.</div>
-        </li>
-        <li>
-          <h3>Horário de funcionamento</h3>
-          <div>Iniciamos as entregas apartir das 07:00 e encerramos às 20:00. Caso solicite nosso serviço depois das 20:00, seu pedido só será entregue no dia seguinte.</div>
-        </li>
-        <li>
+      <input type="button" onclick="mostrar('txt2')" value="O que fazemos">
+      <div id="txt2" class="hidden">Preparamos e entregamos pedidos feitos com produtos selecionados,de alta qualidade e seguindo sempre as normas de higiene, promovendo assim, uma ótima experiência para o cliente.</div>
+      
+     <input type="button" onclick="mostrar('txt3')" value="Onde estamos atualmente">
+      <div id="txt3" class="hidden">Por conta da pandemia estamos entregando por delivery em todo o estado do Ceará.</div>
+      
+      <input type="button" onclick="mostrar('txt4')" value="Como desenvolvemos nossas tarefas">
+      <div id="txt4" class="hidden">Preparamos o pedido solicitado, com sua devida observação -caso tenha- e nosso entregador entrega no endereço proposto.</div>
+      
+         <input type="button" onclick="mostrar('txt5')" value="Horário de funcionamento">
+      <div id="txt5" class="hidden">Iniciamos as entregas apartir das 07:00 e encerramos às 20:00. Caso solicite nosso serviço depois das 20:00, seu pedido só será entregue no dia seguinte.</div>
+       
+       <input type="button" onclick="mostrar('txt6')" value="Contatos">
+      <div id="txt6" class="hidden">
           <h3>Fale conosco</h3>
-          <address> <a href="https://www.whatsapp.com/">
-              whatsapp:(85) 987654321<br></a>
-              <a href="https://www.instagram.com/">
-               instagram: @bonapetit162<br></a>
-                <a href="https://m.facebook.com/">
-                  facebook: Born Appetit
-                </a>
-               </address>
-        </li>
-       </iframe>
-  </form>
-  </ul>
-  </div>-->
-  <div class="dropdown">
-    <button class="mainmenubtn">Quem somos</button>
-    <div class="dropdown-child">
-      <p>Somos um restaurante Bon Appeti especializado
-        na produção em comidas variadasque são de origem a diversos paises.</p>
-  
-    </div>
-  </div>
-  
-  <div class="dropdown">
-    <button class="mainmenubtn">O que fazemos</button>
-    <div class="dropdown-child">
-      <p>Preparamos e entregamos pedidos feitos com protudos selecionados,
-        de alta qualidade e com normas de higiene,
-        promovendo assim, uma boa experência para o cliente.</p>
-    </div>
-  </div>
-  
-  <div class="dropdown">
-    <button class="mainmenubtn">Onde estamos atualmente</button>
-    <div class="dropdown-child">
-      <p>Por conta da pandemia estamos
-        entregando por delivery por todo o estado do Ceará.</p>
-    </div>
-  </div>
-  
-  <div class="dropdown">
-    <button class="mainmenubtn">Como desenvolvemos nossas tarefas</button>
-    <div class="dropdown-child">
-      <p>Preparamos o pedido solicitado, com sua devida observação - caso tenha
-        - e nosso entregador entrega no endereço proposto.</p>
-    </div>
-  </div>
-  
-  <div class="dropdown">
-    <button class="mainmenubtn">Horario de funcionamento</button>
-    <div class="dropdown-child">
-      <p>Iniciamos as entregas apartir das 07:00 e encerramos as 20:00. Caso solicite
-        nosso serviço depois das 20:00, seu pedido só será entrega no dia seguinte.</p>
-    </div>
-  </div>
-  
-  <div class="dropdown">
-    <button class="mainmenubtn">Contato</button>
-    <div class="dropdown-child">
-      <address>
         <a href="https://www.whatsapp.com/">
-          <p> whatsapp:(85) 987654321<br>
-        </a>
+          <img src="/icones/whatsapp.png" width="85" />whatsapp:(85) 987654321</a>
         <a href="https://www.instagram.com/">
-          instagram: @bonapetit162<br></a>
+          <img src="/icones/instagramB.png" width="80" />instagram: @bonapetit162</a>   
         <a href="https://m.facebook.com/">
-          facebook: Born Appetit</p>
-        </a>
-      </address>
+          <img src="/icones/face.png" width="80" />facebook: Bon Appetit </a>
+      </div>
+      
+      <figure>
+        <figcaption><strong>Mapa</strong></figcaption>
+        <div class="mapa">
+          <iframe src="https: www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15712.
+284373812477!2d-38.64243297379006!3d-4.042331302966811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8acc22749cd33%3A0xe4cd2a529f9589!2sGuai%C3%BAba%2C%20CE%2C%2061890-000!5e1!3m2!1spt-BR!2sbr!4v1605640857497!5m2!1spt-BR!2sbr" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+          </iframe>
+        </div>
+      </figure>
     </div>
-  </div>
-  <iframe
-    src="https:	www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15712.284373812477!2d-38.64243297379006!3d-4.042331302966811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8acc22749cd33%3A0xe4cd2a529f9589!2sGuai%C3%BAba%2C%20CE%2C%2061890-000!5e1!3m2!1spt-BR!2sbr4v1605640857497!5m2!1spt-BR!2sbr"
-    width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-  </body>
-  </html>
+    <script src="../js/quemsomos.js"></script>
+</body>
+</html>
   
