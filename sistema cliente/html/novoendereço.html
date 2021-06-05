@@ -4,19 +4,121 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <title>HTML</title>
   
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
   <link rel="stylesheet" href="../css/novoEndereco.css">
 </head>
 
 <body>
+  <div class="container">
+    <div class="progress-bar">
+      <div class="step">
+        <p>Pedidos</p>
+          <div class="bullet">
+            <span>1</span>
+          </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>Endereço</p>
+        <div class="bullet">
+          <span>2</span>
+        </div>
+        <div class="check fas fa-check"></div>
+      </div>
+      <div class="step">
+        <p>Pagamento</p>
+          <div class="bullet">
+            <span>3</span>
+          </div>
+          <div class="check fas fa-check"></div>
+      </div>
+      
+    </div>
+  <div class="form-outer">
+    <form action="#">
+   
+      <div class="page">
+        <div class="title">Pedidos</div>
+      
+          <div class="field btns">
+            <button class="next-1 next">Proximo</button>
+          </div>
+        
+        
+      </div>
+
+      <div class="page">
+        <div class="title">endereço:</div>
+        <div class="field">
+          <div class="label">Nome completo</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Cidade</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Bairro</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Rua / avenida</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Número da casa</div>
+          <input type="text">
+        </div>
+        
+          <div class="field btns">
+            <button class="prev-1 prev">voltar</button>
+            <button class="next-1 next">Proximo</button>
+          </div>
+      
+      </div>
+      <div class="page">
+        <div class="title">Pagamento</div>
+        <div class="field">
+          <div class="label">Forma</div>
+         <select>
+           <option>Credito</option>
+           <option>Debito</option>
+           <option>Espécie</option>
+         </select>
+        </div>
+        <div class="field">
+          <div class="label">Tipo do Cartão</div>
+          <select>
+            <option>Mastercard</option>
+            <option>Visa</option>
+            <option>Alelo</option>
+            <option>Elo</option>
+          </select>
+        </div>
+        <div class="field">
+          <div class="label">Número do cartão</div>
+          <input type="number">
+        </div>
+        <div class="field">
+          <div class="label">alguma coisa</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Valor</div>
+          <input type="number" placeholder="R$ 00,00">
+        </div>
+        
+        <div class="field btns">
+          <button class="prev-2 prev">voltar</button>
+          <button class="Submit">Submeter</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
   
-  <!-- Project -->
   <script src="../js/novoEndereco.js"></script>
 </body>
 </html>
