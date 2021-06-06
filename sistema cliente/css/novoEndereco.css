@@ -27,11 +27,10 @@ body{
 .form-outer form{
   display: flex;
   width: 400%;
- 
 }
 .form-outer form .page{
   width: 25%;
-  
+  transition: margin-left 0.3s ease-in-out;
 }
 .form-outer form .page .title{
   text-align: left;
@@ -83,11 +82,11 @@ form .page .field section{
 .form-outer form .page .btns button{
   margin-top: -20px!important;
 }
-form .page .btns button .prev{
+form .page .btns button.prev{
   margin-right: 3px;
   font-size: 17px;
 }
-form .page .btns button .next{
+form .page .btns button.next{
   margin-left: 3px;
 }
 .container .progress-bar{
@@ -105,6 +104,9 @@ form .page .btns button .next{
   color: #000;
   margin-bottom: 8px;
 }
+.container .progress-bar .step .bullet.active p{
+  color: rgb(110, 199, 83);
+}
 .progress-bar .step .bullet{
   position: relative;
   height: 25px;
@@ -112,6 +114,11 @@ form .page .btns button .next{
   border: 2px solid #000;
   display: inline-block;
   border-radius: 50%;
+  transition: 0.2s;
+}
+.progress-bar .step .bullet.active{
+  border-color: rgb(110, 199, 83);
+  background:rgb(110, 199, 83);
 }
 .progress-bar .step:last-child .bullet:before,
  .progress-bar .step:last-child .bullet:after{
@@ -127,8 +134,8 @@ form .page .btns button .next{
   width: 75px;
   background: #262626;
 }
-.progress-bar .step .bullet:after{
-background: lightpink;
+.progress-bar .step .bullet.active:after{
+background: rgb(110, 199, 83);
 animation: animate 0.3s linear forwards;
 transform: scaleX(0);
 transform-origin: left;
@@ -138,13 +145,20 @@ transform-origin: left;
   transform: scaleX(1);
 }
 }
-.progress-bar .step span{
+.progress-bar .step .bullet.active span{
+  display: none;
+}
+.progress-bar .step .bullet span{
   font-weight: 500;
   font-size: 17px;
   line-height: 25px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+.progress-bar .step .check.active{
+  display: block;
+  color: #fff;
 }
 .progress-bar .step .check{
   position: absolute;
