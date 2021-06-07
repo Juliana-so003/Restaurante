@@ -4,7 +4,8 @@
   box-sizing:border-box;
 }
 body {
-  background-color: #252122;
+background-color: #252122;
+ 
 }
 
 #img_sacola {
@@ -25,7 +26,7 @@ body {
   font-family: Rockwell;
   font-size: 15px;
   bottom: 50px;
-  left: 3px;
+  left: 2.5px;
   text-align: center;
   color: #F4F4F4;
 }
@@ -88,7 +89,7 @@ body {
 }
 
 #scroll {
-
+left: 10%;
   width: 80%;
   max-width: 500px;
   height: 25vw;
@@ -114,7 +115,7 @@ body {
 .prato{
   padding: 3em 3em 4em 3em;
   width: 100%;
-  height: 75em;
+  height: 70%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -146,7 +147,8 @@ top: 0.2em;
   grid-area: c;
   text-align: justify;
   bottom: 3.5em;
-  margin-right: 1.3em;
+  margin:0.5em 0.5em 0 0.5em;
+  top: 0.3em;
 }
 
 #entrada, #principal, #sobremesa {
@@ -156,9 +158,9 @@ top: 0.2em;
     "a b"
     "a c";
   width: 35em;
-  
+
   padding: 5px;
-  height: 15vh;
+  height: 17vh;
 }
 
 #acompanhamento, #bebidas {
@@ -170,19 +172,20 @@ top: 0.2em;
   width: 25em;
   padding: 5px;
   height: 15vh;
-  margin-left: 23em;
+  margin-left: 60%;
+  
 }
 
 video {
-  width: 25vw;
-  height: 17vh;
+  width: 23vw;
+  height: 30vh;
   position: relative;
 }
 
 h3 {
   font-family: 'Dancing Script', cursive;
   position: relative;
-  top: 5em;
+  top: 0.3em;
   font-size: 2rem;
   text-align: center;
   right: 4em;
@@ -192,9 +195,10 @@ h3 {
   padding-top: 1em;
   display: flex;
   flex-direction: row;
-  height: 20vh;
+  height: 40vh;
   width: 100%;
   justify-content: center;
+  align-items: center;
   background: #fff;
   
 }
@@ -228,7 +232,7 @@ footer {
 }
 
 .img_footer {
-  height: 3vh;
+  height: 7vh;
   width: 6vw;
   margin:2em 0.5em 0 0.5em;
 }

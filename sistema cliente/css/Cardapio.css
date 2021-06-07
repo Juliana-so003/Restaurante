@@ -9,10 +9,12 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: url("../fundos/fundo1.png") no-repeat bottom center scroll;
+background: url("../fundos/fundo1.png") no-repeat bottom center scroll;
 background-position: 100%;
 background-size: cover;
+
 }
+
 .body2{
   filter: opacity(60%);
   margin: 0;
