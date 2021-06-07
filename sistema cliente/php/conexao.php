@@ -9,6 +9,6 @@ $conexao = new mysqli($servidor, $usuario, $senha, $database);
 if ($conexao->connect_error) {
         die("Conexão inválida: " . $connect->connect_error);
 } else{
-  echo "ok";
+ // echo "ok";
 }
 

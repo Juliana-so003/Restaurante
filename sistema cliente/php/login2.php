@@ -10,7 +10,7 @@ $usuario = mysqli_real_escape_string($conexao, $_POST['usuario']);
 $email = mysqli_real_escape_string($conexao, $_POST['email']);
 $senha = mysqli_real_escape_string($conexao, $_POST['senha']);
 
-$query = "select id_cliente, nome_usuario from tbcliente where nome_usuario = '{$usuario}' or email = '{$email}' and senha = '{$senha}' " ;
+$query = "select cpf, nome_usuario, from tbcliente where nome_usuario = '{$usuario}' or email = '{$email}' and senha = '{$senha}'";
 $result = mysqli_query($conexao, $query);
 $linha = mysqli_num_rows($result);
 

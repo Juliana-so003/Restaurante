@@ -5,6 +5,7 @@
      
      body{
       text-align: center;
+    
      }
      
 #linha{
@@ -120,9 +121,10 @@ height: 485px;
         width: 8em;
         height: 5em;
         background: #9E0705;
+      
       }
       #erro{
         color: #fff;
         text-align: center;
-        
+       
       }

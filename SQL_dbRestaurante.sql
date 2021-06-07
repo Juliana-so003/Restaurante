@@ -1,3 +1,5 @@
+CREATE DATABASE `dbrestaurante`;
+USE `dbrestaurante`;
 DROP TABLE IF EXISTS `tbPratos`;
 DROP TABLE IF EXISTS `tbCliente`;
 DROP TABLE IF EXISTS `tbEnderecoCliente1`;
@@ -9,7 +11,7 @@ DROP TABLE IF EXISTS `tbConta`;
 CREATE TABLE `tbPratos` (
 `id` INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
 `nome` VARCHAR(30) NOT NULL,
-`valor ` FLOAT NOT NULL,
+`valor` FLOAT NOT NULL,
 `porcao` INT NOT NULL,
 `desconto` FLOAT NOT NULL,
 `observacao` MEDIUMTEXT NOT NULL,
@@ -26,7 +28,7 @@ CREATE TABLE `tbCliente` (
 `nome_usuario` VARCHAR(10) NOT NULL);
 
 CREATE TABLE `tbEnderecoCliente1` (
-`cidade` VARCHAR(10) NOT NULL DEFAULT 'Guaiúba ',
+`cidade` VARCHAR(10) NOT NULL DEFAULT 'Guaiúba',
 `bairro` VARCHAR(20) NOT NULL,
 `rua` VARCHAR(20) NOT NULL,
 `numero` VARCHAR(5) NOT NULL,
@@ -43,7 +45,7 @@ CREATE TABLE `tbPedido` (
 
 CREATE TABLE `tbEnderecoCliente2` (
 `cidade` VARCHAR(10) NOT NULL DEFAULT 'Guaiuba',
-`bairro ` VARCHAR(20) NOT NULL,
+`bairro` VARCHAR(20) NOT NULL,
 `rua` VARCHAR(20) NOT NULL,
 `numero` VARCHAR(5) NOT NULL,
 `nome_cliente` VARCHAR(30) NOT NULL,
