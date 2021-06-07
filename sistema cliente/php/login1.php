@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-  <link rel="stylesheet" type="text/css" href="../css/login.css">
+<link rel="stylesheet" type="text/css" href="../css/Login.css">
      <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
 </head>
 
@@ -24,12 +24,12 @@
     unset($_SESSION['nao_autenticado']);
     ?>
     <?php
-    if (isset($_SESSION['nao_autenticado'])) :
+    if (isset($_SESSION['nao_preenxido'])) :
         ?>
     <div class="erro"><p id="erro">Insira todos os campos!</p></div>
         <?php
     endif;
-    unset($_SESSION['nao_autenticado']);
+    unset($_SESSION['nao_preenxido']);
     ?>
 <div class="container1">
   <form action="login2.php" method="POST">
@@ -38,7 +38,7 @@
      <img class="img1"  src="../icones/avatar.png">
     <input type="text" name="usuario" id="nome_usu" placeholder="nome de usuário"> 
     </div>
-     <p id="linha">ou</p>
+     <!--<p id="linha">ou</p>-->
 
       <div class="div_input"> 
           <img class="img1" src="../icones/e-mail.png"/>
@@ -46,7 +46,7 @@
     </div>
     <div class="div_input"> 
       <img class="img1" src="../icones/cadeado.png" />
-    <input type="password" name="senha" id="senha" placeholder="senha" required>
+    <input type="password" name="senha" id="senha" placeholder="senha" >
        <button type="button" onclick="mostrarSenha()">
                <i class="fa fa-eye" aria-hidden="true"></i>
        </button>

@@ -121,10 +121,10 @@ height: 485px;
         width: 8em;
         height: 5em;
         background: #9E0705;
-      
+        border-radius: 8px 0 0 8px;
+
       }
       #erro{
         color: #fff;
         text-align: center;
-       
       }

@@ -27,7 +27,7 @@ background-size: cover;
 }
 #menu{
   top:0.5em;
-  left: 28em;
+  left: 47%;
   border-radius:50%;
     height: 5em;
     padding-top:1.6em;
@@ -102,9 +102,11 @@ text-align: end;
 }
 
 .central{
+  
   flex-direction: row;
   display: flex;
   width: 100%;
+  
 }
 #entrada, #acompanhamento, #principal, #bebidas, #sobremesa{
   overflow-y: scroll;
@@ -115,7 +117,7 @@ text-align: end;
   right: 1em;
   display: none;
   flex-direction: row;
-  width: 34em;
+  width: 100%;
   justify-content: start;
   border-right: 2px solid  #f2dad8;
 }
@@ -129,11 +131,11 @@ footer{
     display: flex;
 }
 #valor{
-  position: relative;
+  position: fixed;
   flex-direction: row;
   display: flex;
-  left:39%;
-  top: 5.3em;
+  left:43.3%;
+  top: 90.5%;
   padding-top: 0.4em;
   height: 2.5em;
   width:6em;
@@ -145,24 +147,34 @@ footer{
   text-align: center;
 }
 button{
-  position: relative;
-  flex-direction: row;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  left:38%;
-  top: 6em;
+  left:50%;
+  top: 90%;
   height: 3.6em;
-  width:6.5em;
+  width:8em;
   background: #8c233f;
-  padding: 0.8em;
+  padding-left: 0.2em;
   color:white;
   border-radius:7px;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+button:hover{
+  background: #181818;
+  color: #fff;
 }
 #voltar {
-  position: relative;
+  position: fixed;
   padding: 0.8em;
   display: flex;
   left: 1em;
-  top: 7em;
+  top: 90%;
   height: 3em;
   width: 5.5em;
   background: #8c233f;

@@ -84,9 +84,11 @@ body {
   height: 15em;
   position: relative;
   padding-top: 1em;
+  
 }
 
 #scroll {
+
   width: 80%;
   max-width: 500px;
   height: 25vw;
