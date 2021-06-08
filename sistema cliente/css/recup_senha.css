@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #252122;
+
+}
+.div_input{
+    flex-direction: row;
+     background: #DCDCDC;
+     width: 328px;
+   height: 50px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  
+  }
+  .img1{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: 35px;
+    top: 10px;
+ 
+     }
+     input{
+        border-radius: 5px;
+        padding: 9px;
+        margin-top: 9px;
+        background: #DCDCDC;
+        border: 0 none;
+            border-radius: 5px;
+        }
+        
+      input:focus, input::before, input:hover, input:after{
+         box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: none;
+        }
+        .container{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 330px;
+            background: #fff;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px 35px 20px 35px;
+           height: 15em;
+          }
+          button{ 
+              position: relative;
+            width: 100%;
+            height: 2em;
+            margin: 1,5em 0 1em 0;
+            border: none;
+            background: lightpink;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: 0.3s ease;
+            
+          }
+           button:hover{
+            background: #181818;
+            color: #fff;
+          }
+          .label{
+            position: relative;
+    text-align: start;
+            font-weight: 500;
+            bottom: 0.3em;
+            margin: 0.8em 0 0.5em 0;
+          }
+          .erro, .verificado{
+            margin: 0.5em 0;
+            width: 8em;
+            height: 5em;
+            background: #9E0705;
+            border-radius: 8px 0 0 8px;
+    
+          }
+          .verificado{
+            background: green;
+
+          }
+          #erro{
+            color: #fff;
+            text-align: center;
+          }

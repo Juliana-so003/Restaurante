@@ -55,9 +55,9 @@
 <button id="botao" type="submit">Login</button>
  </div> 
  
- <p><a href="recup_senha.html">Esqueceu sua senha?</a></p>
+ <p><a href="../html/recup_senha.php">Esqueceu sua senha?</a></p>
  
- <p><a href="criarconta.html">Criar conta</a>
+ <p><a href="../html/criarconta.html">Criar conta</a>
  </p>
   </form>
 </div>
