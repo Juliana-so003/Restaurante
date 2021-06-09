@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Tela de cadastro</title>
-    <link rel="stylesheet" href="../css/criarconta.css">
+    <link rel="stylesheet" href="../css/criarConta.css">
 </head>
 
 <body>
@@ -13,47 +13,55 @@
     <div class="container1"></div>
   
   <div id="container2">
-     <div class="avatar">
-       <img src="../icones/avatar.png" width="60">
+     <div class="img_cadastro">
+       <img src="../icones/avatar.png" width="60px" height="60px">
      </div>
-    <form method="POST" action="">
+    <form method="POST" action="../php/criarconta.php">
       <h1>Cadastro</h1>
-      <p>
-        <label for="nome_cad">Nome completo</label>
+      <div class="label">
+        <label for="nome_cad">Nome completo:</label>
         <input type="text" id="nome_cad" name="nome_cad" required/>
-      </p>
-      <p>
-        <label for="usuario_cad">Nome de usuário</label></label>
-        <input type="email" id="usuario_cad" name="usuario_cad" required/>
-      </p>
-      <p>
-        <label for="senha_cad">Sua senha</label>
+      </div>
+      <div class="label">
+        <label for="usuario_cad">Nome de usuário:</label></label>
+        <input type="text" id="usuario_cad" name="usuario_cad" required/>
+      </div>
+      <div class="label">
+        <label for="senha_cad">Senha:</label>
         <input type="password" id="senha_cad" name="senha_cad" required/>
-      </p>
-      <p>
-        <label for="data_cad">Data de nascimento </label>
+      </div>
+      <div class="label">
+        <label for="data_cad">Data de nascimento: </label>
         <input type="date" id="data_cad" name="data_cad" value="0000-00-00" required>
-      </p>
-      <p>
-        <label for="CPF_cad">CPF</label>
+     </div>
+     <div class="label">
+        <label for="CPF_cad">CPF:</label>
         <input type="number" id="CPF_cad" name="CPF_cad" required/>
-      </p>
-      <p>
-        <label for="cidade_cad">Cidade</label>
+      </div>
+      <div class="label">
+        <label for="phone_cad">Número para contato:</label>
+        <input type="text" id="phone_cad" name="phone_cad" required/>
+      </div>
+      <div class="label">
+        <label for="email_cad">E-mail:</label>
+        <input type="email" id="email_cad" name="email_cad" required/>
+      </div>
+      <div class="label">
+        <label for="cidade_cad">Cidade:</label>
         <input type="text" id="cidade_cad" name="cidade_cad" required/>
-      </p>
-      <p>
-        <label for="bairro_cad">Bairro</label>
+    </div>
+    <div class="label">
+        <label for="bairro_cad">Bairro:</label>
         <input type="text" id="bairro_cad" name="bairro_cad" required="required"/>
-      </p>
-      <p>
-        <label for="rua_cad">Rua/avenida</label>
+      </div>
+      <div class="label">
+        <label for="rua_cad">Rua/avenida:</label>
         <input type="text" id="rua_cad" name="rua_cad" required="required"/>
-      </p>
-      <p>
-        <label for="numCasa_cad">Número da casa</label>
+      </div>
+      <div class="label">
+        <label for="numCasa_cad">Número da casa:</label>
         <input type="number" id="numCasa_cad" name="numCasa_cad" required="required"/>
-      </p>
+      </div>
       <input type="submit" value="Cadastrar" id="botao"/>
       
       <!--Caso tenha conta-->
