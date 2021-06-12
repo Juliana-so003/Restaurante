@@ -12,46 +12,31 @@
 </head>
 
 <body>
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li id="entrada1">Entradas</li>
+            <li id="acompanhamento1">Acompanhamento</li>
+            <li id="principal1">Principal</li>
+            <li id="bebida1">Bebidas</li>
+             <li id="sobremesa1">Sobremesa</li>
+          </ul>
+        </nav>
+      </div>
+       <div class="menu-bg" id="menu-bg"></div>
   <!-- div preta que esta sobre a img de fundo-->
   <div class="body2"></div>
   <!-- bolinha la de cima-->
-  <div id="menu">
+  <div id="menu2">
     <p id="p_menu">Cardapio</p>
   </div>
   <!-- categorias-->
-  <div class="container1">
-    <input type="radio" name="menu" id="radio0" checked />
-    <label for="radio0">
-      <a href="#">
-        <p class="p" id="entrada1">Entradas</p>
-      </a>
-    </label>
-    <input type="radio" name="menu" id="radio1">
-    <label for="radio1" >
-      <a href="#acompanhamento">
-        <p class="p" id="acompanhamento1">Acompanhamento</p>
-      </a>
-    </label>
-    <input type="radio" name="menu" id="radio2">
-    <label for="radio2" >
-      <a href="#">
-        <p class="p" id="principal1">Principal</p>
-      </a>
-    </label>
-    <input type="radio" name="menu" id="radio3">
-    <label for="radio3" >
-      <a href="#">
-        <p class="p" id="bebida1">Bebidas</p>
-      </a>
-    </label>
-    <input type="radio" name="menu" id="radio4">
-    <label for="radio4" >
-      <a href="#">
-        <p class="p" id="sobremesa1">Sobremesa</p>
-      </a>
-    </label>
-  </div>
-  <!-- o container central -->
+
   <div class="containe2">
 
     <!-- entradas-->
@@ -98,49 +83,8 @@
             Valor: R$17,80</p>
         </div>
       </div>
-       <!-- terceira coluna dos pratos -->
-       <div class="sub_container2">
-        <div class="pratos" id="pratos">
-          <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
-          <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
-          <p class="p_prato2">
-            Valor: R$12,00</p>
-        </div>
-        <div class="pratos" id="pratos">
-          <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
-          <p class="p_prato1">Batata recheada com calabresa</p>
-          <p class="p_prato2">
-            Valor: R$20,90</p>
-        </div>
-        <div class="pratos" id="pratos">
-          <img class="img_container2" src="../Entradas/batata_sol.webp">
-          <p class="p_prato1">Batata recheada de carne do sol.</p>
-          <p class="p_prato2">
-            Valor: R$20,90</p>
-        </div>
-      </div>
-       <!-- quarta coluna dos pratos -->
-       <div class="sub_container2">
-        <div class="pratos" id="pratos">
-          <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
-          <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
-          <p class="p_prato2">
-            Valor: R$12,00</p>
-        </div>
-        <div class="pratos" id="pratos">
-          <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
-          <p class="p_prato1">Batata recheada com calabresa</p>
-          <p class="p_prato2">
-            Valor: R$20,90</p>
-        </div>
-        <div class="pratos" id="pratos">
-          <img class="img_container2" src="../Entradas/batata_sol.webp">
-          <p class="p_prato1">Batata recheada de carne do sol.</p>
-          <p class="p_prato2">
-            Valor: R$20,90</p>
-        </div>
-      </div>
-            
+       
+       
     </div>
   
   
@@ -157,7 +101,7 @@
       <div class="pratos">
         <img class="img_container2" src="../Acompanhamento/Mandioca_frita.jpg">
         <p class="p_prato1">Mandioca frita.</p>
-        <p class="p_prato12">
+        <p class="p_prato2">
           Valor:R$15,00.</p>
       </div>
       <div class="pratos">
@@ -184,49 +128,7 @@
         <p class="p_prato2">Valor: R$03,50 </p>
       </div>
     </div>
-    <!-- terceira coluna dos pratos -->
-    <div class="sub_container2">
-      <div class="pratos">
-        <img class="img_container2" src="../Acompanhamento/batata_frita.jpg">
-        <p class="p_prato1">Batata frita.</p>
-        <p class="p_prato2">
-          Valor: R$12,00</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Acompanhamento/Mandioca_frita.jpg">
-        <p class="p_prato1">Mandioca frita.</p>
-        <p class="p_prato12">
-          Valor:R$15,00.</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Acompanhamento/salada.jpg">
-        <p class="p_prato1">Salada.</p>
-        <p class="p_prato2"> Valor: R$24,00
-        </p>
-      </div>
-    </div>
-    <!-- quarta coluna dos pratos -->
-    <div class="sub_container2">
-      <div class="pratos">
-        <img class="img_container2" src="../Acompanhamento/batata_frita.jpg">
-        <p class="p_prato1">Batata frita.</p>
-        <p class="p_prato2">
-          Valor: R$12,00</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Acompanhamento/Mandioca_frita.jpg">
-        <p class="p_prato1">Mandioca frita.</p>
-        <p class="p_prato12">
-          Valor:R$15,00.</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Acompanhamento/salada.jpg">
-        <p class="p_prato1">Salada.</p>
-        <p class="p_prato2"> Valor: R$24,00
-        </p>
-      </div>
-    </div>
-   
+
   </div>
   
   <!-- prato principal -->
@@ -268,43 +170,7 @@
         <p class="p_prato2"> Valor: R$35,00 </p>
       </div>
     </div>
-      <!-- terceira coluna -->
-    <div class="sub_container2">
-      <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Camarao.jpg">
-        <p class="p_prato1">Camarão no alho e oleo</p>
-        <p class="p_prato2">Valor: R$35,00</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Risoto.jpg">
-        <p class="p_prato1">Risoto de frutos do mar</p>
-        <p class="p_prato2">Valor: R$37,50</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Espaguete.jpg">
-        <p class="p_prato1">Espaguete.</p>
-        <p class="p_prato2"> Valor: R$35,00</p>
-      </div>
-    </div>
-      <!-- quarta coluna -->
-    <div class="sub_container2">
-      <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Camarao.jpg">
-        <p class="p_prato1">Camarão no alho e oleo</p>
-        <p class="p_prato2">Valor: R$35,00</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Risoto.jpg">
-        <p class="p_prato1">Risoto de frutos do mar</p>
-        <p class="p_prato2">Valor: R$37,50</p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Prato principal/Espaguete.jpg">
-        <p class="p_prato1">Espaguete.</p>
-        <p class="p_prato2"> Valor: R$35,00</p>
-      </div>
-    </div>
-    
+
   </div>
   
   
@@ -346,43 +212,7 @@
         <p class="p_prato2">Valor: R$40,00</p>
       </div>
     </div>
-      <!-- 3 coluna -->
-      <div class="sub_container2">
-        <div class="pratos">
-          <img class="img_container2" src="  ../Bebidas/Agua-de-coco.jpg ">
-          <p class="p_prato1">Água de cocô.</p>
-          <p class="p_prato2">Valor: R$03,50.</p>
-        </div>
-        <div class="pratos">
-          <img class="img_container2" src="../Bebidas/Caipirinhas.jpg">
-          <p class="p_prato1"> Caipirinha.</p>
-          <p class="p_prato2">Valor: R$15,00 </p>
-        </div>
-        <div class="pratos">
-          <img class="img_container2" src="../Bebidas/Energetico.jpg ">
-          <p class="p_prato1">Energéticos.</p>
-          <p class="p_prato2">Valor: R$10,00 </p>
-        </div>
-      </div>
-  <!-- 4 coluna -->
-  <div class="sub_container2">
-    <div class="pratos">
-      <img class="img_container2" src="  ../Bebidas/Agua-de-coco.jpg ">
-      <p class="p_prato1">Água de cocô.</p>
-      <p class="p_prato2">Valor: R$03,50.</p>
-    </div>
-    <div class="pratos">
-      <img class="img_container2" src="../Bebidas/Caipirinhas.jpg">
-      <p class="p_prato1"> Caipirinha.</p>
-      <p class="p_prato2">Valor: R$15,00 </p>
-    </div>
-    <div class="pratos">
-      <img class="img_container2" src="../Bebidas/Energetico.jpg ">
-      <p class="p_prato1">Energéticos.</p>
-      <p class="p_prato2">Valor: R$10,00 </p>
-    </div>
-  </div>
- 
+
   </div>
 
   <!-- sobremesa -->
@@ -423,43 +253,7 @@
         <p class="p_prato2"> Valor: R$85,00.</p>
       </div>
     </div>
-      <!-- 3 coluna -->
-    <div class="sub_container2">
-      <div class="pratos">
-        <img class="img_container2" src="../Sobremesa/Brownie.jpg">
-        <p class="p_prato1">Brownie </p>
-        <p class="p_prato2">Valor: R$05,00 </p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Sobremesa/Cheesecake.jpg ">
-        <p class="p_prato1">Cheesecake de frutas vermelhas. </p>
-        <p class="p_prato2">Valor: R$30,00 </p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Sobremesa/Mousse.jpg">
-        <p class="p_prato1"> Mouse de chocolate branco.</p>
-        <p class="p_prato2">Valor: R$10,00.</p>
-      </div>
-    </div>
-      <!-- 4 coluna -->
-    <div class="sub_container2">
-      <div class="pratos">
-        <img class="img_container2" src="../Sobremesa/Brownie.jpg">
-        <p class="p_prato1">Brownie </p>
-        <p class="p_prato2">Valor: R$05,00 </p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Sobremesa/Cheesecake.jpg ">
-        <p class="p_prato1">Cheesecake de frutas vermelhas. </p>
-        <p class="p_prato2">Valor: R$30,00 </p>
-      </div>
-      <div class="pratos">
-        <img class="img_container2" src="../Sobremesa/Mousse.jpg">
-        <p class="p_prato1"> Mouse de chocolate branco.</p>
-        <p class="p_prato2">Valor: R$10,00.</p>
-      </div>
-    </div>
-        
+
   </div>
   
 

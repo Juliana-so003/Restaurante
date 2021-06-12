@@ -9,22 +9,29 @@ const central = document.querySelector("#entrada");
 
 
 entrada.addEventListener("click", function(){
-  central.style.marginLeft = "7%";
+  central.style.marginLeft = "1%";
   
 });
 acompanhamento.addEventListener("click", function(){
-  central.style.marginLeft = "-88%";
+  central.style.marginLeft = "-98.2%";
   
 });
 principal.addEventListener("click", function(){
-  central.style.marginLeft = "-185%";
+  central.style.marginLeft = "-196.6%";
   
 });
 bebidas.addEventListener("click", function(){
-  central.style.marginLeft = "-281%";
+  central.style.marginLeft = "-295%";
   
 });
 sobremesa.addEventListener("click", function(){
-  central.style.marginLeft = "-381%";
+  central.style.marginLeft = "-394%";
   
 });
+
+
+function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}

@@ -17,7 +17,6 @@ background-color: #252122;
   width: 80px;
   height: 90px;
   top: 50px;
-  
   background: #252122;
 }
 
@@ -33,38 +32,43 @@ background-color: #252122;
 
 #insta {
   position: relative;
-  width: 25px;
-  height: 25px;
-  margin: 2em 5px 0 5px;
+   width: 15px;
+   height: 15px;
+  
 }
 
 #face {
-  width: 25px;
-  height: 25px;
+  width: 15px;
+  height: 15px;
   position: relative;
-  margin: 2em 5px 0 5px;
+  
 }
 
 #wzap {
   position: relative;
-  width: 25px;
-  height: 25px;
-  margin: 2em 5px 0 5px;
+   width: 15px;
+   height: 15px;
+  
    } 
 #nave{
+
   height: 7em;
-  padding: 20px 10px 10px 10px;
-  justify-content: space-between;
+  padding: 20px 0 10px 4em;
+  justify-content: space-around;
   display: flex;
   align-items: center;
-  width: 100
+  width: 100%;
+  
 }
 
 #contato {
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
-  justify-content: space-between;
-  width: 400px;
+  justify-content: space-evenly;
+  height: 5em;
+  position: relative;
+  right: 0.3em;
+
 }
 .menu {
   
@@ -74,9 +78,10 @@ background-color: #252122;
 }
 
 #logo {
-  width: 150px;
-  height: 5em;
-  margin: 10em;
+  width: 5em;
+  height: 3.5em;
+  margin-top: 10px;
+  position: relative;
 }
 
 .propaganda {
@@ -84,28 +89,27 @@ background-color: #252122;
   width: 100%;
   height: 15em;
   position: relative;
-  padding-top: 1em;
+  
+  
   
 }
 
 #scroll {
-left: 10%;
-  width: 80%;
-  max-width: 500px;
-  height: 25vw;
+  width: 100%;
+  max-width: 100%;
+  height: 15em;
   max-height: 150px;
   position: relative;
-  text-align: center;
+  text-align: start;
 }
 
 #scroll img {
   opacity: 0;
   position: absolute;
-  width: 40vw;
-  height: 13em;
-  margin-top: 6px;
+  width: 100%;
+  height: 15em;
   object-fit: cover;
-  transition: opacity 800ms;
+  transition: opacity 200ms;
 }
 
 #scroll img.selected {
@@ -113,7 +117,7 @@ left: 10%;
 }
 
 .prato{
-  padding: 3em 3em 4em 3em;
+  padding: 0.5em;
   width: 100%;
   height: 70%;
   position: relative;
@@ -124,8 +128,8 @@ left: 10%;
 .img {
   grid-area: a;
   position: relative;
-  width: 160px;
-  height: 120px;
+  width: 140px;
+  height: 100px;
   border-radius: 0.2em;
 }
 h4{
@@ -147,38 +151,40 @@ top: 0.2em;
   grid-area: c;
   text-align: justify;
   bottom: 3.5em;
-  margin:0.5em 0.5em 0 0.5em;
   top: 0.3em;
+  font-size: 10px;
+  right:1em;
 }
 
 #entrada, #principal, #sobremesa {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 170px 1fr;
   grid-template-areas:
     "a b"
     "a c";
-  width: 35em;
+  width: 20em;
+  height: 19vh;
+  margin: 0.5em 0;
 
-  padding: 5px;
-  height: 17vh;
 }
 
 #acompanhamento, #bebidas {
   display: grid;
-  grid-template-columns: 20em 1fr;
+  grid-template-columns: 12em 1fr;
   grid-template-areas:
     "b a"
     "c a";
-  width: 25em;
-  padding: 5px;
+  width: 10em;
+  
   height: 15vh;
-  margin-left: 60%;
+  margin:1em 0 1em 1em;
+
   
 }
 
 video {
-  width: 23vw;
-  height: 30vh;
+  width: 10em;
+  height: 12em;
   position: relative;
 }
 
@@ -186,9 +192,9 @@ h3 {
   font-family: 'Dancing Script', cursive;
   position: relative;
   top: 0.3em;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
-  right: 4em;
+  right: 1em;
 }
 
 #tutorial {
@@ -204,13 +210,13 @@ h3 {
 }
 
 #linha2 {
-  height: 10px;
+  height: 8px;
   background: #BF935E;
   width: 80%;
   position: relative;
   display: flex;
   border-radius: 17px;
-  left: 7em;
+  left: 2.5em;
   top: 0.2em;
 
 }
@@ -221,18 +227,19 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
   display: flex;
-  margin-left: 12em;
+  margin-left: 25%;
 }
 
 #p_footer {
+    font-family: 'Dancing Script', cursive;
   color: #BF935E;
   font-size: 1em;
   position: relative;
-  top: 3em;
+  top: 2em;
 }
 
 .img_footer {
   height: 7vh;
-  width: 6vw;
-  margin:2em 0.5em 0 0.5em;
+  width: 3em;
+  margin:2em 0.5em;
 }

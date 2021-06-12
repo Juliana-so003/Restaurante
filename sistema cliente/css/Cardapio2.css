@@ -1,55 +1,73 @@
-a:link{
-  text-decoration:none;
-   color: #000;
+#menu{
+  z-index: 2;
 }
-a:visited{
-color: #000;
+#menu-bar{
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
 }
-a:hover{
-  color:  #32CD32;
+.bar{
+  height: 5px;
+  width: 100%;
+  background-color: #F4F4F4;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
 }
-  
-header{
- flex-direction:row;
- display: flex;
-padding: 1em 0 0 1em;
+#bar1{
+  transform: translateY(-4px);
 }
-.container1{
-
- position: relative;
-width: 98%;
-height: 6em;
-left: 1em;
-top: 3em;
- background: #f2dad8;
- border-radius:8px;
- align-items: center;
- justify-content: space-around;
- display: flex;
- 
- box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.6);
-       
-   }
-
-label{
- margin: 0 10px;
- color: #000;
- 
+#bar3{
+  transform: translateY(4px);
+}
+.nav{
+  transition: 0.3s ease;
+  display: none;
+}
+.nav ul{
+padding: 0 22px;
+}
+.nav li{
+  list-style: none;
+  padding: 12px 0;
 }
 
-input[type="radio"] {
-display: none; 
+.nav li:hover{
+  font-weight: bold;
 }
-input[type="radio"]:hover+label {
-     color: #32CD32; 
-   }
-
-   
-
-.p{
-  font-size: 1.5em;
-line-height: 1em;
-position: relative;
-
+.menu-bg, #menu{
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.menu-bg{
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background:radial-gradient(circle, #F4F4F4, #f2dad8);
+  border-radius: 50%;
+  transition: 0.3 ease;
+}
+.change{
+  display: block;
+}
+.change .bar{
+  background:#181818;
+}
+.change #bar1{
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar2{
+  opacity: 0;
+}
+.change #bar3{
+ transform: translateY(-6px) rotateZ(45deg);
+}
+.change-bg{
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%, -30%);
 }
 
