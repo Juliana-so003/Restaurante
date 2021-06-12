@@ -3,6 +3,21 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+.container {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.container1 {
+  margin-right: 5px;
+  width: 370px;
+  height:38em;
+  border-radius: 7px;
+  box-shadow: 0px 0px 8px 2px #989898;
+  background: no-repeat url(../fundos/fundo_cadastro.png);
+}
 body{
   display: flex;
   align-items: center;
@@ -10,7 +25,8 @@ body{
   min-height: 100vh;
   background: #181818;
 }
-.container{
+.container2{
+  height:35em;
   width: 330px;
   background: #fff;
   border-radius: 5px;
@@ -19,7 +35,7 @@ body{
  
 }
 
-.container .form-outer{
+.container2 .form-outer{
   width: 100%;
   height: 500px;
   overflow: hidden;
@@ -89,22 +105,22 @@ form .page .btns button.prev{
 form .page .btns button.next{
   margin-left: 3px;
 }
-.container .progress-bar{
+.container2 .progress-bar{
   display: flex;
   margin: 25px 0;
 }
-.container .progress-bar .step{
+.container2 .progress-bar .step{
   position: relative;
   text-align: center;
   width: 100%;
 }
-.container .progress-bar .step p{
+.container2 .progress-bar .step p{
   font-size: 18px;
   font-weight: 500;
   color: #000;
   margin-bottom: 8px;
 }
-.container .progress-bar .step .bullet.active p{
+.container2 .progress-bar .step .bullet.active p{
   color: rgb(110, 199, 83);
 }
 .progress-bar .step .bullet{
@@ -168,35 +184,4 @@ transform-origin: left;
   transform: translate(-50%, -50%);
   display: none;
 }
-/* os pedidos */
-.ContainerPedido {
-  height: 70%;
-   display: flex;
-   flex-direction: column;
-   width: 20.5em;
-   position: relative;
-   top:0.5em;
-   margin-left: 0.5em;
- }
 
- #sub_pedidos{
-   width: 19.5em;
-   height:2.5em;
-   border: 1px solid #8c233f;
-   color: white;
-   position:relative;
-   flex-direction: row;
-   justify-content: space-around;
-   display: flex;
-   margin-right:0.5em;
-   border-radius:5px;
- }
- #pedidos{
-  border: 1px solid #8c233f;
-   overflow: hidden;
-   position: relative;
-   flex-direction: column;
-   width: 19.6em;
-   margin: 0.5em 0 0.5em 0;
-   height: 19em;
- }

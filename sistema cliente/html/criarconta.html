@@ -4,73 +4,113 @@
 <head>
   <meta charset="utf-8">
   <title>Tela de cadastro</title>
-    <link rel="stylesheet" href="../css/criarConta.css">
+    <link rel="stylesheet" href="../css/conta.css">
 </head>
 
 <body>
   <!--FORMULÁRIO DE CADASTRO-->
   <div class="container">
     <div class="container1"></div>
+    <div class="container2">
+      <div class="progress-bar">
+        <div class="step">
+          <p>Nome</p>
+            <div class="bullet">
+              <span>1</span>
+            </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Endereço</p>
+          <div class="bullet">
+            <span>2</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p>Contato</p>
+            <div class="bullet">
+              <span>3</span>
+            </div>
+            <div class="check fas fa-check"></div>
+        </div>
+        
+      </div>
+    <div class="form-outer">
+      <form method="POST" action="criarconta.phpd">
+            <div class="label">Nome        </div>
+          <div class="field">
+            <div class="label">Nome usuário</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">Senha</div>
+            <input type="password">
+          </div>
+          <div class="field">
+            <div class="label">CPF</div>
+            <input type="number">
+          </div>
+          <div class="field">
+            <div class="label">Data de Nascimento</div>
+            <input type="date">
+          </div>
+            <div class="field nextBtn">
+              <button>Proximo</button>
+            </div>
+          
+          
+        </div>
   
-  <div id="container2">
-     <div class="img_cadastro">
-       <img src="../icones/avatar.png" width="60px" height="60px">
-     </div>
-    <form method="POST" action="../php/criarconta.php">
-      <h1>Cadastro</h1>
-      <div class="label">
-        <label for="nome_cad">Nome completo:</label>
-        <input type="text" id="nome_cad" name="nome_cad" required/>
-      </div>
-      <div class="label">
-        <label for="usuario_cad">Nome de usuário:</label></label>
-        <input type="text" id="usuario_cad" name="usuario_cad" required/>
-      </div>
-      <div class="label">
-        <label for="senha_cad">Senha:</label>
-        <input type="password" id="senha_cad" name="senha_cad" required/>
-      </div>
-      <div class="label">
-        <label for="data_cad">Data de nascimento: </label>
-        <input type="date" id="data_cad" name="data_cad" value="0000-00-00" required>
-     </div>
-     <div class="label">
-        <label for="CPF_cad">CPF:</label>
-        <input type="number" id="CPF_cad" name="CPF_cad" required/>
-      </div>
-      <div class="label">
-        <label for="phone_cad">Número para contato:</label>
-        <input type="text" id="phone_cad" name="phone_cad" required/>
-      </div>
-      <div class="label">
-        <label for="email_cad">E-mail:</label>
-        <input type="email" id="email_cad" name="email_cad" required/>
-      </div>
-      <div class="label">
-        <label for="cidade_cad">Cidade:</label>
-        <input type="text" id="cidade_cad" name="cidade_cad" required/>
+        <div class="page">
+          <div class="title">Endereço:</div>
+        
+          <div class="field">
+            <div class="label">Cidade</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">Bairro</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">Rua / avenida</div>
+            <input type="text">
+          </div>
+          <div class="field">
+            <div class="label">Número da casa</div>
+            <input type="text">
+          </div>
+          
+            <div class="field btns">
+              <button class="prev-1 prev">voltar</button>
+              <button class="next-1 next">Proximo</button>
+            </div>
+        
+        </div>
+        <div class="page">
+          <div class="title">Contato:</div>
+          <div class="field">
+            <div class="label">Celular</div>
+            <input type="number" placeholder="Adicione o DDD ">
+          </div>
+          
+          <div class="field">
+            <div class="label">Email</div>
+            <input type="email" placeholder="email@gmail.com">
+          </div>
+          
+          <div class="field btns">
+            <button class="prev-2 prev">voltar</button>
+            <button class="Submit">Submeter</button>
+          </div>
+        </div>
+      </form>
     </div>
-    <div class="label">
-        <label for="bairro_cad">Bairro:</label>
-        <input type="text" id="bairro_cad" name="bairro_cad" required="required"/>
-      </div>
-      <div class="label">
-        <label for="rua_cad">Rua/avenida:</label>
-        <input type="text" id="rua_cad" name="rua_cad" required="required"/>
-      </div>
-      <div class="label">
-        <label for="numCasa_cad">Número da casa:</label>
-        <input type="number" id="numCasa_cad" name="numCasa_cad" required="required"/>
-      </div>
-      <input type="submit" value="Cadastrar" id="botao"/>
-      
-      <!--Caso tenha conta-->
-      <p class="link">
-        Já tem conta?
-        <a href="login.html"> Ir para Login </a>
-      </p>
-    </form>
+    </div>
+ 
+  
   </div>
-  </div>
+  <script src="../js/criarconta.js"></script>
 </body>
 </html>
