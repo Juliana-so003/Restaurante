@@ -9,19 +9,19 @@ const progressCheck = document.querySelector(".step .check");
 const bullet = document.querySelector(".step .bullet");
 
 
-firtNextBtn.addEventListener("click", function(){
-    slidePage.style.marginLeft = "-25%";
-  
+firtNextBtn.addEventListener("click", function() {
+  slidePage.style.marginLeft = "-25%";
+
 });
-nextBtnSec.addEventListener("click", function(){
-    slidePage.style.marginLeft = "-50%";
-  
+nextBtnSec.addEventListener("click", function() {
+  slidePage.style.marginLeft = "-50%";
+
 });
 
-prevBtnSec.addEventListener("click", function(){
-    slidePage.style.marginLeft = "0%";
+prevBtnSec.addEventListener("click", function() {
+  slidePage.style.marginLeft = "0%";
 });
-prevBtnThird.addEventListener("click", function(){
-    slidePage.style.marginLeft = "-25%";
-   
+prevBtnThird.addEventListener("click", function() {
+  slidePage.style.marginLeft = "-25%";
+
 });
