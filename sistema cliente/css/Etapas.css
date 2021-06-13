@@ -192,11 +192,61 @@ transform-origin: left;
    border-radius:5px;
  }
  #pedidos{
-  border: 1px solid #8c233f;
+ /* border: 1px solid #8c233f;*/
    overflow: hidden;
    position: relative;
    flex-direction: column;
-   width: 19.6em;
+   width: 19.9em;
    margin: 0.5em 0 0.5em 0;
    height: 19em;
  }
+ /*pedidos*/
+ #sacola{
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0.5em 0 0.7em 0.2em;
+  position: relative;
+}
+.pratos{
+  display: flex;
+padding: 0.5em 0.4em;
+  background:  #f2dad8;
+  border-radius: 0.8em;
+  flex-direction: row;
+  height: 7em;
+  width: 19.1em;
+  
+}
+.img_pedido{
+  height: 4em;
+  width: 5em;
+  border-radius:0.5em;
+  margin: 0.5em 0.5em;
+  position: relative;
+  grid-area: a;
+}
+#desconto, .div_porcao{
+  display:flex;
+  flex-direction:row;
+}
+#porcao{
+  height: 1.5em;
+  width: 2.5em;
+}
+#obs{
+  height: 1.5em;
+  width: 10em;
+}
+.p_pedido1, .p_pedidop2{
+  margin: 0.3em 0;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: start;
+}
+.lixeira{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 0.5em;
+  left: 70%;
+}
