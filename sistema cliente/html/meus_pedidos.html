@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <title>Meus pedidos</title>
+  <link rel="stylesheet" href="/css/meus_pedidos.css">
+</head>
+
+<body>
+  <button class="btn-voltar">
+    <a href="index.html" class="ativo" data-menu>
+      <img src="../icones/botao-voltar.png" width="40" />
+    </a>
+  </button>
+  <div class="container">
+    <div class="titulo">Meus pedidos</div>
+    <input type="button" value="04/04/2021" onclick="mostrar('submenu1')">
+    <div id="submenu1" class="hidden">
+      <label for="total">Total do pedido
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="val_entrega">Valor da entrega
+        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="pagamento">Forma de pagamento
+        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
+      </label>
+      <label for="total">Total a pagar
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="status">Status do pedido
+        <input type="text" name="status" id="status" readonly />
+      </label>
+    </div>
+    <input type="button" value="06/04/2021" onclick="mostrar('submenu2')">
+    <div id="submenu2" class="hidden">
+      <label for="total">Total do pedido
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="val_entrega">Valor da entrega
+        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="pagamento">Forma de pagamento
+        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
+      </label>
+      <label for="total">Total a pagar
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="status">Status do pedido
+        <input type="text" name="status" id="status" placeholder="Entregue" readonly />
+      </label>
+    </div>
+    
+    <input type="button" value="10/04/2021" onclick="mostrar('submenu3')">
+    <div id="submenu3" class="hidden">
+      <label for="total">Total do pedido
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="val_entrega">Valor da entrega
+        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="pagamento">Forma de pagamento
+        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
+      </label>
+      <label for="total">Total a pagar
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="status">Status do pedido
+        <input type="text" name="status" id="status" readonly />
+      </label>
+    </div>
+    
+    <input type="button" value="24/04/2021" onclick="mostrar('submenu4')">
+    <div id="submenu4" class="hidden">
+      <label for="total">Total do pedido
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="val_entrega">Valor da entrega
+        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="pagamento">Forma de pagamento
+        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
+      </label>
+      <label for="total">Total a pagar
+        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
+      </label>
+      <label for="status">Status do pedido
+        <input type="text" name="status" id="status" readonly />
+      </label>
+    </div>
+    
+    <div class="visualizar" onclick="mostrar('prato')">Visualizar pratos</div>
+    <!--ao clicar nessa div ela chama essa outra debaixo-->
+    <div id="prato" class="hidden">
+      <figure>
+        <img src="../Entradas/Massa-folhada.jpg" >
+        <figcaption>
+          Massa folhada com presunto e queijo </figcaption>
+      </figure>
+      <div class="prato-desc">
+        <label for="valor">
+        Valor<input type="number" name="valor" id="valor" readonly />
+        </label>
+        <label for="porcao">
+        Quantidade da porcão<input type="number" name="porcao" id="porcao" readonly>
+        </label>
+        <label>
+        Observação<textarea id="obs" readonly></textarea>
+        </label>
+      </div>
+    </div>
+  
+    <footer>
+  <button class="cancel" onclick="Cancelar()">
+    <a href="#btCancel">Cancelar pedido</a>
+    </button>
+    </footer>
+    
+     <span id="btnCancel" style="display: none;">
+       <span id="inputIDUpdate"></span>
+       <button onclick="updateData();" class="btn btn-default">Salvar</button>
+       <button onclick="resetForm();" class="btn btn-default">Cancelar</button>
+     </span>
+     
+  </div>
+  <script src="/js/meus_pedidos.js"></script>
+  <script>
+  var pratoSe= document.getElementById('prato')
+  function Cancelar(id){
+    if(confirm("Deseja cancelar seu pedido?")){
+    if(id === pratoSe.length - 1){
+    pratoSe.pop();
+    }else if(id === 0){
+    pratoSe.shift();
+  }else{
+    var arrAuxIni = pratoSe.slice(0,id);
+    var arrAuxEnd = pratoSe.slice(id + 1);
+    pratoSe = arrAuxIni.concat(arrAuxEnd);
+    }
+    setList(pratoSe);
+    }
+    }
+    
+  
+  </script>
+</body>
+
+</html>
