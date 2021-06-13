@@ -119,33 +119,10 @@
     </button>
     </footer>
     
-     <span id="btnCancel" style="display: none;">
-       <span id="inputIDUpdate"></span>
-       <button onclick="updateData();" class="btn btn-default">Salvar</button>
-       <button onclick="resetForm();" class="btn btn-default">Cancelar</button>
-     </span>
+     
      
   </div>
   <script src="/js/meus_pedidos.js"></script>
-  <script>
-  var pratoSe= document.getElementById('prato')
-  function Cancelar(id){
-    if(confirm("Deseja cancelar seu pedido?")){
-    if(id === pratoSe.length - 1){
-    pratoSe.pop();
-    }else if(id === 0){
-    pratoSe.shift();
-  }else{
-    var arrAuxIni = pratoSe.slice(0,id);
-    var arrAuxEnd = pratoSe.slice(id + 1);
-    pratoSe = arrAuxIni.concat(arrAuxEnd);
-    }
-    setList(pratoSe);
-    }
-    }
-    
-  
-  </script>
 </body>
 
 </html>
