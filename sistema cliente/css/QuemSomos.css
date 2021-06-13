@@ -18,7 +18,7 @@ body{
       display: none;
       text-align: justify;
       position: relative;
-      background: #C4C4C4;
+      background: #831d1c;
       font-size: 14px;
       font-weight: 400;
       height: 8.5em;
@@ -27,7 +27,7 @@ body{
     }
     
     .bloco{
-      color:black;
+      color:white;
       left: 2em;
       position: relative;
     }
@@ -36,9 +36,9 @@ body{
       border: none;
       margin-top: 15px;
       display: block;
-      background:#C4C4C4;
+      background:#831d1c;
       border-radius: 9px;
-      color:black;
+      color:white;
       font-size: 18pt;
       font-size:15px;
       height:2.5em;
@@ -50,7 +50,7 @@ body{
       width: 30px;
       border: none;
       border-radius: 50%;
-      background:black;
+      background:white;
       
     }
     #img_voltar{
@@ -68,7 +68,7 @@ body{
     
     figure{
       top: 1.3em;
-      background: #C4C4C4;
+      background:white;
       width: 10em;
       height: 10em;
       text-align: center;
@@ -95,5 +95,5 @@ transform: scale(1.2);
       top: 0.3em;
       font-size: 19px;
       font-family: 'Dancing Script', cursive;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid white;
     }
