@@ -1,0 +1,68 @@
+body{
+  background: no-repeat url(../fundos/cadastro.jpg) fixed;
+  background-size: cover;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color:#fff;
+}
+a{
+  color: #000;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.master{
+  background: #fff;
+  width: 18em;
+  height: 27em;
+  position: relative;
+border-radius: 1em;
+top: 8em;
+}
+.informacao{
+  border-bottom:1px solid gray;
+  margin:1em 1em;
+  flex-direction: column;
+}
+.juntar_informacao{
+  flex-direction: row;
+  display: flex;
+  
+}
+.p1, .p2{
+  font-size: 14px;
+}
+.p1{
+  font-weight: 500;
+}
+#butao_excluir:hover, #butao_alterar:hover{
+  background: #161616;
+  color:white;
+}
+#butao_excluir, #butao_alterar{
+  width: 40%;
+  height: 2em;
+  margin: 0.1em 0.9em;
+  border: none;
+  background: lightpink;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+#butao{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  
+}
