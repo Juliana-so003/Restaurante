@@ -101,11 +101,12 @@ background: #4d0706;
      height: 30px;
      top: 10px; 
     }
-  button .fa-eye {
-       position: absolute;
-       cursor: pointer;
-       color: black;
-     }
+    .olhos {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      top: 10px;
+    }
     .container2{
 margin-left: 5px;
 width: 400px;

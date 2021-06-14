@@ -1,9 +1,14 @@
-function mostrarSenha() {
-  var tipo = document.querySelector("input#senha")
+let div = document.querySelector('#senha1');
+let input = document.querySelector('#senha');
+let icon = document.querySelector('.olhos');
 
-  if (tipo.type == "password") {
-    tipo.type = "text"
+icon.addEventListener('click', function() {
+  div.classList.toggle('visible');
+  if (div.classList.contains('visible')) {
+    icon.src = '../icones/olhos-abertos.png';
+    input.type = 'text';
   } else {
-    tipo.type = "password"
+    icon.src = '../icones/olhos-fechados.png';
+    input.type = 'password';
   }
-}
+});
