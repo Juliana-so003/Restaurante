@@ -21,7 +21,7 @@ background:#252122;
     height: 5em;
     padding-top:1.6em;
     width: 5em ;
-    background: #8c233f;
+    background: #831d1c;
     position: relative;
     filter: drop-shadow(
 -3px 11px 10px #000000
@@ -36,7 +36,7 @@ background:#252122;
 
 .pratos{
   margin: 0.5em 0.3em;
-  background:  #f2dad8;
+  background:#f2dad8;
   border-radius: 0.8em;
   flex-direction: column;
   height: 9.9em;
@@ -106,7 +106,7 @@ footer{
   padding-top: 0.4em;
   height: 2.2em;
   width:6em;
-  background: #d2cdcf;
+  background: #831d1c;
   border-radius:6px 0 0 6px;
 }
 .p_valor{
@@ -129,7 +129,7 @@ button{
   top: 90%;
   height: 3em;
   width:6.5em;
-  background: #8c233f;
+  background: #831d1c;
   padding-left: 0.2em;
   color:white;
   border-radius:7px;
@@ -140,8 +140,8 @@ button{
   transition: 0.3s ease;
 }
 button:hover{
-  background: #181818;
-  color: #fff;
+  background: white;
+  color:#fff;
 }
 
 /*sacola de compras*/
