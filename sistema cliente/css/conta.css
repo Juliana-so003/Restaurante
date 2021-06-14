@@ -23,12 +23,12 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #181818;
+  background:#181818;
 }
 .container2{
   height:35em;
   width: 330px;
-  background: #fff;
+  background: #831d1c;
   border-radius: 5px;
   text-align: center;
   padding: 50px 35px 10px 35px;
@@ -78,7 +78,7 @@ body{
   height: calc(100% + 5px);
   margin-top: -20px;
   border: none;
-  background: lightpink;
+  background: lightcoral;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
@@ -94,8 +94,8 @@ form .page .field section{
   font-weight: 500;
 }
 .form-outer form .page .field button:hover{
-  background: #181818;
-  color: #fff;
+  background:#181818;
+  color:#fff;
 }
 .form-outer form .page .btns button{
   margin-top: -20px!important;
@@ -119,7 +119,7 @@ form .page .btns button.next{
 .container .progress-bar .step p{
   font-size: 18px;
   font-weight: 500;
-  color: #000;
+  color:white;
   margin-bottom: 8px;
 }
 .container .progress-bar .step .bullet.active p{
@@ -129,7 +129,7 @@ form .page .btns button.next{
   position: relative;
   height: 25px;
   width: 25px;
-  border: 2px solid #000;
+  border: 2px solid lightcoral;
   display: inline-block;
   border-radius: 50%;
   transition: 0.2s;
@@ -150,7 +150,7 @@ form .page .btns button.next{
   right: -80px;
   height: 3px;
   width: 75px;
-  background: #262626;
+  background: lightcoral;
 }
 .progress-bar .step .bullet.active:after{
 background: rgb(110, 199, 83);
