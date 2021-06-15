@@ -116,6 +116,7 @@ form .page .btns button.next{
   display: inline-block;
   border-radius: 50%;
   transition: 0.4s ease;
+  
 }
 .progress-bar .step .bullet.active{
   border-color: #8c233f;
