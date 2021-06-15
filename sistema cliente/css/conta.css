@@ -34,8 +34,6 @@ body{
   padding: 50px 35px 10px 35px;
 
 }
-
-
 .container2 .form-outer{
   width: 100%;
   height: 500px;
@@ -44,7 +42,6 @@ body{
 .form-outer form{
   display: flex;
   width: 400%;
-
 }
 .form-outer form .page{
   width: 25%;
@@ -86,8 +83,9 @@ body{
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.3s ease;
-  color:#fff;
+  color:white;
 }
+
 form .page .field section{
   width: 100%;
   padding-left: 10px;
@@ -95,8 +93,7 @@ form .page .field section{
   font-weight: 500;
 }
 .form-outer form .page .field button:hover{
-  background:#181818;
-  
+  background: #181818;
 }
 .form-outer form .page .btns button{
   margin-top: -20px!important;
@@ -108,36 +105,35 @@ form .page .btns button.prev{
 form .page .btns button.next{
   margin-left: 3px;
 }
-.container .progress-bar{
+.container2 .progress-bar{
   display: flex;
   margin: 25px 0;
 }
-.container .progress-bar .step{
+.container2 .progress-bar .step{
   position: relative;
   text-align: center;
   width: 100%;
 }
-.container .progress-bar .step p{
+.container2 .progress-bar .step p{
   font-size: 18px;
   font-weight: 500;
-  color:white;
+  color: #000;
   margin-bottom: 8px;
 }
-.container .progress-bar .step .bullet.active p{
+.container2 .progress-bar .step .bullet.active p{
   color: rgb(110, 199, 83);
 }
 .progress-bar .step .bullet{
   position: relative;
-  height: 25px;
-  width: 25px;
-  border: 2px solid gray;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #000;
   display: inline-block;
   border-radius: 50%;
-  transition: 0.2s;
+  transition: 0.4s ease;
 }
 .progress-bar .step .bullet.active{
-  border-color: rgb(110, 199, 83);
-  background:rgb(110, 199, 83);
+  border-color: #8c233f;
 }
 .progress-bar .step:last-child .bullet:before,
  .progress-bar .step:last-child .bullet:after{
@@ -151,10 +147,10 @@ form .page .btns button.next{
   right: -80px;
   height: 3px;
   width: 75px;
-  background: gray;
+  background: #262626;
 }
 .progress-bar .step .bullet.active:after{
-background: rgb(110, 199, 83);
+background:  #8c233f;
 animation: animate 0.3s linear forwards;
 transform: scaleX(0);
 transform-origin: left;
@@ -177,7 +173,10 @@ transform-origin: left;
 }
 .progress-bar .step .check.active{
   display: block;
-  color: #fff;
+  
+}
+#p_step1.active, #p_step2.active, #p_step3.active{
+  color: #8c233f;
 }
 .progress-bar .step .check{
   position: absolute;
@@ -186,4 +185,5 @@ transform-origin: left;
   font-size: 15px;
   transform: translate(-50%, -50%);
   display: none;
+  color: #8c233f;
 }
