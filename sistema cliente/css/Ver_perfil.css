@@ -4,6 +4,7 @@ body{
   justify-content: center;
   align-content: center;
   display: flex;
+  flex-direction: column;
 }
 a:link{
   text-decoration: none;
@@ -19,12 +20,13 @@ a{
   margin: 0;
 }
 .master{
-  background:#831d1c;
+  background:#f1ede8;
   width: 18em;
   height: 27em;
   position: relative;
 border-radius: 1em;
-top: 8em;
+top: 7em;
+left: 12%;
 }
 .informacao{
   border-bottom:1px solid gray;
@@ -42,7 +44,7 @@ top: 8em;
 .p1{
   font-weight: 500;
 }
-#butao_excluir:hover, #butao_alterar:hover{
+#butao_excluir:hover, #butao_alterar:hover, #voltar:hover{
   background: #161616;
   color:white;
 }
@@ -65,4 +67,41 @@ top: 8em;
   display: flex;
   justify-content: center;
   
+}
+footer{
+  display: flex;
+  position: relative;
+  top:8em;
+  left: 0.5em;
+  width: 100%;
+}
+#voltar{
+    width: 5em;
+    height: 2.5em;
+    border: none;
+    background:lightpink;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+#sair_sessao{
+  background: #e1dcd6;
+  height: 2em;
+  width: 8.7em;
+  margin-left: 9em;
+  position: relative;
+  top: 1.3em;
+  padding-top: 0.4em;
+  border-radius: 4px;
+}
+#p_sair{
+ text-align: center;
+}
+#sair_sessao:hover{
+  background: #6f6f6f;
+  color:white;
 }

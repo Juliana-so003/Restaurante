@@ -28,7 +28,7 @@ body{
 .container2{
   height:35em;
   width: 330px;
-  background: #831d1c;
+  background: #fff;
   border-radius: 5px;
   text-align: center;
   padding: 50px 35px 10px 35px;
@@ -129,7 +129,7 @@ form .page .btns button.next{
   position: relative;
   height: 25px;
   width: 25px;
-  border: 2px solid lightcoral;
+  border: 2px solid gray;
   display: inline-block;
   border-radius: 50%;
   transition: 0.2s;
@@ -150,7 +150,7 @@ form .page .btns button.next{
   right: -80px;
   height: 3px;
   width: 75px;
-  background: lightcoral;
+  background: gray;
 }
 .progress-bar .step .bullet.active:after{
 background: rgb(110, 199, 83);
