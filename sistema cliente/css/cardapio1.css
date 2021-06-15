@@ -27,7 +27,7 @@ background:#252122;
     height: 5em;
     padding-top:1.6em;
     width: 5em ;
-    background: #831d1c;
+      background: #8c233f;
     position: relative;
     filter: drop-shadow(
 -3px 11px 10px #000000
@@ -136,7 +136,7 @@ button{
   height: 3em;
   width:6.5em;
   background: #831d1c;
-  padding-left: 0.2em;
+    background: #8c233f;
   color:white;
   border-radius:7px;
   cursor: pointer;

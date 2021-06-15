@@ -78,7 +78,7 @@ body{
   height: calc(100% + 5px);
   margin-top: -20px;
   border: none;
-  background: lightcoral;
+  background: #8c233f;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
@@ -86,6 +86,7 @@ body{
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: 0.3s ease;
+  color:#fff;
 }
 form .page .field section{
   width: 100%;
@@ -95,7 +96,7 @@ form .page .field section{
 }
 .form-outer form .page .field button:hover{
   background:#181818;
-  color:#fff;
+  
 }
 .form-outer form .page .btns button{
   margin-top: -20px!important;

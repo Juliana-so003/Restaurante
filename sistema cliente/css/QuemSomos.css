@@ -18,16 +18,17 @@ body{
       display: none;
       text-align: justify;
       position: relative;
-      background: #831d1c;
+      background: whitesmoke;
       font-size: 14px;
       font-weight: 400;
       height: 8.5em;
       width: 13em;
       border-radius: 1em;
+      
     }
     
     .bloco{
-      color:white;
+      color:black;
       left: 2em;
       position: relative;
     }
@@ -36,10 +37,10 @@ body{
       border: none;
       margin-top: 15px;
       display: block;
-      background:#831d1c;
+      background: whitesmoke;
       border-radius: 9px;
-      color:white;
-      font-size: 18pt;
+      color:#181818;
+    
       font-size:15px;
       height:2.5em;
       width: 15em;
