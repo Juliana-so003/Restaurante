@@ -77,3 +77,4 @@ btnClose.addEventListener("click", function() {
   output.style.backgroundImage = "url('')";
   document.getElementById("file-preview-js").value = "";
 });
+
