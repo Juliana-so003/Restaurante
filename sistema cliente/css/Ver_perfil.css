@@ -111,12 +111,13 @@ footer{
   color:white;
 }
 .foto {
+  background: white;
   position: relative;
   display: flex;
   height: 80px;
   width: 80px;
   top:0.6em;
-  left: 2em;
+  left: 2.3em;
   border-radius: 50%;
 }
 .foto:hover{
