@@ -173,6 +173,11 @@ transform-origin: left;
   display: none;
   color: #8c233f;
 }
+.check_img {
+  margin: 0.1em 0 0 0.1em;
+  width: 20px;
+  height: 20px;
+}
 /* os pedidos */
 .ContainerPedido {
   height: 70%;

@@ -193,10 +193,15 @@ transform-origin: left;
   display: none;
   color: #8c233f;
 }
+.check_img{
+  margin: 0.1em 0 0 0.1em;
+  width: 20px;
+  height: 20px;
+}
 /* img*/
 
 .image {
-  top:-2em;
+  top:-1em;
 left: 7em;
   width: 90px;
   height: 90px;
@@ -275,22 +280,7 @@ left: 7em;
   border: 1px solid #fff;
   font-style: normal;
 }
-.input{
-  width: 7em;
-  top:-2em;
-  position: relative;
-  height: 2em;
-  border: none;
-  background: #8c233f;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: 0.3s ease;
-  color:white;
-}
+
 #aux{
   top:-2em;
 }
