@@ -124,9 +124,3 @@ footer{
       transition: 0.3s ease;
 transform: scale(1.2);
     }
-.image img {
-border: 1px solid gray;
-  width: 80px;
-  border-radius: 100%;
-
-}
