@@ -120,11 +120,11 @@ footer{
   left: 2.3em;
   border-radius: 50%;
 }
-.foto:hover{
+.image:hover{
       transition: 0.3s ease;
 transform: scale(1.2);
     }
-.foto img {
+.image img {
 border: 1px solid gray;
   width: 80px;
   border-radius: 100%;
