@@ -10,7 +10,6 @@ a{
 }
 body {
 flex-direction: column;
-
   width: 100%;
   height: 100%;
   font-size: 18pt;
@@ -19,18 +18,19 @@ flex-direction: column;
 .container1 {
   position: relative;
   display: flex;
+  border-bottom: 1px solid gray;
   justify-content: start;
   align-content: center;
   flex-direction: row;
   overflow-x: scroll;
- width: 80%;
+ width: 92%;
  top: 1em;
- left: 1.5em;
+ left: 0.4em;
 }
 .container2{
   position: relative;
   display: flex;
-  border:1px solid gray;
+  border-radius: 0.2em;
   justify-content: center;
   align-content: center;
   flex-direction: column;
@@ -39,6 +39,7 @@ flex-direction: column;
   height: 19em;
   top:1em;
   left:0.5em;
+
 }
 
 .butao{
@@ -58,7 +59,7 @@ flex-direction: column;
 }
 
 .titulo {
-  color: #000;
+  color: #161616;
   border-bottom: 1px solid gray;
   font-size: 15px;
   width: 7em;
@@ -80,6 +81,9 @@ flex-direction: column;
   display: none;
   position: relative;
   height: 100%;
+  
+  
+  top: 0.4em;
 }
 .sub_hidden{
   margin: 0.2em 0;
@@ -93,8 +97,8 @@ flex-direction: column;
 input[type=button] {
   border: none;
   border-radius: 5px;
-  background: #5CACF2;
-  color: #fff;
+  background: lightblue;
+  color: #000;
   width: 7em;
 margin: 0.2em 0.5em;
   display: block;
@@ -110,16 +114,19 @@ input[type=button]:active{
 
 
 .visualizar {
-  background: #5CACF2;
+  color: white;
+  background:  #8c233f;
   border-radius: 7px;
-  color: #fff;
   margin-top: 5px;
   padding: 8px;
   position: relative;
   width: 12.5em;
+  text-align: center;
+}
+.visualizar:active{
+  background: #161616;
   
 }
-
 
 footer .cancel{
   color: #fff;
@@ -180,10 +187,12 @@ padding: 0.3em 0.3em;
   color: #CC4444;
 }
 .p_hidden1{
+  
   font-size: 18px;
   font-weight: 500;
 }
 .p_hidden2{
+
   margin: 0 0.4em;
   font-size: 17px;
 }
