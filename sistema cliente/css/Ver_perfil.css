@@ -110,3 +110,17 @@ footer{
   background: #6f6f6f;
   color:white;
 }
+.foto {
+  position: relative;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  top:0.6em;
+  left: 2em;
+  border-radius: 50%;
+}
+.foto:hover{
+      transition: 0.3s ease;
+transform: scale(1.2);
+    }
+    

@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
   <!--FORMULÁRIO DE CADASTRO-->
   <div class="container">
 <!--    <div class="container1"></div>-->
@@ -104,10 +105,29 @@
             <div class="label">Email</div>
             <input type="email" placeholder="email@gmail.com">
           </div>
-          
-          <div class="field btns">
+      <div class="title">Imagem:</div>
+<div class="image">
+  <div class="editar-content">
+    <span>
+      <i>editar</i>
+    </span>
+  </div>
+  <div id="new">
+    <div class="close-preview-js close-preview">x</div>
+  </div>
+  <img src="../icones/avatar.png" alt="Sem imagem">
+</div>
+<br>
+<input class="aux" id="file-preview-js" type="file" accept="image/*" onchange="loaderFile(event)"><br><br>
+<input class="input" type="submit" value="Enviar">
+    
+          <div class="field btns" id="aux">
             <button type="button" class="prev-2 prev">voltar</button>
-            <button type="button" class="Submit">Salvar</button>
+            <button type="button" class="Submit">
+      <a href="Visualizar_perfil.html"> 
+              Salvar
+      </a>
+              </button>
           </div>
       </div>
       </form>
