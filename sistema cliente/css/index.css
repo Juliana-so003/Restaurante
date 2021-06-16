@@ -7,7 +7,12 @@ body {
 background-color: #252122;
  
 }
-
+a:link{
+  text-decoration: none;
+}
+a{
+  color: #F4F4F4;
+}
 #img_sacola {
   width: 5em;
   height: 5em;

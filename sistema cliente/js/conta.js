@@ -3,7 +3,7 @@ const firtNextBtn = document.querySelector(".nextBtn");
 const prevBtnSec = document.querySelector(".prev-1");
 const nextBtnSec = document.querySelector(".next-1");
 const prevBtnThird = document.querySelector(".prev-2");
-const submitBtn = document.querySelector(".submit");
+const submitBtn = document.querySelector(".Submit");
 const p_step1 = document.querySelector("#p_step1");
 const p_step2 = document.querySelector("#p_step2");
 const p_step3 = document.querySelector("#p_step3");
@@ -39,10 +39,17 @@ prevBtnSec.addEventListener("click", function(){
   p_step1.classList.remove("active");
     
 });
-prevBtnThird.addEventListener("click", function(){
+prevBtnThird.addEventListener("click", function() {
     slidePage.style.marginLeft = "-25%";
-     bullet2.classList.remove("active");
-     Check2.classList.remove("active");
-     p_step2.classList.remove("active");
-});
-  
+    bullet2.classList.remove("active");
+    Check2.classList.remove("active");
+    p_step2.classList.remove("active");
+    bullet3.classList.remove("active");
+    Check3.classList.remove("active");
+    p_step3.classList.remove("active");
+  });
+  submitBtn.addEventListener("click", function() {
+    bullet3.classList.add("active");
+    Check3.classList.add("active");
+    p_step3.classList.add("active");
+  });
