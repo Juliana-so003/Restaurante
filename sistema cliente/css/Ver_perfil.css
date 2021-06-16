@@ -111,7 +111,8 @@ footer{
   color:white;
 }
 .foto {
-
+  border: 1px solid gray;
+background: #e1dcd6;
   position: fixed;
   display: flex;
   height: 80px;
