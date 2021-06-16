@@ -6,123 +6,493 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <title>Meus pedidos</title>
-  <link rel="stylesheet" href="/css/meus_pedidos.css">
+  <link rel="stylesheet" href="../css/meus_pedidos.css">
 </head>
 
 <body>
-  <button class="btn-voltar">
-    <a href="index.html" class="ativo" data-menu>
-      <img src="../icones/botao-voltar.png" width="40" />
-    </a>
-  </button>
-  <div class="container">
-    <div class="titulo">Meus pedidos</div>
-    <input type="button" value="04/04/2021" onclick="mostrar('submenu1')">
-    <div id="submenu1" class="hidden">
-      <label for="total">Total do pedido
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="val_entrega">Valor da entrega
-        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="pagamento">Forma de pagamento
-        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
-      </label>
-      <label for="total">Total a pagar
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="status">Status do pedido
-        <input type="text" name="status" id="status" readonly />
-      </label>
-    </div>
+  
+
+      <div class="titulo">Meus pedidos</div>
+  
+  <div class="container1">
+
+    <input type="button" value="04/04/2021" class="data" onclick="mostrar('submenu1')">
+  
     <input type="button" value="06/04/2021" onclick="mostrar('submenu2')">
-    <div id="submenu2" class="hidden">
-      <label for="total">Total do pedido
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="val_entrega">Valor da entrega
-        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="pagamento">Forma de pagamento
-        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
-      </label>
-      <label for="total">Total a pagar
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="status">Status do pedido
-        <input type="text" name="status" id="status" placeholder="Entregue" readonly />
-      </label>
-    </div>
-    
+
     <input type="button" value="10/04/2021" onclick="mostrar('submenu3')">
-    <div id="submenu3" class="hidden">
-      <label for="total">Total do pedido
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="val_entrega">Valor da entrega
-        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="pagamento">Forma de pagamento
-        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
-      </label>
-      <label for="total">Total a pagar
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="status">Status do pedido
-        <input type="text" name="status" id="status" readonly />
-      </label>
-    </div>
+
     
     <input type="button" value="24/04/2021" onclick="mostrar('submenu4')">
-    <div id="submenu4" class="hidden">
-      <label for="total">Total do pedido
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="val_entrega">Valor da entrega
-        <input type="number" name="val_entrega" id="val_entrega" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="pagamento">Forma de pagamento
-        <input type="text" name="pagamento" id="pagamento" placeholder="..." readonly />
-      </label>
-      <label for="total">Total a pagar
-        <input type="number" name="total" id="total" placeholder="R$ 00,00" readonly />
-      </label>
-      <label for="status">Status do pedido
-        <input type="text" name="status" id="status" readonly />
-      </label>
-    </div>
+   
     
+  
+  </div>
+  <div class="container2">
+    
+    <!-- submenu 1 -->
+    <div id="submenu1">
+    <div class="hidden">
+      <div class="sub_hidden">
+        <p class="p_hidden1"> Total do pedido</p>
+      <p class="p_hidden2">R$ 00,00 </p>
+      </div>
+    <div class="sub_hidden">
+    <p class="p_hidden1">Valor da entrega
+    </p>
+     <p class="p_hidden2">R$ 00,00</p>
+      </div>
+      <div class="sub_hidden">
+   <p class="p_hidden1"> Forma de Pagamento</p>
+   <p class="p_hidden2">Cartao</p>
+      </div>
+ <div class="sub_hidden">
+    <p class="p_hidden1"> Total a pagar</p>
+    <p class="p_hidden2">R$ 00,00 </p>
+          </div>
+   <div class="sub_hidden">
+  <p class="p_hidden1"> Status do Pedido</p>
+   <p class="p_hidden2">A caminho </p>
+      </div>
+
+    </div>
     <div class="visualizar" onclick="mostrar('prato')">Visualizar pratos</div>
     <!--ao clicar nessa div ela chama essa outra debaixo-->
-    <div id="prato" class="hidden">
-      <figure>
-        <img src="../Entradas/Massa-folhada.jpg" >
-        <figcaption>
-          Massa folhada com presunto e queijo </figcaption>
-      </figure>
-      <div class="prato-desc">
-        <label for="valor">
-        Valor<input type="number" name="valor" id="valor" readonly />
-        </label>
-        <label for="porcao">
-        Quantidade da porcão<input type="number" name="porcao" id="porcao" readonly>
-        </label>
-        <label>
-        Observação<textarea id="obs" readonly></textarea>
-        </label>
-      </div>
+   <div id="prato" class="prato hidden">
+<!-- prato 1-->
+      <div class="pratos">
+  <img class="img_pedido" src="../Entradas/batata_sol.webp">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Batata recheada de carne do sol.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
     </div>
-  
-    <footer>
+       </div>
+  <!-- prato 2-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Prato principal/Camarao.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Camarão .</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 3-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Bebidas/Vinho.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Vinho.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 4-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+      </div>
+    
+        <footer>
   <button class="cancel" onclick="Cancelar()">
     <a href="#btCancel">Cancelar pedido</a>
-    </button>
-    </footer>
+          </button>
+        </footer>
+    </div>
     
-     
-     
+    <!-- submenu 2 -->
+    <div id="submenu2">
+    <div class="hidden">
+      <div class="sub_hidden">
+        <p class="p_hidden1"> Total do pedido</p>
+      <p class="p_hidden2">R$ 00,00 </p>
+      </div>
+    <div class="sub_hidden">
+    <p class="p_hidden1">Valor da entrega
+    </p>
+     <p class="p_hidden2">R$ 00,00</p>
+      </div>
+      <div class="sub_hidden">
+   <p class="p_hidden1"> Forma de Pagamento</p>
+   <p class="p_hidden2">Cartao</p>
+      </div>
+ <div class="sub_hidden">
+    <p class="p_hidden1"> Total a pagar</p>
+    <p class="p_hidden2">R$ 00,00 </p>
+          </div>
+   <div class="sub_hidden">
+  <p class="p_hidden1"> Status do Pedido</p>
+   <p class="p_hidden2">A caminho </p>
+      </div>
+
+    </div>
+    <div class="visualizar" onclick="mostrar('prato')">Visualizar pratos</div>
+    <!--ao clicar nessa div ela chama essa outra debaixo-->
+<div id="prato" class="prato hidden">
+<!-- prato 1-->
+      <div class="pratos">
+  <img class="img_pedido" src="../Entradas/batata_sol.webp">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Batata recheada de carne do sol.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 2-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Prato principal/Camarao.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Camarão .</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 3-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Bebidas/Vinho.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Vinho.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 4-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+      
+      </div>
+    
+        <footer>
+  <button class="cancel" onclick="Cancelar()">
+    <a href="#btCancel">Cancelar pedido</a>
+          </button>
+        </footer>
+    </div>
+        
+    <!-- submenu 3 -->
+    <div id="submenu3">
+    <div class="hidden">
+      <div class="sub_hidden">
+        <p class="p_hidden1"> Total do pedido</p>
+      <p class="p_hidden2">R$ 00,00 </p>
+      </div>
+    <div class="sub_hidden">
+    <p class="p_hidden1">Valor da entrega
+    </p>
+     <p class="p_hidden2">R$ 00,00</p>
+      </div>
+      <div class="sub_hidden">
+   <p class="p_hidden1"> Forma de Pagamento</p>
+   <p class="p_hidden2">Cartao</p>
+      </div>
+ <div class="sub_hidden">
+    <p class="p_hidden1"> Total a pagar</p>
+    <p class="p_hidden2">R$ 00,00 </p>
+          </div>
+   <div class="sub_hidden">
+  <p class="p_hidden1"> Status do Pedido</p>
+   <p class="p_hidden2">A caminho </p>
+      </div>
+
+    </div>
+    <div class="visualizar" onclick="mostrar('prato')">Visualizar pratos</div>
+    <!--ao clicar nessa div ela chama essa outra debaixo-->
+      <div id="prato" class="prato hidden">
+<!-- prato 1-->
+      <div class="pratos">
+  <img class="img_pedido" src="../Entradas/batata_sol.webp">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Batata recheada de carne do sol.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 2-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Prato principal/Camarao.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Camarão .</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 3-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Bebidas/Vinho.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Vinho.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 4-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+      </div>
+    
+        <footer>
+  <button class="cancel" onclick="Cancelar()">
+    <a href="#btCancel">Cancelar pedido</a>
+          </button>
+        </footer>
+    </div>
+    
+    <!-- submenu 4 -->
+    <div id="submenu4">
+    <div class="hidden">
+      <div class="sub_hidden">
+        <p class="p_hidden1"> Total do pedido</p>
+      <p class="p_hidden2">R$ 00,00 </p>
+      </div>
+    <div class="sub_hidden">
+    <p class="p_hidden1">Valor da entrega
+    </p>
+     <p class="p_hidden2">R$ 00,00</p>
+      </div>
+      <div class="sub_hidden">
+   <p class="p_hidden1"> Forma de Pagamento</p>
+   <p class="p_hidden2">Cartao</p>
+      </div>
+ <div class="sub_hidden">
+    <p class="p_hidden1"> Total a pagar</p>
+    <p class="p_hidden2">R$ 00,00 </p>
+          </div>
+   <div class="sub_hidden">
+  <p class="p_hidden1"> Status do Pedido</p>
+   <p class="p_hidden2">A caminho </p>
+      </div>
+
+    </div>
+    <div class="visualizar" onclick="mostrar('prato')">Visualizar pratos</div>
+    <!--ao clicar nessa div ela chama essa outra debaixo-->
+    <div id="prato" class="prato hidden">
+<!-- prato 1-->
+      <div class="pratos">
+  <img class="img_pedido" src="../Entradas/batata_sol.webp">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Batata recheada de carne do sol.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 2-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Prato principal/Camarao.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Camarão .</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 3-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Bebidas/Vinho.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Vinho.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+  <!-- prato 4-->
+        <div class="pratos">
+  <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg">
+    <div id="div_p/_paragrafos">
+   <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
+   <p class="p_pedido1">
+     Valor: R$20,90</p>
+   
+      <div class="div_porcao">
+        <p class="p_pedido1">Quantidade de porção:</p>
+           <p class="p_pedido1">01</p>
+     </div>
+     <div class="div_porcao">
+<p class="p_pedido1">Observação:</p>
+   <p class="p_pedido1">oiiii</p>
+         </div>
+
+    </div>
+       </div>
+      </div>
+    
+        <footer>
+  <button class="cancel" onclick="Cancelar()">
+    <a href="#btCancel">Cancelar pedido</a>
+          </button>
+        </footer>
+    </div>
+    
   </div>
-  <script src="/js/meus_pedidos.js"></script>
+  
+<a href="index.html">
+    <button type="submit" class="butao">Voltar</button>
+</a>
+  <script src="../js/meus_pedidos.js"></script>
 </body>
 
 </html>

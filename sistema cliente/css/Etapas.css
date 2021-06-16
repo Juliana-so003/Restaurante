@@ -234,10 +234,6 @@ padding: 0.5em 0.4em;
   position: relative;
   grid-area: a;
 }
-#desconto, .div_porcao{
-  display:flex;
-  flex-direction:row;
-}
 #porcao{
   height: 1.5em;
   width: 2.5em;
