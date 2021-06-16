@@ -110,13 +110,12 @@ footer{
   background: #6f6f6f;
   color:white;
 }
-.foto {
+.foto{
   border: 1px solid gray;
-background: #e1dcd6;
   position: fixed;
   display: flex;
-  height: 80px;
-  width: 80px;
+  height: 75px;
+  width: 75px;
   top:0.6em;
   left: 2.3em;
   border-radius: 50%;
@@ -126,7 +125,7 @@ background: #e1dcd6;
 transform: scale(1.2);
     }
 .foto img {
-
+border: 1px solid gray;
   width: 80px;
   border-radius: 100%;
 
