@@ -130,16 +130,8 @@ height: 485px;
   text-shadow: 4px 4px 4px #aaa;
   letter-spacing: 2px;
   color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  background-image: linear-gradient(45deg, #f05161, #d960a0, #ca6acc, #c279f2, #599fe7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
-}
-@-webkit-keyframes hue{
-  from{
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
+  -webkit-animation: 10s infinite linear;
 }
