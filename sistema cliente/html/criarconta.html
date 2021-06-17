@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Tela de cadastro</title>
     <link rel="stylesheet" href="../css/conta.css">
-
+    <link rel="stylesheet" href="../css/Modal.css">
 </head>
 
 <body>
@@ -129,10 +129,10 @@
     
           <div class="field btns" id="aux">
             <button type="button" class="prev-2 prev">voltar</button>
-            <button type="submit" class="Submit">
-      <a href="Visualizar_perfil.html"> 
+            <button type="button" class="Submit" onclick="openModal2('dv2-modal')">
+      
               Salvar
-      </a>
+    
               </button>
           </div>
       </div>
@@ -140,7 +140,17 @@
     </div>
     </div>
   </div>
-  
+  <div id="dv2-modal" class="modal voltar_login">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="../icones/tarefa-concluida (1).png">
+      </div>
+      <div class="modal-footer">
+        <p>Cadastrado com sucesso!</p>
+      </div>
+    </div>
+  </div>
+  <script src="../js/Modal3.js"></script>
 <script src="../js/conta.js"></script>
 </body>
 </html>

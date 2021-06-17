@@ -1,4 +1,3 @@
-
 function openModal2(mn){
   let modal = document.getElementById(mn);
   if(typeof modal == 'undefined' || modal === null ) return;
@@ -16,5 +15,5 @@ function closeModal2(mn) {
 const voltar = document.querySelector(".voltar_login");
 
 voltar.addEventListener("click", function() {
-  window.location.href = 'Login.html';
+  window.location.href = 'Visualizar_perfil.html';
 });
