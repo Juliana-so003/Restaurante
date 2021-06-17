@@ -65,6 +65,9 @@ background:#252122;
   padding: 0 0.7em;
   
 }
+.pratos:hover{
+  border:2px solid seagreen;
+}
 .p_prato2{
 text-align: end;
   font-size: 11px;
