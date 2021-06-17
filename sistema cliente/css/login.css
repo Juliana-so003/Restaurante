@@ -36,14 +36,14 @@
      color:#fff;
      padding: 10px;
      margin-top: 10px;
-     width: 15em;
+     width: 18em;
      height: 3em;
     left: 50px;
     top: 24em;
-    font-size: 16px;
+    font-size: 18px;
 background: #9E0705;
 box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+border-radius: 4px;
     }
   
     #botao:hover{
@@ -123,4 +123,23 @@ height: 485px;
      
        background: no-repeat url(../fundos/fundo_login.png);
       }
-      
+#titulo{
+ /* font-family: 'Tangerine', serif;*/
+  font-family: 'Lora', serif;
+  font-size: 46px;
+  text-shadow: 4px 4px 4px #aaa;
+  letter-spacing: 2px;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+}
+@-webkit-keyframes hue{
+  from{
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
