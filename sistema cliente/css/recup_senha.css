@@ -54,12 +54,13 @@ body{
            height: 10em;
           }
           button{ 
+            color:#fff;
               position: relative;
             width: 328px;
             height: 2em;
             margin: 1,5em 0 1em 0;
             border: none;
-            background: lightpink;
+            background: #9E0705;
             border-radius: 5px;
             cursor: pointer;
             font-size: 18px;
