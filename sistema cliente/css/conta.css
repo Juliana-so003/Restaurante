@@ -288,3 +288,12 @@ left: 7em;
   position: relative;
   top:-1.7em;
 }
+.modal-content_aux {
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 80%;
+  max-width: 13.5em;
+  background-color: #eee;
+  padding: 0px;
+  box-shadow: 0 0 2px #fff;
+}
