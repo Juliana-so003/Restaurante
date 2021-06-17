@@ -87,7 +87,7 @@
   </div>
     </div>
     <div id="butao">
- <button id="butao_excluir">Excluir</button>
+ <button id="butao_excluir" onclick="openModal('dv-modal')">Excluir</button>
 
   <button id="butao_alterar">
      <a href="criarconta.html">
@@ -108,7 +108,38 @@
   </a>
 </footer>
 
+
+<div id="dv-modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+  <h3>Excluir conta</h3>
+</div>
+  <div class="modal-body">
+  <p>Deseja excluir sua conta?</p>
+</div>
+
+  <div class="modal-footer">
+   <button class="opcao" onclick="closeModal('dv-modal')">Nao</button>
+  <button class="opcao" onclick="openModal2('dv2-modal')">
+    <a href="index.html">
+      Sim
+    </a>
+  </button>
+</div>
+</div>
+</div>
+<div id="dv2-modal" class="modal">
+  <div class="modal-content">
+      <div class="modal-body">
+  <img src="../icones/tarefa-concluida.png">
+      </div>
+  <div class="modal-footer">
+  <p>Excluida com sucesso!</p>
+</div>
+</div>
+</div>
 <script src="../js/conta.js"></script>
+  <script src="../js/Perfil.js"></script>
 </body>
 
 </html>
