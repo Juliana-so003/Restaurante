@@ -20,7 +20,7 @@
       border-radius: 5px;
       padding: 9px;
       margin-top: 9px;
-      background: #DCDCDC;
+    
       }
       
     input:focus{
@@ -36,10 +36,11 @@
      color:#fff;
      padding: 10px;
      margin-top: 10px;
-     width: 30vw;
-     height: 10vh;
+     width: 15em;
+     height: 3em;
     left: 50px;
     top: 24em;
+    font-size: 16px;
 background: #9E0705;
 box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
@@ -49,6 +50,7 @@ border-radius: 8px;
 background: #4d0706;
     }
     p{
+      
      text-align:justify;
      margin: 20px 0 0 7px;
     }
@@ -63,10 +65,10 @@ background: #4d0706;
       font-size: 1em;
       color: black;
       font-family: Arial, Helvetica, sans-serif;
-      background: #DCDCDC;
+      
       padding:9px;
       border-radius: 7px;
-      box-shadow: 0px 0px 8px 2px #989898;
+      
       padding : 20px;
       justify-content: center;
       align-items: center;
@@ -80,7 +82,7 @@ background: #4d0706;
     }
     .div_input{
       flex-direction: row;
-       background: #DCDCDC;
+
        width: 328px;
      height: 50px;
     margin-bottom: 10px;
@@ -101,11 +103,15 @@ background: #4d0706;
      height: 30px;
      top: 10px; 
     }
+    .img4{
+      margin-left: 2em;
+    }
     .olhos {
       position: relative;
       width: 30px;
       height: 30px;
       top: 10px;
+      left: -1em;
     }
     .container2{
 margin-left: 5px;
@@ -117,15 +123,4 @@ height: 485px;
      
        background: no-repeat url(../fundos/fundo_login.png);
       }
-      .erro{
-        margin: 0.5em 0;
-        width: 8em;
-        height: 5em;
-        background: #9E0705;
-        border-radius: 8px 0 0 8px;
-
-      }
-      #erro{
-        color: #fff;
-        text-align: center;
-      }
+      
