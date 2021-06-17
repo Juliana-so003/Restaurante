@@ -25,10 +25,10 @@ function closeModal2(mn) {
   document.body.style.overflow = 'auto';
 }
 
-const voltar = document.querySelector(".voltar_login");
 
 
+const voltar = document.querySelector(".voltar_index");
 
 voltar.addEventListener("click", function() {
-  window.location.href = 'Login.html';
+  window.location.href = 'index.html';
 });
