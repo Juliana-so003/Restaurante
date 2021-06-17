@@ -7,6 +7,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <title>Meus pedidos</title>
   <link rel="stylesheet" href="../css/meus_pedidos.css">
+   <link rel="stylesheet" href="../css/Modal.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
   <img id="img_icone" src="../icones/cardapio-do-restaurante.png">
   <div class="container1">
 
-    <input type="button" value="18/06/2021" class="data" onclick="mostrar('submenu1')">
+    <input id="input_submenu1" type="button" value="18/06/2021" class="data" onclick="mostrar('submenu1')">
   
     <input type="button" value="16/06/2021" onclick="mostrar('submenu2')">
 
@@ -138,8 +139,8 @@
       </div>
     
         <footer>
-  <button class="cancel" onclick="Cancelar()">
-    <a href="#btCancel">Cancelar pedido</a>
+  <button type="button" class="cancel" onclick="openModal('dv-modal')">
+    Cancelar pedido
           </button>
         </footer>
     </div>
@@ -492,7 +493,38 @@
 <a href="index.html">
     <button type="submit" class="butao">Voltar</button>
 </a>
+
+<div id="dv-modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+  <h3>Excluir conta</h3>
+</div>
+  <div class="modal-body">
+  <p>Deseja excluir sua conta?</p>
+</div>
+
+  <div class="modal-footer">
+   <button class="opcao" onclick="closeModal('dv-modal')">Nao</button>
+  <button class="opcao" onclick="openModal2('dv2-modal')">
+      Sim
+  </button>
+</div>
+</div>
+</div>
+<div id="dv2-modal" class="modal voltar_index">
+  <div class="modal-content">
+      <div class="modal-body">
+  <img src="../icones/tarefa-concluida.png">
+      </div>
+  <div class="modal-footer">
+  <p>Excluida com sucesso!</p>
+</div>
+</div>
+</div>
+
+<script src="../js/Modal4.js"></script>
   <script src="../js/meus_pedidos.js"></script>
+  
 </body>
 
 </html>
