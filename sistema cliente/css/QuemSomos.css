@@ -5,8 +5,8 @@
 }
 body{
       font-size: 18pt;
-      background: no-repeat url(../fundos/fundo_quem_somos.png) center top fixed;
-      background-size: cover;
+      background-color: #252122;
+      
       align-content: center;
       justify-content: center;
       display: flex;
@@ -31,6 +31,7 @@ body{
       color:black;
       left: 2em;
       position: relative;
+      top:-2em;
     }
     
     input[type=button]{
@@ -46,18 +47,12 @@ body{
       width: 15em;
     }
     
-    #voltar{
-      height:30px;
-      width: 30px;
-      border: none;
-      border-radius: 50%;
-      background:white;
-      
-    }
-    #img_voltar{
-      height:30px;
-     width: 30px;
-    }
+#logo {
+  width: 4em;
+  margin-top: 25px;
+  left: 2.3em;
+  position: relative;
+}
     div{
       top: 5px;
       padding: 20px;
@@ -68,7 +63,7 @@ body{
     }
     
     figure{
-      top: 1.3em;
+      top: -2em;
       background:white;
       width: 10em;
       height: 10em;
@@ -79,7 +74,7 @@ body{
       border-radius: 0.5em;
     }
     figure:hover{
-      transition: 0.3s ease;
+      transition: 0.3s ease-in-out;
 transform: scale(1.2);
     }
     
@@ -98,3 +93,81 @@ transform: scale(1.2);
       font-family: 'Dancing Script', cursive;
       border-bottom: 1px solid black;
     }
+    #butao{
+      width: 6em;
+      height: 2em;
+      top: -2em;
+      border: none;
+      background: #8c233f;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 500;
+      
+      text-transform: uppercase;
+      transition: 0.3s ease;
+      color:white;
+      position: relative;
+      
+    }
+    #butao:hover{
+      background: #181818;
+    }
+    #butao a{
+      color: #fff;
+    }
+    .img_contato{
+     color:#000;
+      position: relative;
+      width: 20px;
+    }
+    #txt6 a{
+      color: #000;
+    }
+    #menu2{
+  top:-1.9em;
+  left: 2em;
+    height: 0.6em;
+    width: 0.5em;
+    border-bottom: 2px solid  #8c233f;
+    border-left: 2px solid  #8c233f;
+    position: relative;
+    
+    filter: drop-shadow(
+-3px 11px 10px #000000
+);
+}
+#menu3{
+  top:0.5em;
+  left: 4.5em;
+    height: 0.7em;
+    width: 0.5em;
+    border-top: 2px solid  #8c233f;
+    border-right: 2px solid  #8c233f;
+    position: absolute;
+    filter: drop-shadow(
+-3px 11px 10px #000000
+);
+}
+.circulo{
+  border: 2px #8c233f;
+  border-style: dashed;
+  height: 7em;
+  width: 7em;
+  position: absolute;
+  left: 80%;
+  top:-4em;
+  
+  transform: rotate(51deg);
+}
+.circulo2{
+  border: 2px #8c233f;
+  border-style: dashed;
+  height: 8em;
+  width: 8em;
+  position: absolute;
+  left: 88%;
+  top: -2em;
+
+  transform: rotate(70deg);
+}
