@@ -1,14 +1,11 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/Etapas.css">
-  <title>HTML</title>
+  <title>Tela de etapas</title>
 
 </head>
 
@@ -49,105 +46,105 @@
         <div class="title">Pedidos</div>
       <div class="ContainerPedido">
         <div id="sub_pedidos">
-           <img id="sacola" src="../icones/sacolas-de-compras.png">
-           <div class="p_total1">Total da conta</div>
-           <span class="p_total2" id="total">R$ 182,90</span>
+          <img id="sacola" src="../icones/sacolas-de-compras.png">
+          <div class="p_total1">Total da conta</div>
+          <span class="p_total2" id="total">R$ 00,00</span>
         </div>
         <div id="pedidos">
           <!-- prato 1-->
-      <div class="pratos">
-  <img class="img_pedido" src="../Entradas/batata_sol.webp">
-    <div id="div_p/_paragrafos">
-   <p class="p_pedido1">Batata recheada de carne do sol.</p>
-   <p class="p_pedido1">
-     Valor: R$20,90</p>
-   
-      <div class="div_porcao">
-        <label for "porcao">
-        <p class="p_pedido1">Quantidade de porção:</p>
-        </label>
-     <input type="number" name="porcao" id="porcao" placeholder="01">
-     </div>
-     <div class="div_porcao">
-      <label for "obs">
-<p class="p_pedido1">Observação:</p>
-      </label>
-  <input type="text" name="obs" id="obs" placeholder="...">
-         </div>
-    <img class="lixeira" src="../icones/lixeira.png" />
-    </div>
-       </div>
-        <!-- prato 1-->
-   <div class="pratos">
-  <img class="img_pedido" src="../Prato principal/Camarao.jpg">
-    <div id="div_p/_paragrafos">
-   <p class="p_pedido1">Camarão no alho e oleo.</p>
-   <p class="p_pedido1">
-     Valor: R$35,00</p>
-   
-      <div class="div_porcao">
-        <label for "porcao">
-        <p class="p_pedido1">Quantidade de porção:</p>
-        </label>
-     <input type="number" name="porcao" id="porcao" placeholder="01">
-     </div>
-     <div class="div_porcao">
-      <label for "obs">
-<p class="p_pedido1">Observação:</p>
-      </label>
-  <input type="text" name="obs" id="obs" placeholder="...">
-         </div>
-    <img class="lixeira" src="../icones/lixeira.png" />
-    </div>
-       </div>
-    <!-- prato 1-->
-     <div class="pratos">
-  <img class="img_pedido" src="../Bebidas/Vinho.jpg">
-    <div id="div_p/_paragrafos">
-   <p class="p_pedido1">Vinho.</p>
-   <p class="p_pedido1">
-     Valor: R$40,00</p>
-   
-      <div class="div_porcao">
-        <label for "porcao">
-        <p class="p_pedido1">Quantidade de porção:</p>
-        </label>
-     <input type="number" name="porcao" id="porcao" placeholder="01">
-     </div>
-     <div class="div_porcao">
-      <label for "obs">
-<p class="p_pedido1">Observação:</p>
-      </label>
-  <input type="text" name="obs" id="obs" placeholder="...">
-         </div>
-    <img class="lixeira" src="../icones/lixeira.png" />
-    </div>
-       </div>
-    <!-- prato 1-->
-    <div class="pratos">
-  <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg ">
-    <div id="div_p/_paragrafos">
-   <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
-   <p class="p_pedido1">
-     Valor: R$30,00</p>
-   
-      <div class="div_porcao">
-        <label for "porcao">
-        <p class="p_pedido1">Quantidade de porção:</p>
-        </label>
-     <input type="number" name="porcao" id="porcao" placeholder="01">
-     </div>
-     <div class="div_porcao">
-      <label for "obs">
-<p class="p_pedido1">Observação:</p>
-      </label>
-  <input type="text" name="obs" id="obs" placeholder="...">
-         </div>
-    <img class="lixeira" src="../icones/lixeira.png" />
-    </div>
-       </div>
+          <div class="pratos">
+            <img class="img_pedido" src="../Entradas/batata_sol.webp">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Batata recheada de carne do sol.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$20,90</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" src="../icones/lixeira.png" />
+            </div>
+          </div>
+          <!-- prato 2-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Prato principal/Camarao.jpg">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Camarão no alho e oleo.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$35,00</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" src="../icones/lixeira.png" />
+            </div>
+          </div>
+          <!-- prato 3-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Bebidas/Vinho.jpg">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Vinho.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$40,00</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" onclick="apagar('pratos')" src="../icones/lixeira.png" />
+            </div>
+          </div>
+          <!-- prato 4-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg ">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$30,00</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" src="../icones/lixeira.png" />
+            </div>
+          </div>
         </div>
-      </div>
+        </div>
 
           <div class="field nextBtn">
             <button type="button">Proximo</button>
@@ -220,5 +217,6 @@
 
   
   <script src="../js/Etapas.js"></script>
+  <script src="../js/funcoes_etapa.js"></script>
 </body>
 </html>
