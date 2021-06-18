@@ -108,7 +108,7 @@ form .page .btns button.next{
 .container .progress-bar .step .bullet.active p{
   color: rgb(110, 199, 83);
 }
-.progress-bar .step .bullet{
+.progress-bar .step .bullet {
   position: relative;
   height: 30px;
   width: 30px;
@@ -116,7 +116,6 @@ form .page .btns button.next{
   display: inline-block;
   border-radius: 50%;
   transition: 0.4s ease;
-  
 }
 .progress-bar .step .bullet.active{
   border-color: #8c233f;
@@ -130,9 +129,10 @@ form .page .btns button.next{
   position: absolute;
   content: '';
   bottom: 11px;
-  right: -80px;
+  right: -78px;
   height: 3px;
   width: 75px;
+  border-radius: 2px;
   background: #262626;
 }
 .progress-bar .step .bullet.active:after{
@@ -243,6 +243,10 @@ padding: 0.5em 0.4em;
   height: 1.5em;
   width: 2.5em;
 }
+.div_porcao{
+  display: flex;
+  flex-direction: row;
+}
 #obs{
   height: 1.5em;
   width: 8em;
@@ -271,6 +275,7 @@ padding: 0.5em 0.4em;
   height: 20px;
   margin: 0.5em;
   left: 48%;
+  
 }
 /*coisas do modal*/
 .modal {

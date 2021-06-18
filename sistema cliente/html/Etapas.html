@@ -210,9 +210,23 @@
         
         <div class="field btns">
           <button type="button" class="prev-2 prev">voltar</button>
-          <button type="button" class=" Submit" >Submeter</button>
+          <button type="button" class=" Submit"  onclick="mostrar()">Submeter</button>
         </div>
-
+        <!--Modal de pedido concluido-->
+    <div class="modal">
+        <div onclick="fechar()" class="fechar">
+          <img src="../icones/botao-x.png">
+        </div>
+        
+        <div class="mensagem">
+          <img src="../icones/verificado.png" id="img-mensagem">
+          <p id="texto-mensagem">Pedido feito com sucesso!</p>
+          
+          <button id="btn-voltar">
+            <a href="index.html">Voltar</a>
+            </button>
+        </div>
+    </div>
 
 
   
