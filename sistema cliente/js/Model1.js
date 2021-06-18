@@ -16,5 +16,5 @@ function closeModal2(mn) {
 const voltar = document.querySelector(".voltar_login");
 
 voltar.addEventListener("click", function() {
-  window.location.href = 'Login.html';
+  window.location.href = 'Aux.html';
 });
