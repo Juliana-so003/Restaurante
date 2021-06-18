@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/etapas.css">
+  <title>Tela de etapas</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="progress-bar">
+      <div class="step">
+        <p id="p_step1">Pedidos</p>
+          <div class="bullet" id="bullet1">
+            <span>1</span>
+          </div>
+        <div id="check1" class="check fas fa-check">     <img class="check_img" src="../icones/tarefas.png"></div>
+      </div>
+      <div class="step">
+        <p id="p_step2">Endereço</p>
+        <div class="bullet" id="bullet2">
+          <span>2</span>
+        </div>
+        <div id="check2" class="check fas fa-check">
+       <img class="check_img" src="../icones/tarefas.png">
+        </div>
+      </div>
+      <div class="step">
+        <p id="p_step3">Pagamento</p>
+          <div class="bullet" id="bullet3">
+            <span>3</span>
+          </div>
+          <div id="check3" class="check fas fa-check">
+       <img class="check_img" src="../icones/tarefas.png">
+          </div>
+      </div>
+      
+    </div>
+  <div class="form-outer">
+    <form>
+   
+      <div class="page slidepage">
+        <div class="title">Pedidos</div>
+      <div class="ContainerPedido">
+        <div id="sub_pedidos">
+          <img id="sacola" src="../icones/sacolas-de-compras.png">
+          <div class="p_total1">Total da conta</div>
+          <span class="p_total2" id="total">R$ 00,00</span>
+        </div>
+        <div id="pedidos">
+          <!-- prato 1-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Entradas/batata_sol.webp">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Batata recheada de carne do sol.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$20,90</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" src="../icones/lixeira.png" />
+            </div>
+          </div>
+          <!-- prato 2-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Prato principal/Camarao.jpg">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Camarão no alho e oleo.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$35,00</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" src="../icones/lixeira.png" />
+            </div>
+          </div>
+          <!-- prato 3-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Bebidas/Vinho.jpg">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Vinho.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$40,00</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" onclick="apagar('pratos')" src="../icones/lixeira.png" />
+            </div>
+          </div>
+          <!-- prato 4-->
+          <div class="pratos">
+            <img class="img_pedido" src="../Sobremesa/Cheesecake.jpg ">
+            <div id="div_p/_paragrafos">
+              <p class="p_pedido1">Cheesecake de frutas vermelhas.</p>
+              <div class="p_pedido1">Valor:
+                <span class="preco-pedido">R$30,00</span>
+              </div>
+              <div class="div_porcao">
+                <label for "porcao">
+                  <p class="p_pedido1">Quantidade de porção:</p>
+                </label>
+                <input type="number" class="quantidade" name="porcao" id="porcao" value="1">
+              </div>
+              <div class="div_porcao">
+                <label for "obs">
+                  <p class="p_pedido1">Observação:</p>
+                </label>
+                <input type="text" name="obs" id="obs" placeholder="...">
+              </div>
+              <img class="lixeira" src="../icones/lixeira.png" />
+            </div>
+          </div>
+        </div>
+        </div>
+
+          <div class="field nextBtn">
+            <button type="button">Proximo</button>
+          </div>
+        
+        
+      </div>
+
+      <div class="page">
+        <div class="title">endereço:</div>
+        <div class="field">
+          <div class="label">Nome completo</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Cidade</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Bairro</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Rua / avenida</div>
+          <input type="text">
+        </div>
+        <div class="field">
+          <div class="label">Número da casa</div>
+          <input type="text">
+        </div>
+        
+          <div class="field btns">
+            <button type="button" class="prev-1 prev">voltar</button>
+            <button type="button" class="next-1 next">Proximo</button>
+          </div>
+      
+      </div>
+      <div class="page">
+        <div class="title">Pagamento</div>
+        <div class="field">
+          <div class="label">Forma</div>
+         <select>
+           <option>Credito</option>
+           <option>Debito</option>
+           <option>Espécie</option>
+         </select>
+        </div>
+        <div class="field">
+          <div class="label">Tipo do Cartão</div>
+          <select>
+            <option>Mastercard</option>
+            <option>Visa</option>
+            <option>Alelo</option>
+            <option>Elo</option>
+          </select>
+        </div>
+       
+        
+        <div class="field">
+          <div class="label">Valor</div>
+          <input type="number" placeholder="R$ 00,00">
+        </div>
+        
+        <div class="field btns">
+          <button type="button" class="prev-2 prev">voltar</button>
+          <button type="button" class=" Submit"  onclick="mostrar()">Submeter</button>
+        </div>
+        <!--Modal de pedido concluido-->
+    <div class="modal">
+        <div onclick="fechar()" class="fechar">
+          <img src="../icones/botao-x.png">
+        </div>
+        
+        <div class="mensagem">
+          <img src="../icones/verificado.png" id="img-mensagem">
+          <p id="texto-mensagem">Pedido feito com sucesso!</p>
+          
+          <button id="btn-voltar">
+            <a href="index.html">Voltar</a>
+            </button>
+        </div>
+    </div>
+
+
+  
+  <script src="../js/Etapas.js"></script>
+  <script src="../js/funcoes_etapa.js"></script>
+</body>
+</html>
