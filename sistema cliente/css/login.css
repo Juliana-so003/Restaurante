@@ -129,9 +129,6 @@ height: 485px;
   font-size: 46px;
   text-shadow: 4px 4px 4px #aaa;
   letter-spacing: 2px;
-  color: #f35626;
-  background-image: linear-gradient(45deg, #f05161, #d960a0, #ca6acc, #c279f2, #599fe7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: 10s infinite linear;
+  color: #9E0705;
+  
 }

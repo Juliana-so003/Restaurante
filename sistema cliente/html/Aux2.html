@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tela de cadastro</title>
+    <link rel="stylesheet" href="../css/conta.css">
+    <link rel="stylesheet" href="../css/Modal.css">
+</head>
+
+<body>
+
+  <!--FORMULÁRIO DE CADASTRO-->
+  <div class="container">
+<!--    <div class="container1"></div>-->
+    <div class="container2">
+  <div class="progress-bar">
+      <div class="step">
+        <p id="p_step1">Nome</p>
+          <div class="bullet" id="bullet1">
+            <span>1</span>
+          </div>
+        <div id="check1" class="check fas fa-check">
+     <img class="check_img" src="../icones/tarefas.png">
+        </div>
+      </div>
+      <div class="step">
+        <p id="p_step2">Endereço</p>
+        <div class="bullet" id="bullet2">
+          <span>2</span>
+        </div>
+        <div id="check2" class="check fas fa-check">
+   <img class="check_img" src="../icones/tarefas.png">
+        </div>
+      </div>
+      <div class="step">
+        <p id="p_step3">Contato</p>
+          <div class="bullet" id="bullet3">
+            <span>3</span>
+          </div>
+          <div id="check3" class="check fas fa-check">
+       <img class="check_img" src="../icones/tarefas.png">
+          </div>
+      </div>
+      
+    </div>
+    <div class="form-outer">
+      <form>
+<div class="page slidepage">
+          <div class="page">
+         <div class="field">
+          <div class="label">Nome Completo</div>
+         <input type="text" value="Juliana de Souza Rodrigues">
+                   </div>
+          <div class="field">
+            <div class="label">Nome usuário</div>
+            <input type="text" value="Juliana">
+          </div>
+          <div class="field">
+            <div class="label">Senha</div>
+            <input type="password"Juliana value="Juliana123">
+          </div>
+          <div class="field">
+            <div class="label">CPF</div>
+            <input type="number" value="12345678900">
+          </div>
+          <div class="field">
+            <div class="label">Data de Nascimento</div>
+            <input type="date">
+          </div>
+            <div class="field nextBtn">
+              <button type="button" >Proximo</button>
+            </div>
+          </div>
+        </div>
+  
+  <div class="page">
+          <div class="title">Endereço:</div>
+        
+          <div class="field">
+            <div class="label">Cidade</div>
+            <input type="text" value="Guaiúba">
+          </div>
+          <div class="field">
+            <div class="label">Bairro</div>
+            <input type="text"Guaiúba value="Distrito do Baú">
+          </div>
+          <div class="field">
+            <div class="label">Rua / avenida</div>
+            <input type="text" value="Antonio Belo">
+          </div>
+          <div class="field">
+            <div class="label">Número da casa</div>
+            <input type="text" value="100">
+          </div>
+          
+            <div class="field btns">
+              <button type="button" class="prev-1 prev">voltar</button>
+              <button type="button" class="next-1 next">Proximo</button>
+            </div>
+        
+        </div>
+  <div class="page">
+          <div class="title">Contato:</div>
+          <div class="field">
+            <div class="label">Celular</div>
+            <input type="number" placeholder="Adicione o DDD ">
+          </div>
+          
+          <div class="field">
+            <div class="label">Email</div>
+            <input type="email" placeholder="email@gmail.com">
+          </div>
+      <div class="title">Imagem:</div>
+<div class="image">
+  <div class="editar-content">
+    <span>
+      <i>editar</i>
+    </span>
+  </div>
+  <div id="new">
+    <div class="close-preview-js close-preview">x</div>
+  </div>
+  <img src="../icones/avatar.png" alt="Sem imagem">
+</div>
+<br>
+<input class="aux" id="file-preview-js" type="file" accept="image/*" onchange="loaderFile(event)"><br><br>
+
+    
+          <div class="field btns" id="aux">
+            <button type="button" class="prev-2 prev">voltar</button>
+    <button type="button" class="Submit" onclick="openModal2('dv2-modal')">
+      
+              Salvar
+    
+              </button>
+          </div>
+      </div>
+      </form>
+    </div>
+    </div>
+  </div>
+  <div id="dv2-modal" class="modal voltar_login">
+    <div class="modal-content_aux">
+      <div class="modal-body">
+        <img src="../icones/tarefa-concluida (1).png">
+      </div>
+      <div class="modal-footer">
+        <p>Cadastrado com sucesso!</p>
+      </div>
+    </div>
+  </div>
+  <script src="../js/Modal3.js"></script>
+<script src="../js/conta.js"></script>
+</body>
+</html>
