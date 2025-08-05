@@ -1,3 +1,58 @@
 # Restaurante
  Laboratório de Software, Restaurante
  equipe: Joana, Joyce. Lara Cristina, Juliana e Romulo.
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
+     <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Lora & display = swap" rel="stylesheet ">
+</head>
+
+<body>
+  <div class="container"> 
+
+
+ <div class="container1">
+  <form action="login2.php" method="POST">
+   <h1 id="titulo">Login </h1>
+   <div class="div_input"> 
+     <img class="img1"  src="../icones/avatar.png">
+    <input type="text" name="usuario" id="nome_usu" placeholder="nome de usuário"> 
+    </div>
+     <p id="linha">ou</p>
+
+      <div class="div_input"> 
+          <img class="img1" src="../icones/e-mail.png"/>
+        <input type="email" name="email" id="email" placeholder="e-mail"> 
+    </div>
+  <div class="div_input" id="senha1"> 
+       <img class="img1 img4" src="../icones/cadeado.png" />
+    <input type="password" name="senha" id="senha" placeholder="senha" required>
+  <img class="olhos" src="../icones/olhos-fechados.png"  alt="">
+
+   </div>
+  <div><a href="Etapas.html">
+<button id="botao" type="button">Login</button></a>
+ </div> 
+ 
+ <p><a href="recuperar_senha.html">Esqueceu sua senha?</a></p>
+ 
+ <p><a href="criarconta.html">Criar conta</a>
+ </p>
+  </form>
+</div>
+ 
+<div class="container2"></div>
+</div>
+ <script src="../js/login.js"></script>
+</body>
+</html>
