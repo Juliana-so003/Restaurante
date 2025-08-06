@@ -11,7 +11,258 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pattaya&display=swap" rel="stylesheet">
+<style type="text/css">
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body {
+background-color: #252122;
+ 
+}
+a:link{
+  text-decoration: none;
+}
+a{
+  color: #F4F4F4;
+}
+#img_sacola {
+  width: 5em;
+  height: 5em;
+}
 
+#sacola {
+  width: 80px;
+  height: 90px;
+  top: 50px;
+  background: #252122;
+}
+
+#texto {
+  position: relative;
+  font-family: Rockwell;
+  font-size: 15px;
+  bottom: 50px;
+  left: 2.5px;
+  text-align: center;
+  color: #F4F4F4;
+}
+
+#insta {
+  position: relative;
+   width: 15px;
+   height: 15px;
+  
+}
+
+#face {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  
+}
+
+#wzap {
+  position: relative;
+   width: 15px;
+   height: 15px;
+  
+   } 
+#nave{
+
+  height: 7em;
+  padding: 20px 0 10px 4em;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+
+#contato {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  height: 5em;
+  position: relative;
+  right: 0.3em;
+
+}
+.menu {
+  
+  width: 70px;
+  height: 70px;
+  background: lightgray;
+}
+
+#logo {
+  width: 5em;
+  height: 3.5em;
+  margin-top: 10px;
+  position: relative;
+}
+
+.propaganda {
+  background: #fff;
+  width: 100%;
+  height: 15em;
+  position: relative;
+  
+  
+  
+}
+
+#scroll {
+  width: 100%;
+  max-width: 100%;
+  height: 15em;
+  max-height: 150px;
+  position: relative;
+  text-align: start;
+}
+
+#scroll img {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+  transition: opacity 200ms;
+}
+
+#scroll img.selected {
+  opacity: 1;
+}
+
+.prato{
+  padding: 0.5em;
+  width: 100%;
+  height: 70%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  grid-area: a;
+  position: relative;
+  width: 140px;
+  height: 100px;
+  border-radius: 0.2em;
+}
+h4{
+   grid-area: b;
+   font-family: 'Dancing Script', cursive;
+font-weight: bold;
+font-size: 1.5em;
+color: #BF935E;
+position: relative;
+bottom: 0.5em;
+top: 0.2em;
+}
+
+
+#p1 {
+
+  color: #F4F4F4;
+  position: relative;
+  grid-area: c;
+  text-align: justify;
+  bottom: 3.5em;
+  top: 0.3em;
+  font-size: 10px;
+  right:1em;
+}
+
+#entrada, #principal, #sobremesa {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  grid-template-areas:
+    "a b"
+    "a c";
+  width: 20em;
+  height: 19vh;
+  margin: 0.5em 0;
+
+}
+
+#acompanhamento, #bebidas {
+  display: grid;
+  grid-template-columns: 12em 1fr;
+  grid-template-areas:
+    "b a"
+    "c a";
+  width: 10em;
+  
+  height: 15vh;
+  margin:1em 0 1em 1em;
+
+  
+}
+
+video {
+  width: 10em;
+  height: 12em;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  top: 0.3em;
+  font-size: 1.5rem;
+  text-align: center;
+  right: 1em;
+}
+
+#tutorial {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  
+}
+
+#linha2 {
+  height: 8px;
+  background: #BF935E;
+  width: 80%;
+  position: relative;
+  display: flex;
+  border-radius: 17px;
+  left: 2.5em;
+  top: 0.2em;
+
+}
+
+footer {
+  height: 10vh;
+  width: 50%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+  margin-left: 25%;
+}
+
+#p_footer {
+    font-family: 'Dancing Script', cursive;
+  color: #BF935E;
+  font-size: 1em;
+  position: relative;
+  top: 2em;
+}
+
+.img_footer {
+  height: 7vh;
+  width: 3em;
+  margin:2em 0.5em;
+}
+</style>
 </head>
 
 <body>
