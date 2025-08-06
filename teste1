@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <title>Tela Principal</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pattaya&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav>
+  <div id="nave">
+
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="../html/Visualizar_perfil.html"> Meu Perfil</a></li>
+          <li><a href="meus_pedidos.html">Meu pedido</a></li>
+          <li><a href="../html/Telaquemsomos.html">Quem Somos</a></li>
+        </ul>
+      </nav>
+    </div>
+    <a href="Login.html"> 
+    <div class="menu-bg" id="menu-bg"></div></a>
+    
+    <img id="logo" src="../fundos/logan.png"/>
+      <div id="contato">  
+        <a href="https://www.instagram.com/bonapetit162/">
+      <img src="../icones/instagram (2).png" id="insta">
+    </a>
+    
+    <a href="#">
+    <img src="../icones/facebook.png" id="face">
+    </a>
+    
+    <a href="#">
+    <img src="../icones/whatsapp.png" id="wzap">
+    </a>
+      </div>
+    <a href="telacardapio.html">
+    <div id="sacola">
+      <img id="img_sacola" src="../icones/sacola.png">
+      <div id="texto">Fazer<br> Pedido</div>
+    </div></a>
+  
+  </div></div>
+  
+  <div class="propaganda">
+      
+  <div id="scroll">
+    <img class="selected" src="../Propaganda/propaganda6.jpg"alt="Image1">
+    <img src="../Propaganda/propaganda1.jpg" alt="Image2">
+    <img src="../Propaganda/propaganda3.jpg" alt="Image3">
+    <img src="../Propaganda/propaganda4.jpg" alt="Image4">
+     <img src="../Propaganda/propaganda5.jpg" alt="Image5">
+      <img src="../Propaganda/propaganda2.jpg" alt="Image6">
+    </div>
+    
+  
+    </div>
+    
+    <div class="prato">
+      <div id="entrada">
+        <img class="img" src="../Entradas/batata_sol.webp">
+        <h4>Entrada</h4>
+        <p id="p1">Nosso restaurante conta com uma variedade de pratos,
+           que vai de batatas recheadas a patê, venha conhecer nossas
+        principais entradas e se deliciar.</p>
+      </div>
+
+      <div id="acompanhamento">
+        <img class="img" src="../Acompanhamento/batata_frita.jpg">
+        <h4>Acompanhamento</h4>
+        <p id="p1">Para acompanhar sua refeição contamos com pratos bem 
+         selecionados e de ótimo gosto, temos a tradicional
+        batata-frita, além de um arroz com carne seca muito bem preparado.</p>
+      </div>
+
+      <div id="principal">
+        <img class="img" src="../Prato principal/Camarao.jpg">
+        <h4>Prato Principal</h4>
+        <p id="p1">Para completar sua refeição, contamos com os melhores 
+           pratos principais da região, que contam com a presença de camarão,
+        carne, pratos veganos e muito mais, escolha o de sua preferência</p>
+      </div>
+
+      <div id="bebidas">
+        <img class="img" src="../Bebidas/Vinho.jpg">
+        <h4>Bebidas</h4>
+        <p id="p1">As melhores e finas bebidas selecionados para você,
+           escolha uma para acompanhar sua refeição e aproveite.</p>
+      </div>
+
+      <div id="sobremesa">
+        <img class="img" src="../Sobremesa/Mousse.jpg">
+        <h4>Sobremesa</h4>
+        <p id="p1">Para finalizar sua refeição, contamos com uma variedade
+           de sobremesas entre elas temos pudim, tortas e o delicioso Petit
+        Gateau.</p>
+      </div>
+      </div>
+      
+      <div id="linha2"></div>
+      <div id="tutorial">
+        <h3>Video Tutorial</h3>
+        <video  controls>
+          <source src="../fundos/Video.mp4" type="video/mp4">
+        </video>
+        </div>
+
+        <footer>
+          <p id="p_footer">Aceitamos cartoes:</p>
+          <img class="img_footer" src="../fundos/alelo.png">
+          <img class="img_footer" src="../fundos/elo.png">
+          <img class="img_footer" src="../fundos/mastercard.jpg">
+          <img class="img_footer" src="../fundos/visa.png">
+          <div class="foto">
+      <div class="editar-content">
+
+      </div>
+    </div>
+        </footer>
+ <script src="../js/script.js"></script>
+<script src="../js/menu.js"></script>
+  <script src="../js/conta.js"></script>
+  </body>
+  </html>
